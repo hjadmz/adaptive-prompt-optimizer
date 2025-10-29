@@ -30,7 +30,7 @@ The result: **professional, optimized prompts** instead of generic responses.
 ## Quick Start  
   
 1. **Copy the framework**  
-   Open `FRAMEWORK.md` and copy all its contents.  
+   [Open FRAMEWORK.md](./FRAMEWORK.md)` and copy all its contents.  
 2. **Paste into any AI**  
    Start any conversational AI and paste the framework.  
 3. **Describe your task**  
