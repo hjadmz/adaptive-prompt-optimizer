@@ -129,7 +129,7 @@ For full logic and structure, see the [FRAMEWORK.md](FRAMEWORK.md) file.
 ## Maintenance
 
 This repository is self-contained and zero-maintenance.  
-The framework has no dependencies and is designed to remain compatible with future AI systems.
+The framework has no dependencies and is designed to remain compatible with future AI systems. 
 
 * * *
 
