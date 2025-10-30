@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 [![Version](https://img.shields.io/badge/Version-final-blue.svg)](https://github.com/hjadmz/adaptive-prompt-optimizer)  
-[![Cite](https://img.shields.io/badge/Cite-this_repo-brightgreen.svg)](https://github.com/hjadmz/adaptive-prompt-optimizer)  
+[![Cite](https://img.shields.io/badge/Cite-this_repo-brightgreen.svg)](#citation)  
 [![Topics](https://img.shields.io/badge/Topics-prompt%2Dengineering%20%7C%20ai%2Dreasoning%20%7C%20adaptive%2Dai-lightgrey.svg)](#)
 
 Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization.  
@@ -28,7 +28,7 @@ Research-backed • Self-adaptive • Future-proof • Zero-maintenance
 
 Use APO as a text-based meta-prompt to turn any conversational AI into a structured prompt-engineering agent:
 
-1. Download the meta-prompt content from `FRAMEWORK.md`.  
+1. Download the meta-prompt content from [`FRAMEWORK.md`](FRAMEWORK.md).  
 2. Paste it at the beginning of your AI conversation.  
 3. Follow the phases: Self-Assessment → Granularity Calibration → Task & User Profiling → System Identification → Method & Format Discovery → Prompt Construction → Delivery.
 
@@ -59,10 +59,10 @@ For a detailed breakdown of each phase, see [How It Works](FRAMEWORK.md#phase-1-
 
 ## 📚 Documentation
 
-| Section           | Location                          |
-|-------------------|-----------------------------------|
-| **How It Works**  | [FRAMEWORK.md](FRAMEWORK.md)      |
-| **Why It Works**  | See in `FRAMEWORK.md`             |
+| Section           | Location                           |
+|-------------------|------------------------------------|
+| **How It Works**  | [FRAMEWORK.md](FRAMEWORK.md)       |
+| **Why It Works**  | See in [`FRAMEWORK.md`](FRAMEWORK.md) |
 | **Examples**      | [FRAMEWORK.md#examples](FRAMEWORK.md#examples) |
 | **FAQ**           | [FRAMEWORK.md#faq](FRAMEWORK.md#faq) |
 
@@ -83,3 +83,6 @@ This project is licensed under the MIT License.
 Meta-prompt framework for systematic AI reasoning.
 Self-adaptive optimizer using research-backed principles.
 Zero maintenance.
+
+pgsql
+Copy code
