@@ -7,7 +7,7 @@
 Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization  
 **Research-backed • Self-adaptive • Future-proof • Zero-maintenance**
 
-[Quick Start](#quick-start) • [How It Works](#how-it-works) • [Why-It-Works](#why-it-works) • [Framework Structure](#framework-structure) • [Conceptual Foundations](#conceptual-foundations) • [Integration Example](#integration-example) • [License](#license)
+[Quick Start](#quick-start) • [How It Works](#how-it-works) • [Why It Works](#why-it-works) • [Framework Structure](#framework-structure) • [Conceptual Foundations](#conceptual-foundations) • [Integration Example](#integration-example) • [License](#license)
 
 ---
 
@@ -73,14 +73,14 @@ This produces **reliable**, **interpretable**, and **reproducible** reasoning ac
 
 ### 📘 Core Flow
 
-Absolute Rule
-↓
-Phase 0 → Phase 0.5 → Phase 1
-↓
-Research Tools? — Yes → Phase 2A (Online) | No → Phase 2B (Offline)
-↓
-Phase 3 → Phase 4 → Phase 5
-↓
+Absolute Rule  
+↓  
+Phase 0 → Phase 0.5 → Phase 1  
+↓  
+Research Tools? — Yes → Phase 2A (Online) | No → Phase 2B (Offline)  
+↓  
+Phase 3 → Phase 4 → Phase 5  
+↓  
 Governance Architecture (Meta-Learning Reflex, Loop Prevention, Confidence Calibration)
 
 ### 📊 Visual Flowchart
@@ -95,9 +95,9 @@ Governance Architecture (Meta-Learning Reflex, Loop Prevention, Confidence Calib
 
 APO’s design draws from interdisciplinary research:
 
-- **Cognitive Science** — Metacognition, uncertainty modeling, adaptive reasoning.  
-- **Systems Engineering** — Modular verification loops, layered self-assessment, constraint feedback.  
-- **AI Alignment** — Safe reasoning boundaries, corrigibility, and interpretability.  
+- **Cognitive Science** — Metacognition, uncertainty modeling, adaptive reasoning  
+- **Systems Engineering** — Modular verification loops, constraint feedback  
+- **AI Alignment** — Safe reasoning boundaries, corrigibility, interpretability  
 
 Distilled into a single **self-contained textual framework**, requiring no dependencies, libraries, or runtime environment.
 
@@ -113,17 +113,13 @@ Load Adaptive Prompt Optimizer (APO)
 Run Phases 0–5 sequentially.
 Apply governance and confidence calibration at each phase.
 Return final prompt and reasoning summary.
-This framework can serve as the foundation for meta-agents, research models, or advanced reasoning frameworks.
-Governance Architecture
-APO maintains a continuous oversight layer composed of:
-Meta-Learning Reflex — Evaluates efficiency and reasoning sufficiency post-task.
-Learning Boundary Principle — Prevents extrapolation beyond verified limits.
-Context Refresh Mechanism — Reassesses context to avoid drift in long sessions.
-Temporal Abstraction Layer — Distinguishes timeless logic from time-sensitive data.
-Loop Prevention — Halts recursive re-entry without new information.
-Each principle ensures safe, interpretable, and future-proof adaptive reasoning.
-License
-Licensed under the MIT License.
-Free for use, modification, and redistribution with attribution.
-© 2025 Henry Joseph Adams
-“A framework for thinking, not just prompting.”
+
+This framework can serve as the foundation for meta-agents, research models, or advanced reasoning tools.
+```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).  
+© 2025–present Henry Joseph Adams. All rights reserved.
