@@ -140,13 +140,7 @@ You are free to use, modify, and distribute it for research or commercial purpos
 
 * * *
 
-## Recommended Repository Topics
-
-prompt-engineering • prompt-optimization • meta-prompt • ai-reasoning • systematic-reasoning • adaptive-ai • llm-framework • ai-alignment • research-tool • future-proof
-
-* * *
-
-## Citation (Optional)
+## Citation
 
 If you use APO in research or wish to cite it, you can use the following BibTeX entry:
 
