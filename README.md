@@ -6,7 +6,7 @@
 
 Meta-prompt framework for systematic AI reasoning and prompt optimization.  
 Research-backed, self-adaptive, and future-proof by design.  
-Zero-maintenance. Portfolio-grade.
+Zero-maintenance.
 
 [Quick Start](#quick-start) • [How It Works](#how-it-works) • [Why-It-Works](#why-it-works) • [Examples](#examples) • [FAQ](#faq)
 
