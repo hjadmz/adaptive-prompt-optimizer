@@ -1,16 +1,14 @@
 cff-version: 1.2.0
-title: "Adaptive Prompt Optimizer (APO)"
+message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Adams"
-    given-names: "Henry"
-year: 2025
-version: "1.0.0"
-license: "MIT"
-repository-code: "https://github.com/hjadmz/adaptive-prompt-optimizer"
-abstract: "Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization."
-keywords:
-  - prompt engineering
-  - AI frameworks
-  - meta-prompting
-  - adaptive optimization
-  - artificial intelligence
+- family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Lisa"
+  given-names: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "adaptive-prompt-optimizer"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-10-30
+url: "https://github.com/hjadmz/adaptive-prompt-optimizer"
