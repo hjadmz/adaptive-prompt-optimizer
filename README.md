@@ -30,12 +30,12 @@ APO draws conceptually from **cognitive science**, **systems engineering**, and 
 
 ## Quick Start
 
-1. Copy the complete meta-prompt from [`FRAMEWORK.md`](./FRAMEWORK.md).  
-2. Paste it into any advanced AI system (e.g., ChatGPT, Claude, Gemini).  
-3. Run it as the *system prompt* or *base instruction layer*.  
-4. Follow the AI’s guided calibration process (Phases 0–5).
+1. **Copy** the complete meta-prompt from [`FRAMEWORK.md`](./FRAMEWORK.md).  
+2. **Paste** it into any advanced AI system (e.g., ChatGPT, Claude, Gemini).  
+3. **Run** it as the *system prompt* or *base instruction layer*.  
+4. **Follow** the AI’s guided calibration process (Phases 0–5).
 
-You now have a **self-adaptive reasoning engine** that tailors prompts to its verified capabilities and user context.
+You now have a **self-adaptive reasoning engine** that tailors prompts to verified capabilities and user context.
 
 ---
 
@@ -45,13 +45,13 @@ APO functions as a **phased reasoning architecture**:
 
 | Phase | Description |
 |-------|--------------|
-| **0. Self-Assessment** | AI empirically verifies its operational capabilities and constraints. |
-| **0.5. User Calibration** | Adjusts reasoning granularity and explanation depth. |
-| **1. Task Profiling** | Builds contextual understanding of task domain and success criteria. |
-| **2. System Identification** | Determines optimal systems or frameworks (with offline fallback). |
-| **3. Method Discovery** | Identifies or infers effective procedural methods. |
-| **4. Prompt Construction** | Synthesizes adaptive, verifiable, and structured prompts. |
-| **5. Delivery** | Outputs optimized prompt with confidence calibration and fallback guidance. |
+| **0 – Self-Assessment** | AI verifies its operational capabilities and constraints. |
+| **0.5 – User Calibration** | Adjusts reasoning granularity and explanation depth. |
+| **1 – Task Profiling** | Builds contextual understanding of task domain and success criteria. |
+| **2 – System Identification** | Determines optimal frameworks or tools (with offline fallback). |
+| **3 – Method Discovery** | Identifies or infers effective procedural methods. |
+| **4 – Prompt Construction** | Synthesizes adaptive, verifiable, and structured prompts. |
+| **5 – Delivery** | Outputs optimized prompt with confidence calibration and fallback guidance. |
 
 ---
 
@@ -59,13 +59,13 @@ APO functions as a **phased reasoning architecture**:
 
 APO’s strength lies in **structured adaptability**:
 
-1. **Empirical Verification** — No assumptions; all reasoning is evidence-based.  
+1. **Empirical Verification** — All reasoning steps are evidence-based.  
 2. **Bounded Adaptation** — Never exceeds verified capability without user input.  
-3. **Transparency** — Each reasoning step and confidence rating is explicit.  
-4. **Governed Loops** — Internal self-auditing is bounded and non-recursive.  
-5. **Human-Aligned Clarity** — All explanations scale with user expertise.  
+3. **Transparency** — Each phase and confidence rating is explicit and auditable.  
+4. **Governed Loops** — Self-auditing is bounded and non-recursive.  
+5. **Human-Aligned Clarity** — Explanations scale to the user’s expertise.
 
-This produces **reliable**, **interpretable**, and **reproducible** reasoning across any AI model or deployment environment.
+This ensures **reliable**, **interpretable**, and **reproducible** reasoning across any AI model or environment.
 
 ---
 
@@ -73,6 +73,7 @@ This produces **reliable**, **interpretable**, and **reproducible** reasoning ac
 
 ### 📘 Core Flow
 
+```
 Absolute Rule  
 ↓  
 Phase 0 → Phase 0.5 → Phase 1  
@@ -82,39 +83,36 @@ Research Tools? — Yes → Phase 2A (Online) | No → Phase 2B (Offline)
 Phase 3 → Phase 4 → Phase 5  
 ↓  
 Governance Architecture (Meta-Learning Reflex, Loop Prevention, Confidence Calibration)
+```
 
 ### 📊 Visual Flowchart
 
 ![Adaptive Prompt Optimizer Flowchart](./assets/APO_Flowchart.png)
 
-> The flowchart visualizes APO’s full reasoning cycle — including governance oversight, adaptive branching logic, and refinement feedback.
+> The flowchart visualizes APO’s full reasoning cycle — including governance oversight, adaptive branching, and refinement feedback.
 
 ---
 
 ## Conceptual Foundations
 
-APO’s design draws from interdisciplinary research:
+- **Cognitive Science** — Metacognition, uncertainty modeling, adaptive reasoning.  
+- **Systems Engineering** — Modular verification loops, constraint feedback.  
+- **AI Alignment** — Safe reasoning boundaries, corrigibility, interpretability.  
 
-- **Cognitive Science** — Metacognition, uncertainty modeling, adaptive reasoning  
-- **Systems Engineering** — Modular verification loops, constraint feedback  
-- **AI Alignment** — Safe reasoning boundaries, corrigibility, interpretability  
-
-Distilled into a single **self-contained textual framework**, requiring no dependencies, libraries, or runtime environment.
+All distilled into a **self-contained textual framework** — requiring no dependencies or runtime environment.
 
 ---
 
 ## Integration Example
 
-Example system setup:
-
 ```text
 SYSTEM:
-Load Adaptive Prompt Optimizer (APO)
+Load Adaptive Prompt Optimizer (APO).
 Run Phases 0–5 sequentially.
 Apply governance and confidence calibration at each phase.
-Return final prompt and reasoning summary.
+Return the final optimized prompt and reasoning summary.
 
-This framework can serve as the foundation for meta-agents, research models, or advanced reasoning tools.
+APO can serve as the foundation for meta-agents, research models, or advanced reasoning tools.
 ```
 
 ---
