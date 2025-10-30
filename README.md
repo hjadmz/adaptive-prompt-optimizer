@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-Stable-success.svg)
-![Made With](https://img.shields.io/badge/made_with-Empirical-Logic-black.svg)
+![Made With](https://img.shields.io/badge/made_with-Empirical_Logic-black.svg)
 
 Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization  
 **Research-backed • Self-adaptive • Future-proof • Zero-maintenance**
