@@ -1,16 +1,19 @@
-# Adaptive Prompt Optimizer (APO)
+<h1 align="center">Adaptive Prompt Optimizer (APO)</h1>
 
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
-  <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="340" style="border-radius: 8px;">
-</picture>
-
-  
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
+    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="340" style="border-radius:8px;">
+  </picture><br>
   <b>Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
-  
   <em>Research-inspired • Self-adaptive • Future-proof • Zero-maintenance</em>
+</p>
+
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/Status-Stable-success.svg" alt="Status: Stable">
+  <img src="https://img.shields.io/badge/Made_with-Empirical_Logic-black.svg" alt="Made with Empirical Logic">
 </p>
 
 <p align="center">
