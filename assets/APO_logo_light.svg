@@ -1,22 +1,27 @@
-<svg width="840" height="210" viewBox="0 0 840 210" xmlns="http://www.w3.org/2000/svg">
-  <rect width="840" height="210" fill="none"/>
-  <!-- full logo group centered -->
-  <g transform="translate(420,105)">
-    <!-- Blue square -->
-    <rect x="-320" y="-60" width="120" height="120" rx="24" fill="#2563EB"/>
-    <!-- APO text: optically centered -->
-    <text x="-260" y="8" text-anchor="middle" dominant-baseline="middle"
-          font-family="Inter, system-ui, sans-serif" font-size="50"
-          font-weight="700" fill="#FFFFFF" letter-spacing="0.5">APO</text>
+<svg width="688" height="200" viewBox="0 0 688 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- transparent canvas (lets README background show through) -->
+  <rect width="688" height="200" fill="none"/>
 
-    <!-- Wordmark -->
-    <g transform="translate(-150,0)">
-      <text x="0" y="-6" text-anchor="start"
-            font-family="Inter, system-ui, sans-serif" font-size="46"
-            font-weight="700" fill="#111827">Adaptive</text>
-      <text x="0" y="38" text-anchor="start"
-            font-family="Inter, system-ui, sans-serif" font-size="36"
-            font-weight="500" fill="#6B7280">Prompt Optimizer</text>
-    </g>
+  <!-- Blue tile -->
+  <rect x="0" y="36" width="128" height="128" rx="28" fill="#2563EB"/>
+
+  <!-- APO text (perfectly centered within the tile) -->
+  <text x="64" y="100"
+        text-anchor="middle" dominant-baseline="middle"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">
+    APO
+  </text>
+
+  <!-- Wordmark block (centered in canvas by fixed geometry) -->
+  <g transform="translate(168,0)">
+    <!-- Title -->
+    <text x="0" y="86"
+          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="48" font-weight="800" fill="#111827">Adaptive</text>
+    <!-- Subtitle -->
+    <text x="0" y="130"
+          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="38" font-weight="600" fill="#6B7280">Prompt Optimizer</text>
   </g>
 </svg>
