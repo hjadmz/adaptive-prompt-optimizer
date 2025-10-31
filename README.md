@@ -5,9 +5,9 @@
 ![Made With](https://img.shields.io/badge/made_with-Empirical_Logic-black.svg)
 
 Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization  
-**Research-backed • Self-adaptive • Future-proof • Zero-maintenance**
+**Research-inspired • Self-adaptive • Future-proof • Zero-maintenance**
 
-[Quick Start](#quick-start) • [How It Works](#how-it-works) • [Why It Works](#why-it-works) • [Framework Structure](#framework-structure) • [Conceptual Foundations](#conceptual-foundations) • [Integration Example](#integration-example) • [License](#license)
+[Quick Start](#quick-start) • [How It Works](#how-it-works) • [Framework Structure](#framework-structure) • [Example Usage](#example-usage) • [License](#license)
 
 ---
 
@@ -44,7 +44,7 @@ You now have a **self-adaptive reasoning engine** that tailors prompts to verifi
 APO functions as a **phased reasoning architecture**:
 
 | Phase | Description |
-|-------|--------------|
+|-------|-------------|
 | **0 – Self-Assessment** | AI verifies its operational capabilities and constraints. |
 | **0.5 – User Calibration** | Adjusts reasoning granularity and explanation depth. |
 | **1 – Task Profiling** | Builds contextual understanding of task domain and success criteria. |
@@ -55,24 +55,9 @@ APO functions as a **phased reasoning architecture**:
 
 ---
 
-## Why It Works
-
-APO’s strength lies in **structured adaptability**:
-
-1. **Empirical Verification** — All reasoning steps are evidence-based.  
-2. **Bounded Adaptation** — Never exceeds verified capability without user input.  
-3. **Transparency** — Each phase and confidence rating is explicit and auditable.  
-4. **Governed Loops** — Self-auditing is bounded and non-recursive.  
-5. **Human-Aligned Clarity** — Explanations scale to the user’s expertise.
-
-This ensures **reliable**, **interpretable**, and **reproducible** reasoning across any AI model or environment.
-
----
-
 ## Framework Structure
 
-### 📘 Core Flow
-
+### Core Flow
 ```
 Absolute Rule  
 ↓  
@@ -85,7 +70,7 @@ Phase 3 → Phase 4 → Phase 5
 Governance Architecture (Meta-Learning Reflex, Loop Prevention, Confidence Calibration)
 ```
 
-### 📊 Visual Flowchart
+### Visual Flowchart
 
 ![Adaptive Prompt Optimizer Flowchart](./assets/APO_Flowchart.png)
 
@@ -103,7 +88,7 @@ All distilled into a **self-contained textual framework** — requiring no depen
 
 ---
 
-## Integration Example
+## Example Usage
 
 ```text
 SYSTEM:
