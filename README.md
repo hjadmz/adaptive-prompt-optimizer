@@ -1,7 +1,5 @@
   # Adaptive Prompt Optimizer (APO)
 
-    # Adaptive Prompt Optimizer (APO)
-
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
