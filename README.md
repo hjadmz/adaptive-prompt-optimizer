@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
-    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="340">
+    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="360" style="border-radius:8px;">
   </picture>
 </p>
 
