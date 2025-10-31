@@ -1,8 +1,8 @@
  <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
-    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="340" style="border-radius:8px;">
+    <img src="./assets/APO_logo_light.png" alt="Adaptive Prompt Optimizer logo" width="340" style="border-radius:8px;">
   </picture><br>
   <b>Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
   
