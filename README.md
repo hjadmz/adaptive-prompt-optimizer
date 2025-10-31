@@ -1,8 +1,5 @@
-<h3 align="center">🧩 Visual Flowchart</h3>
-
-<div align="center">
-
 ```mermaid
+%%{init: {"theme": "neutral", "themeVariables": {"background":"transparent","primaryColor":"#e9ecef","edgeLabelBackground":"transparent","tertiaryColor":"#f8f9fa","lineColor":"#6c757d","fontSize":"14px","fontFamily":"Inter,Segoe UI,Helvetica,Arial,sans-serif"}}}%%
 flowchart TD
     A["**Absolute Rule**"]
     A --> B["**Phase 0:** Self-Assessment<br/>Capability Inventory"]
@@ -17,7 +14,7 @@ flowchart TD
     H --> I["**Phase 5:** Delivery<br/>Optimized Prompt • Confidence • Fallbacks"]
     I --> J["**Governance Architecture**<br/>Meta-Learning • Loop Prevention • Confidence Calibration"]
 
-    %% Subtle, professional grayscale styling
+    %% Clean grayscale styles
     classDef phase fill:#f8f9fa,stroke:#8a8a8a,color:#111;
     classDef decision fill:#fff3cd,stroke:#8a8a8a,color:#111;
     classDef gov fill:#e9ecef,stroke:#6c6c6c,color:#111,font-weight:bold;
