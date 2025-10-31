@@ -1,7 +1,10 @@
 # Adaptive Prompt Optimizer (APO)
 
-<p align="center">
-  <img src="./assets/APO_logo.png" alt="Adaptive Prompt Optimizer Logo" width="120"><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
+  <img src="./assets/APO_logo_light.svg" alt="APO Logo" width="120"> <!-- Fallback #1 -->
+</picture>
   <b>Meta‑prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
   <em>Research‑inspired • Self‑adaptive • Future‑proof • Zero‑maintenance</em>
 </p>
