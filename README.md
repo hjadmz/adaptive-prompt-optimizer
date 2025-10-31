@@ -8,6 +8,7 @@
 
 <p align="center">
   <b>Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
+  
   <em>Research-inspired • Self-adaptive • Future-proof • Zero-maintenance</em>
 </p>
 
