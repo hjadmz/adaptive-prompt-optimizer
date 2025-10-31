@@ -1,0 +1,14 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Adaptive Prompt Optimizer logo - light mode">
+  <!-- Icon -->
+  <rect x="64" y="70" width="120" height="120" rx="20" fill="#2563EB"/>
+  <!-- APO inside icon -->
+  <text x="124" y="145" font-size="44" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif"
+        font-weight="700" fill="#FFFFFF">APO</text>
+
+  <!-- Wordmark -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif" text-anchor="start">
+    <text x="214" y="126" font-size="44" font-weight="700" fill="#111827" letter-spacing="-0.25">Adaptive</text>
+    <text x="214" y="168" font-size="28" font-weight="600" fill="#4B5563">Prompt Optimizer</text>
+  </g>
+</svg>
