@@ -2,7 +2,7 @@
   <rect width="720" height="240" fill="none"/>
   <g transform="translate(180, 0)">
     <!-- Blue square -->
-    <rect x="0" y="60" width="120" height="120" rx="24" fill="#2563EB"/>
+    <rect x="0" y="60" width="120" height="120" rx="24" fill="#3B82F6"/>
     <!-- Centered APO text -->
     <text x="60" y="132" text-anchor="middle"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
@@ -11,10 +11,10 @@
     <!-- Title -->
     <text x="168" y="122"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-weight="700" font-size="40" fill="#111827">Adaptive</text>
+          font-weight="700" font-size="40" fill="#F9FAFB">Adaptive</text>
     <!-- Subtitle -->
     <text x="168" y="160"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-weight="500" font-size="26" fill="#4B5563">Prompt Optimizer</text>
+          font-weight="500" font-size="26" fill="#94A3B8">Prompt Optimizer</text>
   </g>
 </svg>
