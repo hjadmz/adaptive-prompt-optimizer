@@ -1,5 +1,3 @@
-<h1 align="center">Adaptive Prompt Optimizer (APO)</h1>
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.png">
