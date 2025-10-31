@@ -2,18 +2,19 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
-    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="360" style="border-radius:8px;">
+    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="360" style="display:block;margin:auto;border-radius:8px;">
   </picture>
 </p>
 
-<p align="center">
+<p align="center" style="margin-top:12px;">
   <b>Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
-  
   <em>Research-inspired • Self-adaptive • Future-proof • Zero-maintenance</em>
 </p>
 
-<p align="center">
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+<p align="center" style="margin-top:6px;">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+  </a>
   <img src="https://img.shields.io/badge/Status-Stable-success.svg" alt="Status: Stable">
   <img src="https://img.shields.io/badge/Made_with-Empirical_Logic-black.svg" alt="Made with Empirical Logic">
 </p>
