@@ -16,12 +16,6 @@
     <img src="https://img.shields.io/badge/Made_with-Empirical_Logic-black.svg" alt="Made with Empirical Logic">
   </p>
 
-  <p align="center">
-    <a href="./LICENSE"><img src="https://img.shields.io/badge/License‑MIT‑blue.svg" alt="License: MIT"></a>
-    <img src="https://img.shields.io/badge/Status‑Stable‑success.svg" alt="Status: Stable">
-    <img src="https://img.shields.io/badge/Made_with‑Empirical_Logic‑black.svg" alt="Made with Empirical Logic">
-  </p>
-
   ---
 
   ## 🧠 Overview
