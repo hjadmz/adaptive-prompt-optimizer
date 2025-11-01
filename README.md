@@ -8,9 +8,9 @@
 
 <p align="center" style="margin-top:8px;margin-bottom:6px;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/badge_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/badge_light.svg">
-    <img src="./assets/badge_light.svg" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_badge_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/APO_badge_light.svg">
+    <img src="./assets/APO_badge_light.svg" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance" width="720">
   </picture>
 </p>
 
