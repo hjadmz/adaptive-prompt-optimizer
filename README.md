@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hjj.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./hjj.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
     <img src="./assets/hero-light.svg" width="100%" alt="Adaptive Prompt Optimizer">
   </picture>
