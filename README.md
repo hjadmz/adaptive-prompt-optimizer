@@ -21,10 +21,6 @@
 - **Zero‑maintenance** — No code or dependencies to update  
 - **Future‑proof** — Designed to remain valid across AI generations
 
-> [!TIP]
-> Use APO as a system prompt or instruction layer.  
-> It calibrates itself and assembles an auditable reasoning protocol.
-
 ## Quick start
 
 1. Open [`FRAMEWORK.md`](./FRAMEWORK.md)  
