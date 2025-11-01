@@ -1,0 +1,85 @@
+<svg width="720" height="280" viewBox="0 0 720 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.05" />
+    </linearGradient>
+    
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Filter for glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background with subtle gradient -->
+  <rect width="720" height="280" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="50" r="2" fill="#3b82f6" opacity="0.4">
+    <animate attributeName="cy" values="50;230;50" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="230" r="2" fill="#60a5fa" opacity="0.4">
+    <animate attributeName="cy" values="230;50;230" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="360" cy="140" r="1.5" fill="#93c5fd" opacity="0.3">
+    <animate attributeName="r" values="1.5;3;1.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Main content group -->
+  <g transform="translate(360,140)">
+    <!-- APO Box with glow -->
+    <g filter="url(#glow)">
+      <rect x="-220" y="-70" width="130" height="130" rx="28" fill="#3B82F6"/>
+      <rect x="-220" y="-70" width="130" height="130" rx="28" fill="url(#glowGradient)" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    
+    <!-- APO text -->
+    <text x="-155" y="0"
+      text-anchor="middle" dominant-baseline="middle"
+      font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-weight="700" font-size="46" fill="#FFFFFF" letter-spacing="-1">
+      APO
+    </text>
+    
+    <!-- Wordmark -->
+    <g transform="translate(-70,0)">
+      <!-- "Adaptive" with fade-in animation -->
+      <text x="0" y="-10"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="44" fill="#F9FAFB" letter-spacing="-0.5">
+        Adaptive
+        <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+      </text>
+      
+      <!-- "Prompt Optimizer" with delayed fade-in -->
+      <text x="0" y="36"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="500" font-size="28" fill="#9CA3AF" letter-spacing="0.25">
+        Prompt Optimizer
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+      </text>
+    </g>
+    
+    <!-- Subtitle with accent -->
+    <text x="0" y="90"
+      text-anchor="middle"
+      font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-size="16" font-weight="500" fill="#60a5fa" letter-spacing="0.5">
+      A UNIVERSAL META-PROMPT FRAMEWORK
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+    </text>
+  </g>
+</svg>
