@@ -1,8 +1,10 @@
 # 🧠 Adaptive Prompt Optimizer (APO)
 
-**Adaptive Prompt Optimizer (APO)** is a **meta-prompt framework** that transforms any conversational AI into a **self-adaptive reasoning system** — capable of self-assessment, confidence calibration, and transparent prompt generation.
+> A universal meta-prompt framework for structured, adaptive, and verifiable AI reasoning.
 
-APO distills insights from **cognitive science**, **systems engineering**, and **AI alignment** into one reusable text framework.
+**Adaptive Prompt Optimizer (APO)** is a **meta-prompt framework** that transforms any conversational AI into a **self-adaptive reasoning system** — capable of structured self-assessment, confidence calibration, and transparent prompt generation.  
+
+APO combines insights from **cognitive science**, **systems engineering**, and **AI alignment** into a single, reusable text-based reasoning protocol.
 
 <p align="center">
   <img src="./assets/APO_logo_light.svg#gh-light-mode-only" width="720" alt="Adaptive Prompt Optimizer Light Logo">
@@ -24,19 +26,19 @@ APO distills insights from **cognitive science**, **systems engineering**, and *
 
 ## 🧩 Overview
 
-APO is a **research-driven reasoning architecture** that enables AI systems to adapt dynamically to context and capability.  
-It is **text-only**, **model-agnostic**, and requires **no code or dependencies** — making it both portable and future-proof.
+APO is a **research-driven reasoning architecture** that enables AI systems to adapt dynamically to their capabilities and user context.  
+It’s **text-only**, **model-agnostic**, and requires **no dependencies**, making it portable and future-proof.
 
-It allows AI systems to:
+It enables any AI system to:
 
-- Evaluate their **own capabilities** and limitations  
-- Adapt reasoning depth to **user preferences**  
-- Construct **verifiable, auditable prompts**  
-- Calibrate **confidence and uncertainty**  
-- Deliver **transparent, reproducible outputs**
+- Evaluate its **own capabilities and limits**
+- Adapt reasoning depth to **user preference**
+- Build **verifiable, auditable prompts**
+- Calibrate **confidence and uncertainty**
+- Produce **transparent, reproducible outputs**
 
 > **APO is not software.**  
-> It’s a **framework for structured reasoning** — a reproducible process that any model can execute entirely through text.
+> It’s a **structured reasoning framework** that any model can execute entirely through text.
 
 ---
 
@@ -44,26 +46,26 @@ It allows AI systems to:
 
 1. Open [`FRAMEWORK.md`](./FRAMEWORK.md)  
 2. Copy the complete meta-prompt  
-3. Paste it into your AI system (e.g., ChatGPT, Claude, Gemini)  
+3. Paste it into your AI system (ChatGPT, Claude, Gemini, etc.)  
 4. Run it as a **system prompt** or **instruction layer**  
 5. Follow the guided calibration (Phases 0–5)
 
-> Works with any conversational model that supports structured reasoning or system-level prompts.
+> Works with any conversational model that supports structured reasoning or system-level instructions.
 
 ---
 
 ## ⚙️ Architecture
 
-APO implements a **six-phase reasoning cycle** inspired by **human metacognition** and **control theory**:
+APO implements a **six-phase reasoning cycle** inspired by human metacognition and control theory:
 
 | Phase | Function |
 |:------|:----------|
-| **0 – Self-Assessment** | Detect and verify model capabilities and constraints |
+| **0 – Self-Assessment** | Verify model capabilities and constraints |
 | **0.5 – User Calibration** | Match reasoning depth and tone to user preference |
 | **1 – Task Profiling** | Define goals, success criteria, and context |
-| **2 – System Identification** | Map available tools or research access |
-| **3 – Method Discovery** | Identify optimal reasoning or formatting strategy |
-| **4 – Prompt Construction & Delivery** | Generate final adaptive prompt with validation |
+| **2 – System Identification** | Determine available tools or research access |
+| **3 – Method Discovery** | Select the optimal reasoning strategy |
+| **4 – Prompt Assembly & Delivery** | Generate final adaptive prompt with validation |
 
 ---
 
@@ -80,26 +82,26 @@ Return the optimized prompt with a reasoning summary.
 **Example task:**  
 > “Generate a reasoning protocol for evaluating ethical trade-offs in AI systems.”
 
-APO will self-assess, adapt dynamically, and deliver a structured, auditable reasoning framework.
+APO self-assesses, adapts, and delivers a structured, auditable reasoning framework.
 
 ---
 
 ## 🧭 Core Principles
 
-### 1. Absolute Rule
+### 1. Absolute Rule  
 Never fabricate or assume information.  
 When uncertain, state it explicitly and propose evidence-based alternatives.
 
-### 2. Self-Assessment
-Models must evaluate their operational boundaries before proceeding.
+### 2. Self-Assessment  
+Models must verify their operational boundaries before reasoning.
 
-### 3. Calibration
-Depth of explanation and complexity must align with user needs and model limits.
+### 3. Calibration  
+Reasoning depth aligns with user context and model capability.
 
-### 4. Verification
-Every output should include a rationale or confidence indicator.
+### 4. Verification  
+Every output includes rationale and confidence scoring.
 
-### 5. Governance
+### 5. Governance  
 Meta-learning reflexes and loop prevention ensure bounded, auditable reasoning.
 
 ---
@@ -109,7 +111,7 @@ Meta-learning reflexes and loop prevention ensure bounded, auditable reasoning.
 | Discipline | Contribution |
 |-------------|---------------|
 | **Cognitive Science** | Metacognition, adaptive reasoning, uncertainty modeling |
-| **Systems Engineering** | Feedback loops, control layers, verification structure |
+| **Systems Engineering** | Feedback loops, control layers, verification design |
 | **AI Alignment** | Transparency, interpretability, corrigibility principles |
 
 ---
@@ -123,7 +125,7 @@ Meta-learning reflexes and loop prevention ensure bounded, auditable reasoning.
     <img src="./assets/APO_flowchart_light.png" width="720" alt="Adaptive Prompt Optimizer Flowchart">
   </picture>
   <br>
-  <em>Visualization of APO’s adaptive reasoning cycle — transparent, text-based, and model-agnostic.</em>
+  <em>Visualization of APO’s adaptive reasoning cycle — transparent, textual, and model-agnostic.</em>
 </p>
 
 ---
@@ -132,23 +134,23 @@ Meta-learning reflexes and loop prevention ensure bounded, auditable reasoning.
 
 - **Meta-Learning Reflex** — evaluates reasoning performance post-execution  
 - **Learning Boundary Principle** — adapts only within verified capability  
-- **Context Refresh Mechanism** — periodically revalidates state and assumptions  
-- **Temporal Layer** — separates timeless logic from time-sensitive reasoning  
-- **Loop Prevention Protocol** — ensures finite, auditable reasoning cycles  
+- **Context Refresh Mechanism** — periodically revalidates assumptions  
+- **Temporal Abstraction Layer** — separates timeless from time-sensitive logic  
+- **Loop-Prevention Protocol** — ensures finite, auditable reasoning cycles  
 
 ---
 
 ## 💡 Design Philosophy
 
-APO is built to remain **valid across AI generations** — including large-context, multimodal, and agentic systems.  
-Its **textual modularity** ensures that as architectures evolve, its logic remains interpretable, testable, and human-auditable.
+APO is engineered to remain **valid across AI generations** — from text models to multimodal and agentic systems.  
+Its **textual modularity** ensures continued interpretability, testability, and human auditability.
 
 ---
 
 ## 🧭 Why It Matters
 
-In a landscape where AI reasoning is increasingly opaque, APO offers a **transparent, testable foundation** for structured cognition.  
-It bridges the gap between **human epistemic rigor** and **machine adaptability**, enabling both research reproducibility and ethical clarity.
+As AI reasoning grows opaque, APO provides a **transparent, testable foundation** for structured cognition.  
+It bridges **human epistemic rigor** and **machine adaptability**, supporting research reproducibility and ethical accountability.
 
 ---
 
