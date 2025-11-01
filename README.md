@@ -16,7 +16,7 @@
 
 ## What is APO?
 
-**Adaptive Prompt Optimizer** transforms any conversational AI into a self-adaptive reasoning system — capable of structured self-assessment, confidence calibration, and transparent prompt generation.
+**Adaptive Prompt Optimizer (APO)** transforms any conversational AI into a **self-adaptive reasoning system** — capable of structured self-assessment, confidence calibration, and transparent prompt generation.
 
 Built on principles from **cognitive science**, **systems engineering**, and **AI alignment**, APO delivers a reusable text-based reasoning protocol that works across all AI platforms.
 
@@ -27,8 +27,8 @@ Built on principles from **cognitive science**, **systems engineering**, and **A
 - **Zero-Maintenance** — No dependencies, code, or updates required  
 - **Future-Proof** — Designed to remain valid across AI generations  
 
-> **APO is not software.**  
-> It is a structured reasoning protocol — a reproducible framework any model can execute entirely through text.
+> [!IMPORTANT]  
+> APO is **not software** — it is a **structured reasoning protocol** that any model can execute entirely through text.
 
 <br>
 
@@ -40,7 +40,7 @@ Built on principles from **cognitive science**, **systems engineering**, and **A
 **4.** Run as a **system prompt** or **instruction layer**  
 **5.** Follow the guided calibration  
 
-> Compatible with any conversational AI that supports structured prompts.
+> Works with any conversational AI that supports structured prompts.
 
 <br>
 
@@ -91,6 +91,9 @@ APO operates through a **six-phase adaptive reasoning cycle**, inspired by human
 </tbody>
 </table>
 
+> [!NOTE]  
+> APO is fully **textual and portable** — no installation, dependencies, or runtime environment required.
+
 <br>
 
 ## Core Principles
@@ -99,7 +102,7 @@ APO operates through a **six-phase adaptive reasoning cycle**, inspired by human
 Never fabricate or assume information. When uncertain, state so explicitly and propose evidence-based alternatives.
 
 **2. Self-Assessment**  
-Models must evaluate their operational boundaries and capabilities before proceeding with reasoning.
+Models must evaluate their operational boundaries and capabilities before proceeding.
 
 **3. Calibration**  
 Reasoning depth and complexity must align with user needs and model limitations.
@@ -114,7 +117,7 @@ Embedded meta-learning and loop-prevention protocols ensure bounded, auditable r
 
 ## Conceptual Foundations
 
-APO synthesizes principles from multiple disciplines:
+APO integrates principles from multiple disciplines:
 
 <table>
 <thead>
@@ -145,35 +148,35 @@ APO synthesizes principles from multiple disciplines:
 
 APO is engineered to remain **valid across AI generations** — from text-only models to multimodal, agentic, and large-context systems.
 
-Its modular, text-based structure ensures:
+Its modular text structure ensures:
 
 - **Interpretability** — Reasoning steps are explicit and human-auditable  
 - **Reproducibility** — Identical inputs yield consistent outputs  
-- **Portability** — No dependencies on specific platforms or architectures  
-- **Longevity** — Design principles transcend current model limitations  
+- **Portability** — No platform dependencies  
+- **Longevity** — Design principles transcend current architectures  
 
 <br>
 
 ## Why It Matters
 
-Modern AI systems frequently reason opaquely, making verification and trust difficult.  
+Modern AI systems often reason opaquely, making verification and trust difficult.  
 APO provides a **research-backed foundation** for adaptive, transparent cognition.
 
-It bridges **human epistemic rigor** with **machine adaptability**, supporting:
+It bridges **human epistemic rigor** and **machine adaptability**, supporting:
 
 - Research reproducibility and methodological transparency  
-- Ethical accountability in AI-assisted decision-making  
-- Trust and explainability in high-stakes applications  
+- Ethical accountability in AI-assisted reasoning  
+- Trust and explainability in critical domains  
 
 <br>
 
 ## Future-Proof by Design
 
-**APO is released as a completed, finalized framework.**
+**APO is released as a finalized framework.**
 
 - No further updates or maintenance required  
 - Optimized for reliability and long-term reproducibility  
-- This repository serves as a stable, reference-grade implementation  
+- Serves as a stable, reference-grade implementation  
 
 **Use freely. Cite widely. Study deeply.**  
 For derivative work, fork the repository and document modifications clearly to preserve attribution and integrity.
