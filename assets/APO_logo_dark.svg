@@ -1,26 +1,24 @@
-<svg width="720" height="240" viewBox="0 0 720 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Transparent background -->
-  <rect width="720" height="240" fill="none"/>
+<svg width="720" height="180" viewBox="0 0 720 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background transparent -->
+  <rect width="720" height="180" fill="none"/>
 
-  <!-- Move logo block upward slightly -->
-  <g transform="translate(360,105)" text-rendering="geometricPrecision">
+  <!-- Center group -->
+  <g transform="translate(360,90)" text-rendering="geometricPrecision">
     <!-- Blue square -->
-    <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
+    <rect x="-200" y="-50" width="120" height="120" rx="24" fill="#3B82F6"/>
 
-    <!-- APO perfectly centered -->
+    <!-- Centered APO -->
     <text x="-140" y="5"
       text-anchor="middle" dominant-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="700" font-size="42" fill="#FFFFFF">APO</text>
 
-    <!-- Wordmark group -->
+    <!-- Wordmark -->
     <g transform="translate(-60,0)">
-      <!-- Title -->
-      <text x="0" y="-4"
+      <text x="0" y="-2"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="700" font-size="40" fill="#F9FAFB">Adaptive</text>
-      <!-- Subtitle -->
-      <text x="0" y="32"
+      <text x="0" y="30"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="500" font-size="26" fill="#9CA3AF">Prompt Optimizer</text>
     </g>
