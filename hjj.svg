@@ -1,35 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="64" viewBox="0 0 720 64" fill="none">
+<svg width="1440" height="400" viewBox="0 0 1440 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Shimmer gradient for light mode -->
-    <linearGradient id="shimmerLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.05" />
-      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:0.15" />
-      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.05" />
-      <animate attributeName="x1" values="-100%;100%" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0%;200%" dur="3s" repeatCount="indefinite"/>
+    <!-- Advanced gradient system -->
+    <linearGradient id="heroGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#1e293b;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#0c4a6e;stop-opacity:0.9" />
     </linearGradient>
     
-    <!-- Border gradient -->
-    <linearGradient id="borderGlowLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.15" />
-      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:0.25" />
-      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.15" />
+    <linearGradient id="glassGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:0.4" />
     </linearGradient>
+    
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:0" />
+      <animate attributeName="x1" values="-50%;150%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="50%;250%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    
+    <!-- Advanced filters -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feOffset in="coloredBlur" dx="0" dy="0" result="offsetBlur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="innerGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="blur" in2="SourceAlpha" operator="in" result="inner"/>
+      <feFlood flood-color="#60a5fa" flood-opacity="0.5"/>
+      <feComposite in2="inner" operator="in"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
   </defs>
   
-  <!-- Base rectangle with glassmorphism -->
-  <rect width="720" height="64" rx="14" fill="rgba(255,255,255,0.85)" 
-        stroke="url(#borderGlowLight)" stroke-width="1.5" 
-        style="backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);" />
+  <!-- Base gradient background -->
+  <rect width="1440" height="400" fill="url(#heroGradDark)"/>
   
-  <!-- Shimmer overlay -->
-  <rect width="720" height="64" rx="14" fill="url(#shimmerLight)" opacity="0.6"/>
+  <!-- Subtle noise texture overlay -->
+  <rect width="1440" height="400" fill="url(#heroGradDark)" opacity="0.02"/>
   
-  <!-- Text content -->
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-size="18" font-weight="500" fill="#1F2937" letter-spacing="0.5">
-    Research-inspired • Self-adaptive • Future-proof • Zero-maintenance
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
-  </text>
+  <!-- Decorative floating elements (Gestalt: Figure-Ground) -->
+  <g opacity="0.15">
+    <circle cx="120" cy="80" r="3" fill="#60a5fa">
+      <animate attributeName="cy" values="80;320;80" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1320" cy="320" r="2.5" fill="#818cf8">
+      <animate attributeName="cy" values="320;80;320" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="240" cy="200" r="2" fill="#93c5fd">
+      <animate attributeName="cx" values="240;280;240" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="150" r="2" fill="#a78bfa">
+      <animate attributeName="cx" values="1200;1160;1200" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Main content container (Gestalt: Proximity) -->
+  <g transform="translate(720,200)">
+    
+    <!-- APO Icon with Liquid Glass effect -->
+    <g transform="translate(-420,0)" filter="url(#glow)">
+      <!-- Outer glass container -->
+      <rect x="-75" y="-75" width="150" height="150" rx="32" 
+            fill="url(#glassGradDark)" opacity="0.25"
+            stroke="url(#accentGlow)" stroke-width="1.5">
+        <animate attributeName="opacity" values="0.2;0.35;0.2" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      
+      <!-- Inner glow layer -->
+      <rect x="-70" y="-70" width="140" height="140" rx="28" 
+            fill="none" stroke="#60a5fa" stroke-width="1" opacity="0.4">
+        <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      
+      <!-- Solid core -->
+      <rect x="-65" y="-65" width="130" height="130" rx="26" fill="#3b82f6"/>
+      
+      <!-- Light reflection (Apple Liquid Glass style) -->
+      <ellipse cx="-20" cy="-20" rx="40" ry="50" fill="white" opacity="0.12">
+        <animate attributeName="opacity" values="0.08;0.18;0.08" dur="5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+      <!-- APO text -->
+      <text x="0" y="8"
+        text-anchor="middle" dominant-baseline="middle"
+        font-family="SF Pro Display, Inter, system-ui, -apple-system, sans-serif"
+        font-weight="700" font-size="52" fill="#FFFFFF" letter-spacing="-2">
+        APO
+      </text>
+    </g>
+    
+    <!-- Wordmark (Fitts Law: larger touch targets for readability) -->
+    <g transform="translate(-180,0)">
+      <!-- Main title with staggered fade-in (UX: sequential disclosure) -->
+      <text x="0" y="-20"
+        font-family="SF Pro Display, Inter, system-ui, -apple-system, sans-serif"
+        font-weight="700" font-size="56" fill="#F9FAFB" letter-spacing="-1.5">
+        Adaptive
+        <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+      </text>
+      
+      <!-- Subtitle with hierarchy (Gestalt: Similarity) -->
+      <text x="0" y="40"
+        font-family="SF Pro Display, Inter, system-ui, -apple-system, sans-serif"
+        font-weight="500" font-size="32" fill="#94a3b8" letter-spacing="0">
+        Prompt Optimizer
+        <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.3s" fill="freeze"/>
+      </text>
+    </g>
+    
+    <!-- Tagline with accent (Color Psychology: Blue = trust) -->
+    <text x="0" y="110"
+      text-anchor="middle"
+      font-family="SF Pro Display, Inter, system-ui, -apple-system, sans-serif"
+      font-size="16" font-weight="500" fill="#60a5fa" letter-spacing="1.5" opacity="0.9">
+      A UNIVERSAL META-PROMPT FRAMEWORK
+      <animate attributeName="opacity" values="0;0.9" dur="0.8s" begin="0.6s" fill="freeze"/>
+    </text>
+    
+    <!-- Accent line (Gestalt: Continuity) -->
+    <line x1="-180" y1="135" x2="180" y2="135" 
+          stroke="url(#accentGlow)" stroke-width="2" opacity="0.5">
+      <animate attributeName="opacity" values="0;0.5" dur="0.8s" begin="0.9s" fill="freeze"/>
+    </line>
+  </g>
+  
+  <!-- Bottom metadata (Gestalt: Proximity + Apple HIG: Deference) -->
+  <g transform="translate(720,360)" opacity="0.6">
+    <text x="-120" y="0"
+      font-family="SF Pro Text, Inter, system-ui, sans-serif"
+      font-size="13" font-weight="500" fill="#94a3b8" letter-spacing="0.5">
+      VERSION 1.0.0
+    </text>
+    <circle cx="0" cy="-3" r="2" fill="#94a3b8"/>
+    <text x="120" y="0"
+      text-anchor="end"
+      font-family="SF Pro Text, Inter, system-ui, sans-serif"
+      font-size="13" font-weight="500" fill="#94a3b8" letter-spacing="0.5">
+      RESEARCH-BACKED
+    </text>
+  </g>
 </svg>
