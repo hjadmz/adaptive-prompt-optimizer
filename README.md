@@ -2,22 +2,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/APO_logo_light.svg">
-    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="360" style="display:block;margin:auto;border-radius:8px;">
+    <img src="./assets/APO_logo_light.svg" alt="Adaptive Prompt Optimizer logo" width="360">
   </picture>
 </p>
 
-<p align="center">
+<p align="center" style="margin-top:8px;margin-bottom:6px;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/APO_tagline_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/APO_tagline_light.svg">
-    <img src="assets/APO_tagline_light.svg" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badge_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badge_light.svg">
+    <img src="./assets/badge_light.svg" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance" width="720">
   </picture>
 </p>
 
-<p align="center" style="margin-top:6px;">
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
-  </a>
+<p align="center" style="margin-top:8px;">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Status-Stable-success.svg" alt="Status: Stable">
   <img src="https://img.shields.io/badge/Made_with-Empirical_Logic-black.svg" alt="Made with Empirical Logic">
 </p>
