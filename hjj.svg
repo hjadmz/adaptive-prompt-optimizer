@@ -1,69 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
-  <title id="title">APO Six-Phase Architecture (Dark)</title>
-  <desc id="desc">Left-to-right flow showing phases 0 to 4 for dark mode.</desc>
-
+<svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Adaptive Prompt Optimizer Logo</title>
   <defs>
-    <linearGradient id="cardD" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#111827"/>
+    <!-- Gradient glow -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
-    <marker id="arrowD" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
-    </marker>
-    <style>
-      text { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-    </style>
   </defs>
 
-  <rect width="960" height="420" fill="none"/>
+  <!-- Background glow -->
+  <rect width="720" height="240" fill="url(#bg)"/>
 
-  <!-- Lane label -->
-  <text x="40" y="46" font-size="14" fill="#94A3B8">PHASES</text>
+  <g transform="translate(360,120)">
+    <!-- Symbol (interlocking loops) -->
+    <circle cx="-150" cy="0" r="46" fill="none" stroke="url(#grad)" stroke-width="12"/>
+    <circle cx="-110" cy="0" r="46" fill="none" stroke="url(#grad)" stroke-width="12" opacity="0.5"/>
+    <text x="-130" y="8" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">A</text>
 
-  <!-- Cards -->
-  <g transform="translate(40,70)">
-    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">0 — Self-Assess</text>
-    <text x="16" y="58" font-size="13" fill="#CBD5E1">Verify capabilities & constraints</text>
-  </g>
-
-  <g transform="translate(220,70)">
-    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">0.5 — Calibrate</text>
-    <text x="16" y="58" font-size="13" fill="#CBD5E1">Match depth to user</text>
-  </g>
-
-  <g transform="translate(400,70)">
-    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">1 — Profile Task</text>
-    <text x="16" y="58" font-size="13" fill="#CBD5E1">Goals, success, context</text>
-  </g>
-
-  <g transform="translate(580,70)">
-    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">2 — Identify System</text>
-    <text x="16" y="58" font-size="13" fill="#CBD5E1">Tools / research access</text>
-  </g>
-
-  <g transform="translate(760,70)">
-    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">3 — Discover Method</text>
-    <text x="16" y="58" font-size="13" fill="#CBD5E1">Strategy & format</text>
-  </g>
-
-  <g transform="translate(400,220)">
-    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">4 — Assemble & Deliver</text>
-    <text x="16" y="58" font-size="13" fill="#CBD5E1">Validated prompt</text>
-  </g>
-
-  <!-- Arrows -->
-  <g stroke="#94A3B8" stroke-width="2" fill="none" marker-end="url(#arrowD)">
-    <line x1="190" y1="115" x2="220" y2="115"/>
-    <line x1="370" y1="115" x2="400" y2="115"/>
-    <line x1="550" y1="115" x2="580" y2="115"/>
-    <line x1="730" y1="115" x2="760" y2="115"/>
-    <path d="M 835 160 C 835 200, 475 200, 475 220"/>
+    <!-- Wordmark -->
+    <g transform="translate(-40,0)">
+      <text x="0" y="-8" font-family="Inter, sans-serif" font-size="42" font-weight="700" fill="#F9FAFB">Adaptive</text>
+      <text x="0" y="32" font-family="Inter, sans-serif" font-size="26" font-weight="500" fill="#94A3B8">Prompt Optimizer</text>
+    </g>
   </g>
 </svg>
