@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_logo_dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img src="./assets/hero-light.svg" width="300%" alt="Adaptive Prompt Optimizer">
+    <img src="./assets/hero-light.svg" width="100%" alt="Adaptive Prompt Optimizer">
   </picture>
 </p>
 
@@ -20,9 +20,9 @@
 
 **Adaptive Prompt Optimizer (APO)** is a universal meta‑prompt framework that turns any conversational AI into a self‑adaptive reasoning system—capable of structured self‑assessment, confidence calibration, and transparent prompt generation.
 
-- **Text‑only** — Runs in any AI chat or reasoning model
-- **Model‑agnostic** — Works with ChatGPT, Claude, Gemini, and future systems
-- **Zero‑maintenance** — No code or dependencies to update
+- **Text‑only** — Works in any AI chat or reasoning model  
+- **Model‑agnostic** — Compatible with ChatGPT, Claude, Gemini, and future systems  
+- **Zero‑maintenance** — No code or dependencies to update  
 - **Future‑proof** — Designed to remain valid across AI generations
 
 > [!TIP]
@@ -31,11 +31,11 @@
 
 ## Quick start
 
-1. Open [`FRAMEWORK.md`](./FRAMEWORK.md).  
-2. Copy the complete meta‑prompt.  
-3. Paste into your AI system.  
-4. Run as a **system prompt** or **instruction layer**.  
-5. Follow the guided calibration.
+1. Open [`FRAMEWORK.md`](./FRAMEWORK.md)  
+2. Copy the complete meta‑prompt  
+3. Paste into your AI system (ChatGPT, Claude, Gemini, etc.)  
+4. Run as a **system prompt** or **instruction layer**  
+5. Follow the guided calibration
 
 ## Architecture
 
@@ -68,9 +68,9 @@ APO follows a six‑phase adaptive reasoning cycle inspired by metacognition and
 
 ## Future‑proof by design
 
-- Protocol, not software: text survives platform and model shifts.  
-- No planned updates: this is a stable, reference framework.  
-- Forks welcome for derivatives—please document modifications.
+- Protocol, not software: text survives platform and model shifts  
+- Stable reference: no issues/PRs accepted; forks for derivatives welcome  
+- Designed to be used, cited, and replicated without maintenance
 
 ## License
 
