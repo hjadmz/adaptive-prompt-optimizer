@@ -1,111 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="180" viewBox="0 0 1440 180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2" viewBox="0 0 1440 2" fill="none">
   <defs>
-    <linearGradient id="phase1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6"/>
-      <stop offset="100%" style="stop-color:#60a5fa"/>
-    </linearGradient>
-    <linearGradient id="phase2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8b5cf6"/>
-      <stop offset="100%" style="stop-color:#a78bfa"/>
-    </linearGradient>
-    <linearGradient id="phase3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#06b6d4"/>
-      <stop offset="100%" style="stop-color:#22d3ee"/>
+    <linearGradient id="divDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0" />
+      <animate attributeName="x1" values="-50%;50%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="50%;150%" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
-  
-  <!-- Phase 0 -->
-  <g transform="translate(120,90)">
-    <circle r="40" fill="url(#phase1)" opacity="0.1"/>
-    <circle r="14" fill="none" stroke="url(#phase1)" stroke-width="2.5"/>
-    <line x1="10" y1="10" x2="18" y2="18" stroke="url(#phase1)" stroke-width="2.5" stroke-linecap="round"/>
-    <text y="65" text-anchor="middle" font-family="SF Pro Text, Inter, sans-serif" 
-          font-size="12" font-weight="600" fill="#60a5fa">Self-Assessment</text>
-  </g>
-  
-  <!-- Arrow -->
-  <path d="M 180 90 L 260 90" stroke="#60a5fa" stroke-width="2" opacity="0.3" stroke-dasharray="4,4">
-    <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-  </path>
-  
-  <!-- Phase 1 -->
-  <g transform="translate(300,90)">
-    <circle r="40" fill="url(#phase1)" opacity="0.1"/>
-    <circle r="18" fill="none" stroke="url(#phase1)" stroke-width="2.5">
-      <animate attributeName="stroke-dasharray" values="0,113;113,0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="12" fill="none" stroke="url(#phase1)" stroke-width="2"/>
-    <circle r="5" fill="url(#phase1)"/>
-    <text y="65" text-anchor="middle" font-family="SF Pro Text, Inter, sans-serif" 
-          font-size="12" font-weight="600" fill="#60a5fa">Task Profiling</text>
-  </g>
-  
-  <!-- Arrow -->
-  <path d="M 360 90 L 440 90" stroke="#60a5fa" stroke-width="2" opacity="0.3" stroke-dasharray="4,4">
-    <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-  </path>
-  
-  <!-- Phase 2 -->
-  <g transform="translate(480,90)">
-    <circle r="40" fill="url(#phase2)" opacity="0.1"/>
-    <rect x="-16" y="-14" width="32" height="7" rx="2" fill="url(#phase2)" opacity="0.5"/>
-    <rect x="-16" y="-3" width="32" height="7" rx="2" fill="url(#phase2)" opacity="0.75"/>
-    <rect x="-16" y="8" width="32" height="7" rx="2" fill="url(#phase2)">
-      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
-    </rect>
-    <text y="65" text-anchor="middle" font-family="SF Pro Text, Inter, sans-serif" 
-          font-size="12" font-weight="600" fill="#a78bfa">System ID</text>
-  </g>
-  
-  <!-- Arrow -->
-  <path d="M 540 90 L 620 90" stroke="#8b5cf6" stroke-width="2" opacity="0.3" stroke-dasharray="4,4">
-    <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-  </path>
-  
-  <!-- Phase 3 -->
-  <g transform="translate(660,90)">
-    <circle r="40" fill="url(#phase3)" opacity="0.1"/>
-    <circle cy="-4" r="10" fill="url(#phase3)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M -4,6 L -4,12 L 4,12 L 4,6" fill="url(#phase3)"/>
-    <line x1="-14" y1="-4" x2="-18" y2="-4" stroke="url(#phase3)" stroke-width="2" stroke-linecap="round"/>
-    <line x1="14" y1="-4" x2="18" y2="-4" stroke="url(#phase3)" stroke-width="2" stroke-linecap="round"/>
-    <text y="65" text-anchor="middle" font-family="SF Pro Text, Inter, sans-serif" 
-          font-size="12" font-weight="600" fill="#22d3ee">Method Discovery</text>
-  </g>
-  
-  <!-- Arrow -->
-  <path d="M 720 90 L 800 90" stroke="#06b6d4" stroke-width="2" opacity="0.3" stroke-dasharray="4,4">
-    <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-  </path>
-  
-  <!-- Phase 4 -->
-  <g transform="translate(840,90)">
-    <circle r="40" fill="url(#phase1)" opacity="0.1"/>
-    <path d="M -12,-12 L 12,-12 L 12,0 L 17,0 Q 17,5 12,5 L 12,12 L -12,12 Z" 
-          fill="url(#phase1)" stroke="url(#phase1)" stroke-width="1.5">
-      <animateTransform attributeName="transform" type="rotate" 
-                        values="0 0 0;5 0 0;0 0 0" dur="3s" repeatCount="indefinite"/>
-    </path>
-    <text y="65" text-anchor="middle" font-family="SF Pro Text, Inter, sans-serif" 
-          font-size="12" font-weight="600" fill="#60a5fa">Assembly</text>
-  </g>
-  
-  <!-- Arrow -->
-  <path d="M 900 90 L 980 90" stroke="#60a5fa" stroke-width="2" opacity="0.3" stroke-dasharray="4,4">
-    <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-  </path>
-  
-  <!-- Phase 5 -->
-  <g transform="translate(1020,90)">
-    <circle r="40" fill="url(#phase1)" opacity="0.1"/>
-    <circle r="20" fill="none" stroke="url(#phase1)" stroke-width="2.5"/>
-    <path d="M -10,0 L -3,7 L 12,-8" fill="none" stroke="url(#phase1)" 
-          stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-      <animate attributeName="stroke-dasharray" values="0,40;40,0" dur="1.5s" fill="freeze"/>
-    </path>
-    <text y="65" text-anchor="middle" font-family="SF Pro Text, Inter, sans-serif" 
-          font-size="12" font-weight="600" fill="#60a5fa">Delivery</text>
-  </g>
+  <rect width="1440" height="2" fill="url(#divDark)" rx="1"/>
 </svg>
