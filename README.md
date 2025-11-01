@@ -6,10 +6,12 @@
   </picture>
 </p>
 
-<p align="center" style="margin-top:12px;">
-  <b>Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
-  <p align="center">
-  <img src="./assets/test.svg" alt="Test badge preview" width="480">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_tagline_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/APO_tagline_light.svg">
+    <img src="./assets/APO_tagline_light.svg" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance" width="720">
+  </picture>
 </p>
 
 <p align="center" style="margin-top:6px;">
