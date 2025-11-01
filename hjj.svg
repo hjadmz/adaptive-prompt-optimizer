@@ -1,117 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="120" viewBox="0 0 720 120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="64" viewBox="0 0 720 64" fill="none">
   <defs>
-    <linearGradient id="iconGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    <!-- Shimmer gradient -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+      <animate attributeName="x1" values="-100%;100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="iconGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="iconGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1" />
+    
+    <!-- Border gradient -->
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.3" />
     </linearGradient>
   </defs>
   
-  <!-- Phase 0: Self-Assessment (Search/Scan icon) -->
-  <g transform="translate(60,60)">
-    <circle r="35" fill="url(#iconGrad1)" opacity="0.15"/>
-    <circle r="35" fill="none" stroke="url(#iconGrad1)" stroke-width="2">
-      <animate attributeName="r" values="35;38;35" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="12" fill="none" stroke="url(#iconGrad1)" stroke-width="3"/>
-    <line x1="8" y1="8" x2="16" y2="16" stroke="url(#iconGrad1)" stroke-width="3" stroke-linecap="round"/>
-    <text y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#60a5fa">
-      Self-Assessment
-    </text>
-  </g>
+  <!-- Base rectangle with glassmorphism -->
+  <rect width="720" height="64" rx="14" fill="rgba(255,255,255,0.06)" 
+        stroke="url(#borderGlow)" stroke-width="1.5" 
+        style="backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);" />
   
-  <!-- Phase 1: Task Profiling (Target icon) -->
-  <g transform="translate(180,60)">
-    <circle r="35" fill="url(#iconGrad1)" opacity="0.15"/>
-    <circle r="16" fill="none" stroke="url(#iconGrad1)" stroke-width="2.5">
-      <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="10" fill="none" stroke="url(#iconGrad1)" stroke-width="2"/>
-    <circle r="4" fill="url(#iconGrad1)"/>
-    <text y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#60a5fa">
-      Task Profiling
-    </text>
-  </g>
+  <!-- Shimmer overlay -->
+  <rect width="720" height="64" rx="14" fill="url(#shimmer)" opacity="0.5"/>
   
-  <!-- Phase 2: System ID (Layers icon) -->
-  <g transform="translate(300,60)">
-    <circle r="35" fill="url(#iconGrad2)" opacity="0.15"/>
-    <rect x="-14" y="-12" width="28" height="6" rx="2" fill="url(#iconGrad2)" opacity="0.5"/>
-    <rect x="-14" y="-3" width="28" height="6" rx="2" fill="url(#iconGrad2)" opacity="0.75"/>
-    <rect x="-14" y="6" width="28" height="6" rx="2" fill="url(#iconGrad2)">
-      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
-    </rect>
-    <text y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#a78bfa">
-      System ID
-    </text>
-  </g>
-  
-  <!-- Phase 3: Method Discovery (Lightbulb icon) -->
-  <g transform="translate(420,60)">
-    <circle r="35" fill="url(#iconGrad3)" opacity="0.15"/>
-    <circle cx="0" cy="-4" r="8" fill="url(#iconGrad3)">
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M -4,4 L -4,8 L 4,8 L 4,4" fill="url(#iconGrad3)" stroke="url(#iconGrad3)" stroke-width="1.5"/>
-    <line x1="-12" y1="-4" x2="-16" y2="-4" stroke="url(#iconGrad3)" stroke-width="2" stroke-linecap="round"/>
-    <line x1="12" y1="-4" x2="16" y2="-4" stroke="url(#iconGrad3)" stroke-width="2" stroke-linecap="round"/>
-    <line x1="-8" y1="-12" x2="-11" y2="-15" stroke="url(#iconGrad3)" stroke-width="2" stroke-linecap="round"/>
-    <line x1="8" y1="-12" x2="11" y2="-15" stroke="url(#iconGrad3)" stroke-width="2" stroke-linecap="round"/>
-    <text y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#22d3ee">
-      Method Discovery
-    </text>
-  </g>
-  
-  <!-- Phase 4: Assembly (Puzzle piece icon) -->
-  <g transform="translate(540,60)">
-    <circle r="35" fill="url(#iconGrad1)" opacity="0.15"/>
-    <path d="M -10,-10 L 10,-10 L 10,0 L 15,0 Q 15,5 10,5 L 10,10 L -10,10 Z" 
-          fill="url(#iconGrad1)" stroke="url(#iconGrad1)" stroke-width="1.5">
-      <animateTransform attributeName="transform" type="rotate" 
-                        values="0 0 0;5 0 0;0 0 0;-5 0 0;0 0 0" 
-                        dur="4s" repeatCount="indefinite"/>
-    </path>
-    <text y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#60a5fa">
-      Assembly
-    </text>
-  </g>
-  
-  <!-- Phase 5: Delivery (Checkmark icon) -->
-  <g transform="translate(660,60)">
-    <circle r="35" fill="url(#iconGrad1)" opacity="0.15"/>
-    <circle r="18" fill="none" stroke="url(#iconGrad1)" stroke-width="2.5"/>
-    <path d="M -8,0 L -2,6 L 10,-6" fill="none" stroke="url(#iconGrad1)" 
-          stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-      <animate attributeName="stroke-dasharray" values="0,30;30,0" dur="1.5s" fill="freeze"/>
-    </path>
-    <text y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#60a5fa">
-      Delivery
-    </text>
-  </g>
-  
-  <!-- Connection lines -->
-  <g opacity="0.2">
-    <line x1="95" y1="60" x2="145" y2="60" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,4">
-      <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="215" y1="60" x2="265" y2="60" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,4">
-      <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="335" y1="60" x2="385" y2="60" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4,4">
-      <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="455" y1="60" x2="505" y2="60" stroke="#06b6d4" stroke-width="2" stroke-dasharray="4,4">
-      <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="575" y1="60" x2="625" y2="60" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,4">
-      <animate attributeName="stroke-dashoffset" values="0;-8" dur="1s" repeatCount="indefinite"/>
-    </line>
-  </g>
+  <!-- Text content -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="500" fill="#E5E7EB" letter-spacing="0.5">
+    Research-inspired • Self-adaptive • Future-proof • Zero-maintenance
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+  </text>
 </svg>
