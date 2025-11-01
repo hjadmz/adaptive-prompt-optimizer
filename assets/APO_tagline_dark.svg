@@ -1,11 +1,14 @@
-<svg width="680" height="52" viewBox="0 0 680 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="56" viewBox="0 0 720 56" fill="none">
   <!-- Frosted glass background -->
-  <rect width="680" height="52" rx="12" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255,255,255,0.2)" />
-  <rect width="680" height="52" rx="12" fill="url(#blur)" style="backdrop-filter: blur(12px);" />
+  <rect width="720" height="56" rx="12"
+        fill="rgba(255,255,255,0.06)"
+        stroke="rgba(255,255,255,0.12)"/>
+  <rect width="720" height="56" rx="12"
+        fill="url(#frost)" style="backdrop-filter: blur(12px);"/>
   <defs>
-    <linearGradient id="blur" x1="0" y1="0" x2="680" y2="52" gradientUnits="userSpaceOnUse">
-      <stop stop-color="rgba(255,255,255,0.1)" />
-      <stop offset="1" stop-color="rgba(255,255,255,0.05)" />
+    <linearGradient id="frost" x1="0" y1="0" x2="720" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.05)"/>
     </linearGradient>
   </defs>
 
