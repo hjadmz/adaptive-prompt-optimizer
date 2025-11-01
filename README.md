@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./assets/APO_logo_light.svg#gh-light-mode-only" width="720" alt="Adaptive Prompt Optimizer Light Logo">
+  <img src="./assets/APO_logo_dark.svg#gh-dark-mode-only" width="720" alt="Adaptive Prompt Optimizer Dark Logo">
+</p>
+
 # 🧠 Adaptive Prompt Optimizer (APO)
 
 > A universal meta‑prompt framework for structured, adaptive, and verifiable AI reasoning.
@@ -7,22 +12,10 @@
 APO combines insights from **cognitive science**, **systems engineering**, and **AI alignment** into a single, reusable text‑based reasoning protocol.
 
 <p align="center">
-  <img src="./assets/APO_logo_light.svg#gh-light-mode-only" width="720" alt="Adaptive Prompt Optimizer Light Logo">
-  <img src="./assets/APO_logo_dark.svg#gh-dark-mode-only" width="720" alt="Adaptive Prompt Optimizer Dark Logo">
-</p>
-
-<p align="center">
-  <img src="./assets/APO_tagline_light.svg#gh-light-mode-only" width="620" alt="Research‑inspired • Self‑adaptive • Future‑proof • Zero‑maintenance">
-  <img src="./assets/APO_tagline_dark.svg#gh-dark-mode-only" width="620" alt="Research‑inspired • Self‑adaptive • Future‑proof • Zero‑maintenance">
-</p>
-
-<p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Status-Stable-success.svg" alt="Status: Stable">
   <img src="https://img.shields.io/badge/Framework-MetaPrompt-black.svg" alt="Framework: MetaPrompt">
 </p>
-
-_Version 1.0.0 · Maintained by Henry Joseph Adams_
 
 ---
 
@@ -124,7 +117,7 @@ Meta‑learning reflexes and loop prevention ensure bounded, auditable reasoning
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_flowchart_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="./assets/APO_flowchart_light.png">
-    <img src="./assets/APO_flowchart_light.png" width="720" alt="Flowchart illustrating APO’s six‑phase adaptive reasoning process.">
+    <img src="./assets/APO_flowchart_light.png" width="720" alt="Diagram illustrating APO’s six‑phase adaptive reasoning cycle with verification and calibration loops.">
   </picture>
   <br>
   <em>Visualization of APO’s adaptive reasoning cycle — transparent, textual, and model‑agnostic.</em>
@@ -159,4 +152,6 @@ It bridges **human epistemic rigor** and **machine adaptability**, supporting re
 ## ⚖️ License
 
 Distributed under the [MIT License](./LICENSE).  
-© 2025 Henry Joseph Adams — All rights reserved.
+© 2025 Henry Joseph Adams – All rights reserved.
+
+_Last updated · 2025-11-01 · Version 1.0.0_
