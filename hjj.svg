@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
-  <title id="title">APO Six-Phase Architecture (Light)</title>
-  <desc id="desc">Left-to-right flow showing phases 0 to 4 with connective arrows and labels.</desc>
+  <title id="title">APO Six-Phase Architecture (Dark)</title>
+  <desc id="desc">Left-to-right flow showing phases 0 to 4 for dark mode.</desc>
 
   <defs>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F8FAFC"/>
+    <linearGradient id="cardD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    <marker id="arrowD" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
     </marker>
     <style>
       text { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
@@ -18,54 +18,48 @@
 
   <rect width="960" height="420" fill="none"/>
 
-  <!-- Lane labels -->
-  <text x="40" y="46" font-size="14" fill="#64748B">PHASES</text>
+  <!-- Lane label -->
+  <text x="40" y="46" font-size="14" fill="#94A3B8">PHASES</text>
 
   <!-- Cards -->
-  <!-- 0 -->
   <g transform="translate(40,70)">
-    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">0 — Self-Assess</text>
-    <text x="16" y="58" font-size="13" fill="#334155">Verify capabilities & constraints</text>
+    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">0 — Self-Assess</text>
+    <text x="16" y="58" font-size="13" fill="#CBD5E1">Verify capabilities & constraints</text>
   </g>
 
-  <!-- 0.5 -->
   <g transform="translate(220,70)">
-    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">0.5 — Calibrate</text>
-    <text x="16" y="58" font-size="13" fill="#334155">Match depth to user</text>
+    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">0.5 — Calibrate</text>
+    <text x="16" y="58" font-size="13" fill="#CBD5E1">Match depth to user</text>
   </g>
 
-  <!-- 1 -->
   <g transform="translate(400,70)">
-    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">1 — Profile Task</text>
-    <text x="16" y="58" font-size="13" fill="#334155">Goals, success, context</text>
+    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">1 — Profile Task</text>
+    <text x="16" y="58" font-size="13" fill="#CBD5E1">Goals, success, context</text>
   </g>
 
-  <!-- 2 -->
   <g transform="translate(580,70)">
-    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">2 — Identify System</text>
-    <text x="16" y="58" font-size="13" fill="#334155">Tools / research access</text>
+    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">2 — Identify System</text>
+    <text x="16" y="58" font-size="13" fill="#CBD5E1">Tools / research access</text>
   </g>
 
-  <!-- 3 -->
   <g transform="translate(760,70)">
-    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">3 — Discover Method</text>
-    <text x="16" y="58" font-size="13" fill="#334155">Strategy & format</text>
+    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">3 — Discover Method</text>
+    <text x="16" y="58" font-size="13" fill="#CBD5E1">Strategy & format</text>
   </g>
 
-  <!-- 4 (bottom, delivery) -->
   <g transform="translate(400,220)">
-    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
-    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">4 — Assemble & Deliver</text>
-    <text x="16" y="58" font-size="13" fill="#334155">Validated prompt</text>
+    <rect width="150" height="90" rx="14" fill="url(#cardD)" stroke="#1F2937"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#F9FAFB">4 — Assemble & Deliver</text>
+    <text x="16" y="58" font-size="13" fill="#CBD5E1">Validated prompt</text>
   </g>
 
   <!-- Arrows -->
-  <g stroke="#64748B" stroke-width="2" fill="none" marker-end="url(#arrow)">
+  <g stroke="#94A3B8" stroke-width="2" fill="none" marker-end="url(#arrowD)">
     <line x1="190" y1="115" x2="220" y2="115"/>
     <line x1="370" y1="115" x2="400" y2="115"/>
     <line x1="550" y1="115" x2="580" y2="115"/>
