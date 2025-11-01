@@ -1,5 +1,4 @@
 <p align="center">
-  <!-- Hero banner (glass). Provide both modes. -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
@@ -11,24 +10,22 @@
 > **APO is a protocol — not software.** Any model can execute it entirely through text.
 
 <p align="center">
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-1f2937?labelColor=0b1020&logo=opensourceinitiative&logoColor=white" alt="MIT License">
-  </a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-1f2937?labelColor=0b1020&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/type-meta--prompt-312e81?labelColor=0b1020" alt="Meta-Prompt">
   <img src="https://img.shields.io/badge/status-stable-065f46?labelColor=0b1020" alt="Stable">
 </p>
 
 ## Overview
 
-**Adaptive Prompt Optimizer (APO)** is a universal meta‑prompt framework that turns any conversational AI into a self‑adaptive reasoning system—capable of structured self‑assessment, confidence calibration, and transparent prompt generation.
+**Adaptive Prompt Optimizer (APO)** is a universal meta‑prompt protocol: system‑agnostic, self‑calibrating, and future‑proof. APO enables any AI to reason with structure, assess its own limits, and deliver auditable output—using text only.
 
 - **Text‑only** — Works in any AI chat or reasoning model  
-- **Model‑agnostic** — Compatible with ChatGPT, Claude, Gemini, and future systems  
-- **Zero‑maintenance** — No code or dependencies to update  
-- **Future‑proof** — Designed to remain valid across AI generations
+- **Model‑agnostic** — Compatible with ChatGPT, Claude, Gemini, and future LMs  
+- **Zero‑maintenance** — No dependencies or updates required  
+- **Future‑proof** — Designed to remain valid across model generations
 
 > [!TIP]
-> Use APO as a **system prompt** or **instruction layer**. This is the simplest, most reliable integration path.
+> Use APO as a **system prompt** or **instruction layer**. This is the simplest, most reliable integration.
 
 ## Quick start
 
@@ -38,8 +35,7 @@
 4. Run as a **system prompt** or **instruction layer**  
 5. Follow the guided calibration
 
-<!-- Optional demo media: add later if desired -->
-<!--
+<!-- Optional demo (add later if helpful)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/demo-dark.gif">
@@ -51,61 +47,43 @@
 
 ## Architecture
 
-APO follows a six‑phase adaptive reasoning cycle inspired by metacognition and control theory.
+APO follows a six‑phase adaptive reasoning cycle.
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/diagram-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/diagram-light.svg">
-    <img src="./assets/diagram-light.svg" width="100%" alt="Six-Phase Reasoning Cycle">
+    <img src="./assets/diagram-light.svg" width="100%" alt="APO Reasoning Architecture">
   </picture>
 </p>
 
 | Phase | Function |
 |:--|:--|
-| **0 – Self‑Assessment** | Verify model capabilities and constraints |
+| **0 – Self‑Assessment** | Verify capabilities and constraints |
 | **0.5 – User Calibration** | Match depth and tone to user preference |
 | **1 – Task Profiling** | Define goals, success criteria, and context |
-| **2 – System Identification** | Map tools or research access |
+| **2 – System Identification** | Map tools/knowledge access |
 | **3 – Method Discovery** | Select optimal reasoning strategy |
-| **4 – Prompt Assembly & Delivery** | Generate and validate the adaptive prompt |
+| **4 – Prompt Assembly** | Validate and deliver the adaptive prompt |
 
 ## Core principles
 
-- **Absolute rule** — Never fabricate or assume; disclose uncertainty with alternatives.  
-- **Self‑assessment** — Establish operational boundaries before reasoning.  
-- **Calibration** — Adapt depth and style to the user and the model.  
-- **Verification** — Include rationale, evidence, and confidence indicators.  
-- **Governance** — Embed loop‑prevention and reflexive checks.
+- **Absolute rule** — Never fabricate or assume; disclose uncertainty with alternatives  
+- **Self‑assessment** — Establish operational boundaries before reasoning  
+- **Calibration** — Adapt depth and style to the user and the model  
+- **Verification** — Include rationale, evidence, and confidence indicators  
+- **Governance** — Built‑in loop‑prevention and reflexive checks
 
 ## Future‑proof by design
 
 > [!NOTE]
-> APO is a **stable reference** protocol. Edits to the text may impact reliability. Forks for derivatives are welcome.
+> This repository is a **stable reference**. Forks for derivatives are welcome; direct edits may reduce reliability.
 
-- Protocol, not software: text survives platform and model shifts  
-- No planned updates: issues/PRs are disabled by design  
-- Designed to be used, cited, and replicated without maintenance
+- Protocol, not software — portable across platforms and models  
+- Minimal surface — README and `FRAMEWORK.md` are the source of truth  
+- Light/dark assets — banners/diagrams switch with appearance
 
-## Media placeholders
+## License
 
-Place media in `assets/` using these names so the README switches automatically between light and dark mode.
-
-- Hero banners (required)  
-  - `assets/hero-dark.svg`  
-  - `assets/hero-light.svg`  
-
-- Architecture diagram (required)  
-  - `assets/diagram-dark.svg`  
-  - `assets/diagram-light.svg`  
-
-- Optional demo GIF  
-  - `assets/demo-dark.gif`  
-  - `assets/demo-light.gif`  
-  - Guidance: 10–12 seconds, muted capture, 800–1200px wide, < 5MB
-
-> [!TIP]
-> If an asset is neutral (works in both modes), reference the single file directly without `<picture>`.
-
-## Repository structure
-
+Distributed under the [MIT License](./LICENSE).  
+© 2025 Henry Joseph Adams
