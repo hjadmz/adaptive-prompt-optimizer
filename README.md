@@ -8,7 +8,8 @@
 
 <p align="center" style="margin-top:12px;">
   <b>Meta-prompt framework for systematic AI reasoning and adaptive prompt optimization</b><br>
-  <em>Research-inspired • Self-adaptive • Future-proof • Zero-maintenance</em>
+  <p align="center">
+  <img src="./assets/test.svg" alt="Test badge preview" width="480">
 </p>
 
 <p align="center" style="margin-top:6px;">
