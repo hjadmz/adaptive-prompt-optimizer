@@ -1,16 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="720" height="56" viewBox="0 0 720 56" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
-  <title id="title">APO Tagline Badge (Light)</title>
-  <desc id="desc">Rounded badge containing the APO tagline, optimized for light mode.</desc>
+<svg width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">APO Six-Phase Architecture (Light)</title>
+  <desc id="desc">Left-to-right flow showing phases 0 to 4 with connective arrows and labels.</desc>
 
-  <!-- Subtle capsule badge (no CSS filters to ensure GitHub rendering) -->
-  <rect x="0.5" y="0.5" width="719" height="55" rx="12"
-        fill="#FFFFFF" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+    <style>
+      text { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
 
-  <text x="360" y="28"
-        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-size="17.5" font-weight="500" letter-spacing="0.2"
-        text-anchor="middle" dominant-baseline="middle" fill="#1F2937">
-    Research-inspired • Self-adaptive • Future-proof • Zero-maintenance
-  </text>
+  <rect width="960" height="420" fill="none"/>
+
+  <!-- Lane labels -->
+  <text x="40" y="46" font-size="14" fill="#64748B">PHASES</text>
+
+  <!-- Cards -->
+  <!-- 0 -->
+  <g transform="translate(40,70)">
+    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">0 — Self-Assess</text>
+    <text x="16" y="58" font-size="13" fill="#334155">Verify capabilities & constraints</text>
+  </g>
+
+  <!-- 0.5 -->
+  <g transform="translate(220,70)">
+    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">0.5 — Calibrate</text>
+    <text x="16" y="58" font-size="13" fill="#334155">Match depth to user</text>
+  </g>
+
+  <!-- 1 -->
+  <g transform="translate(400,70)">
+    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">1 — Profile Task</text>
+    <text x="16" y="58" font-size="13" fill="#334155">Goals, success, context</text>
+  </g>
+
+  <!-- 2 -->
+  <g transform="translate(580,70)">
+    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">2 — Identify System</text>
+    <text x="16" y="58" font-size="13" fill="#334155">Tools / research access</text>
+  </g>
+
+  <!-- 3 -->
+  <g transform="translate(760,70)">
+    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">3 — Discover Method</text>
+    <text x="16" y="58" font-size="13" fill="#334155">Strategy & format</text>
+  </g>
+
+  <!-- 4 (bottom, delivery) -->
+  <g transform="translate(400,220)">
+    <rect width="150" height="90" rx="14" fill="url(#card)" stroke="#E2E8F0"/>
+    <text x="16" y="30" font-size="18" font-weight="700" fill="#111827">4 — Assemble & Deliver</text>
+    <text x="16" y="58" font-size="13" fill="#334155">Validated prompt</text>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="#64748B" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <line x1="190" y1="115" x2="220" y2="115"/>
+    <line x1="370" y1="115" x2="400" y2="115"/>
+    <line x1="550" y1="115" x2="580" y2="115"/>
+    <line x1="730" y1="115" x2="760" y2="115"/>
+    <path d="M 835 160 C 835 200, 475 200, 475 220"/>
+  </g>
 </svg>
