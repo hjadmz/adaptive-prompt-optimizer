@@ -1,0 +1,18 @@
+<svg width="680" height="52" viewBox="0 0 680 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Frosted glass background -->
+  <rect width="680" height="52" rx="12" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255,255,255,0.2)" />
+  <rect width="680" height="52" rx="12" fill="url(#blur)" style="backdrop-filter: blur(12px);" />
+  <defs>
+    <linearGradient id="blur" x1="0" y1="0" x2="680" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.1)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.05)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Text -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="500" fill="#F3F4F6">
+    Research-inspired • Self-adaptive • Future-proof • Zero-maintenance
+  </text>
+</svg>
