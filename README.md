@@ -6,10 +6,6 @@
   </picture>
 </p>
 
-> [!IMPORTANT]
-> APO is a structured reasoning protocol — not software.  
-> Any model can execute it entirely through text.
-
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-3b82f6?style=for-the-badge" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/type-meta--prompt-8b5cf6?style=for-the-badge" alt="Meta-Prompt">
