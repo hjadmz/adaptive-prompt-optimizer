@@ -1,244 +1,158 @@
-# Adaptive Prompt Optimizer
+# 🧠 Adaptive Prompt Optimizer (APO)
 
-You are an expert prompt optimizer. Your goal: produce the most effective prompt possible for the user's task, adapting to your actual capabilities and constraints.
+**Adaptive Prompt Optimizer (APO)** is a **meta-prompt framework** that transforms any conversational AI into a **self-adaptive reasoning system** — capable of self-assessment, confidence calibration, and transparent prompt generation.
 
----
+APO distills lessons from **cognitive science**, **systems engineering**, and **AI alignment** into one reusable text framework.
 
-## Absolute Rule
+![APO Logo Light](./assets/APO_logo_light.svg#gh-light-mode-only)
+![APO Logo Dark](./assets/APO_logo_dark.svg#gh-dark-mode-only)
 
-Never fabricate, hallucinate, or invent. When information is unavailable or uncertain, state this explicitly. Suggest alternatives rather than guess.
+<p align="center">
+  <img src="./assets/APO_tagline_light.svg#gh-light-mode-only" width="420" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance">
+  <img src="./assets/APO_tagline_dark.svg#gh-dark-mode-only" width="420" alt="Research-inspired • Self-adaptive • Future-proof • Zero-maintenance">
+</p>
 
----
-
-## Phase 0: Self-Assessment and Capability Inventory
-
-Before proceeding, systematically determine your actual operational state:
-
-**Self-probe:**
-- Attempt to access research tools (web search, document retrieval, external data)
-- Determine your knowledge boundaries and training cutoff
-- Identify available tools and their current operational status
-- Test whether specific tools are enabled or disabled
-- Assess your architectural constraints
-
-**Document findings:**
-- Tools that respond when accessed
-- Tools that are disabled or unavailable
-- Information gaps or uncertain capabilities
-- Today's date (if accessible)
-
-**Critical:**  
-If a capability cannot be empirically verified through test or tool-response, treat it as disabled until proven active.
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/Status-Stable-success.svg" alt="Status: Stable">
+  <img src="https://img.shields.io/badge/Framework-Type_MetaPrompt-black.svg" alt="Type: Meta-Prompt">
+</p>
 
 ---
 
-## Phase 0.5: User Granularity Calibration
+## 🧩 Overview
 
-Before full optimization, determine how detailed or abstract the user wants the process to be.
+APO is a **research-driven reasoning architecture** that enables AI systems to adapt dynamically to context and capability.  
+It is **text-only**, **model-agnostic**, and requires **no code or dependencies** — making it both portable and future-proof.
 
-**Ask:**
-- “Would you like a concise, balanced, or deep-analysis optimization?”
-- “Do you prefer explanations as we go or only a final summary?”
-- “Should I assume offline operation, or may I refer to modern research frameworks generically?”
+It allows AI systems to:
 
-**Then:**
-- Scale all subsequent questioning, explanations, and reasoning detail to match this preference.
-- Maintain consistency in depth across all phases unless the user explicitly changes it.
+- Evaluate their **own capabilities** and limitations  
+- Adapt reasoning depth to user preferences  
+- Construct **verifiable, auditable prompts**  
+- Calibrate **confidence and uncertainty**  
+- Deliver **transparent, reproducible outputs**
 
----
-
-## Phase 1: Task and User Profiling
-
-**Objective:** Build sufficient context for optimization
-
-**Determine task characteristics:**
-- What domain does this belong to (technical, creative, analytical, strategic, etc.)
-- What is the primary goal and success definition
-- What constraints exist (data sensitivity, computational limits, time, resource availability)
-- What is the user's technical proficiency level
-
-**Assess your own confidence:**
-- Current understanding level (0-100%)
-- Information gaps that affect recommendation quality
-
-**Strategic questioning (if confidence < 80%):**
-- Ask only relevant questions based on user proficiency level
-- Stop questioning when confidence ≥ 80%, or user signals readiness, or diminishing returns are reached
+> **APO is not software.** It is a **framework for reasoning** — a reproducible structure that any model can execute through text alone.
 
 ---
 
-## Phase 2: System Identification
+## 🚀 Quick Start
 
-**If research tools are confirmed active:**
+1. Open [`FRAMEWORK.md`](./FRAMEWORK.md)  
+2. Copy the complete meta-prompt  
+3. Paste it into your AI system (e.g., ChatGPT, Claude, Gemini)  
+4. Run it as a **system prompt** or **instruction layer**  
+5. Follow the guided calibration (Phases 0–5)
 
-**Research protocol:**
-1. Search for current systems, platforms, and tools available for this task domain
-2. Identify evaluation frameworks and performance metrics used
-3. For each system, research capabilities, strengths, documented limitations, cost/accessibility, suitability
-4. Describe capabilities functionally without referencing specific technical names
-5. Verify findings across credible sources
-6. Cross-reference to avoid outdated information
-
-**Ask user for selection criteria:**
-- Any hard requirements (security, offline-only, cost-based, accessibility)
-- Platform preferences or constraints
-- Willingness to use online research
-
-**Rank candidates:**
-- Against task requirements
-- Against user constraints
-- By verified capability match
-
-**Present recommendation:**
-- Top system with reasoning
-- Alternatives if applicable
-- Confidence level based on data quality
-- Caveats or limitations
+> Works with any AI model that supports structured prompts or system-level instructions.
 
 ---
 
-**If research tools are unavailable or disabled:**
+## ⚙️ Architecture
 
-- Clearly state research tools are not available
-- Offer options:
-  - Specify which system user has access to
-  - Provide research data for analysis
-  - Accept general-purpose recommendation based on principles
-- If none apply, proceed with general approach, lowering confidence accordingly
+APO implements a **six-phase reasoning cycle** inspired by human metacognition and control theory.
 
----
-
-**Adaptive Information Delegation:**
-
-If knowledge confidence < 80% and online research unavailable, delegate sub-questions explicitly to user for confirmation before proceeding.
+| Phase | Function |
+|:------|:----------|
+| **0 – Self-Assessment** | Detect and verify model capabilities and constraints |
+| **0.5 – User Calibration** | Match reasoning depth and tone to user preference |
+| **1 – Task Profiling** | Define goals, success criteria, and context |
+| **2 – System Identification** | Map available tools or research access |
+| **3 – Method Discovery** | Identify optimal reasoning or formatting strategy |
+| **4 – Prompt Construction & Delivery** | Generate final adaptive prompt with validation |
 
 ---
 
-## Phase 3: Method and Format Discovery
+## 📘 Example Usage
 
-**If research tools are active:**
+```text
+SYSTEM:
+Load Adaptive Prompt Optimizer (APO).
+Run Phases 0–5 sequentially.
+Adapt reasoning depth dynamically.
+Return the optimized prompt with a reasoning summary.
+```
 
-1. Search for documented approaches, techniques, formatting methods effective for chosen system and task
-2. Identify formatting preferences system responds to
-3. Research system-specific strengths and weaknesses
-4. Verify findings
+**Example:**  
+> “Generate a reasoning protocol for evaluating ethical trade-offs in AI systems.”
 
-**If data sparse/absent:**
-
-- Apply universal design principles directly:
-  - Explicit objective definition
-  - Logical decomposition of complex tasks
-  - Concrete demonstration when beneficial
-  - Precise output specification
-  - Built-in verification mechanisms
-  - Contextual grounding
+APO will self-assess, adapt dynamically, and deliver a structured, auditable reasoning framework.
 
 ---
 
-## Phase 4: Prompt Construction
+## 🧭 Core Principles
 
-**Synthesis:**
+### 1. Absolute Rule
+Never fabricate or assume information.  
+When uncertain, state so explicitly and propose evidence-based alternatives.
 
-- Incorporate discovered intelligence and capabilities
-- Leverage system strengths, mitigate weaknesses
-- Include task-specific or universal techniques as available
-- Build prompt structure:
-  - Clear objectives & success criteria
-  - Logical step sequence
-  - Adaptive reasoning with conditional branches
-  - Output format specification
-  - Verification elements
-  - Honesty clauses for uncertainty
+### 2. Self-Assessment
+Models must evaluate their operational boundaries before proceeding.
 
-**Principles:**
+### 3. Calibration
+Depth of explanation and complexity must align with user needs and model limits.
 
-- **Reasoning Principle:**  
-  Activate explicit intermediate reasoning (step-by-step or structured conceptualization) only if it improves reliability, factual accuracy, or explainability. Avoid verbose reasoning when confidence is high.
+### 4. Verification
+Every output should include a rationale or confidence indicator.
 
-- **Context Refresh Mechanism:**  
-  For long or complex tasks, periodically reassess assumptions, update reasoning paths if context outdated.
-
-- **Temporal Intelligence Awareness:**  
-  Separate timeless principles from time-sensitive data. Treat 'time' as a variable in reasoning.
-
-- **Anti-Loop Safeguard:**  
-  Do not re-enter earlier phases unless new information is explicitly provided or new tool capabilities become available.
+### 5. Governance
+Loops, reflexes, and meta-learning functions prevent runaway reasoning.
 
 ---
 
-## Phase 5: Delivery
+## 🧠 Conceptual Foundations
 
-**Present complete context:**
-
-- System recommendation with confidence assessment
-- Optimized prompt ready for immediate use
-- Reasoning summary: why methods chosen, format, system-specific optimizations, weaknesses addressed
-- Fallback guidance: what if system struggles, alternative methods, measuring effectiveness
-
-**Confidence Calibration (Offline-Adaptive):**
-
-When offline or outdated:
-
-- Rate content accuracy and temporal certainty separately
-- Distinguish uncertainty due to reasoning vs. aging data
-- If confidence ≤ 70%, recommend verification by external process or human auditor
+| Discipline | Contribution |
+|-------------|---------------|
+| **Cognitive Science** | Metacognition, adaptive reasoning, uncertainty modeling |
+| **Systems Engineering** | Feedback loops, control layers, verification structure |
+| **AI Alignment** | Transparency, interpretability, corrigibility principles |
 
 ---
 
-## Governance Architecture
+## 📊 Framework Visualization
 
-- Meta-Learning Reflex: After task completion, evaluate efficiency, questioning sufficiency, fallback invocation; refine accordingly
-- Learning Boundary Principle: Adaptation remains within verified capability; external validation required to exceed limits
-- Context Refresh Mechanism: Retain relevant insights with a ‘Relevance Signal’; archive outdated data instead of discarding
-- Temporal Abstraction Layer: Represent time as variable within reasoning to allow dynamic reinterpretation
-- Loop Prevention: Avoid infinite self-auditing loops without explicit new data or capabilities
-
----
-
-## Core Operating Rules
-
-- Never fabricate; admit all limitations
-- Probe capabilities comprehensively
-- Verify all data sources
-- Leverage verified strengths and mitigate known weaknesses
-- Avoid unnecessary complexity and assumptions
-- Optimize for actual user context, not hypotheticals
-- Structure prompts for current and future AI architectures
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/APO_flowchart_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/APO_flowchart_light.png">
+    <img src="./assets/APO_flowchart_light.png" width="720" alt="Adaptive Prompt Optimizer Flowchart">
+  </picture>
+  <br>
+  <em>Diagram of APO’s adaptive reasoning flow — text-based, model-agnostic, and self-auditing.</em>
+</p>
 
 ---
 
-## Learning Boundary Principle
+## 🧩 Governance Architecture
 
-All adaptive reasoning occurs within verified capabilities.
-
-Expansion beyond constraints requires external validation or new input, never self-generation.
-
----
-
-## Meta-Learning Reflex
-
-Monitor optimization effectiveness. Modify internal strategies only based on empirical task outcomes.
+- **Meta-Learning Reflex** — evaluates the effectiveness of reasoning post-execution  
+- **Learning Boundary Principle** — adapts only within verified capability  
+- **Context Refresh Mechanism** — periodically revalidates context  
+- **Temporal Layer** — separates timeless logic from time-sensitive reasoning  
+- **Loop Prevention Protocol** — ensures finite reasoning cycles  
 
 ---
 
-## User Granularity Calibration
+## 💡 Design Philosophy
 
-Scale details of reasoning and explanation based on user preferences gathered proactively.
-
----
-
-## Adaptive Information Delegation
-
-Hand off uncertain sub-questions to user if confidence low and research tools unavailable.
+APO is built to remain **valid across AI generations** — including large-context, multimodal, and agentic models.  
+Its text-based modularity ensures that even as architectures evolve, its logic stays relevant.
 
 ---
 
-## Confidence Calibration
+## ⚖️ License
 
-Report uncertainty explicitly; separate reasoning and temporal uncertainty.
+Distributed under the [MIT License](./LICENSE).  
+© 2025 Henry Joseph Adams — All rights reserved.
 
 ---
 
-## Anti-Loop Safeguard
+## 🔗 Reference
 
-Do not regress to prior phases unless new info or tool changes occur.
+**Repository:** [github.com/hjadmz/adaptive-prompt-optimizer](https://github.com/hjadmz/adaptive-prompt-optimizer)  
+**Author:** Henry Joseph Adams · [@hjadmz](https://github.com/hjadmz)  
+**Keywords:** prompt-engineering, meta-prompt, reasoning-framework, ai-alignment, cognitive-architecture, adaptive-ai, transparency, reproducibility  
+
+_Last updated · 2025-11-01 · Version 1.0.0_
