@@ -35,16 +35,6 @@
 4. Run as a **system prompt** or **instruction layer**  
 5. Follow the guided calibration
 
-<!-- Optional demo (add later if helpful)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/demo-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/demo-light.gif">
-    <img src="./assets/demo-light.gif" width="860" alt="APO demo">
-  </picture>
-</p>
--->
-
 ## Architecture
 
 APO follows a six‑phase adaptive reasoning cycle.
@@ -78,10 +68,6 @@ APO follows a six‑phase adaptive reasoning cycle.
 
 > [!NOTE]
 > This repository is a **stable reference**. Forks for derivatives are welcome; direct edits may reduce reliability.
-
-- Protocol, not software — portable across platforms and models  
-- Minimal surface — README and `FRAMEWORK.md` are the source of truth  
-- Light/dark assets — banners/diagrams switch with appearance
 
 ## License
 
