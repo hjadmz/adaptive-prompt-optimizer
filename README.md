@@ -69,10 +69,11 @@ APO follows a six‑phase adaptive reasoning cycle.
   </picture>
 </p>
 
-<!-- ADD THIS BREAK -->
-<p align="center" style="margin: 1.5rem 0 1rem 0; color: #64748B; font-size: 0.9em;">
+<p align="center" style="margin: 1.5rem 0 1rem 0; color: #64748B;">
   <em>Detailed phase breakdown below</em>
 </p>
+
+<hr style="width:75%; border:0; border-top:1px solid rgba(148,163,184,0.15); margin:1.25rem auto;">
 
 | Phase | Function |
 |:--|:--|
@@ -82,6 +83,8 @@ APO follows a six‑phase adaptive reasoning cycle.
 | **2 – System Identification** | Map tools/knowledge access |
 | **3 – Method Discovery** | Select optimal reasoning strategy |
 | **4 – Prompt Assembly** | Validate and deliver the adaptive prompt |
+
+
 
 ## Core principles
 
