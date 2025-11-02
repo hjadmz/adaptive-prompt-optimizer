@@ -1,25 +1,30 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
-  <!-- Geometric center at (360,120); optical centering uses slight upward bias (no downward offset) -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <!-- Tile centered on its own origin: tile center = (-140,0) -->
     <g transform="translate(-140,0)">
-      <!-- 120×120 rounded square; radius ~0.16×W = 19 for trustworthy, friendly form -->
       <rect x="-60" y="-60" width="120" height="120" rx="19" fill="#3B82F6"/>
-      <!-- APO monogram: true center, robust weight, tighter tracking, engine-stable baseline -->
-      <text x="0" y="0" text-anchor="middle" dominant-baseline="central"
+      <text x="0" y="0"
+            text-anchor="middle"
+            dominant-baseline="central"
             font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="900" font-size="40" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
+            font-weight="900"
+            font-size="40"
+            letter-spacing="-1.2"
+            fill="#FFFFFF">APO</text>
     </g>
-
-    <!-- Wordmark: 40 px gap from tile right edge (-20) to wordmark start at +20 -->
     <g transform="translate(20,2)">
       <text x="0" y="-8" text-anchor="start"
             font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="700" font-size="40" letter-spacing="-0.8" fill="#111827">Adaptive</text>
+            font-weight="700"
+            font-size="40"
+            letter-spacing="-0.8"
+            fill="#111827">Adaptive</text>
       <text x="0" y="26" text-anchor="start"
             font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="500" font-size="26" letter-spacing="-0.4" fill="#4B5563">Prompt Optimizer</text>
+            font-weight="500"
+            font-size="26"
+            letter-spacing="-0.4"
+            fill="#4B5563">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
