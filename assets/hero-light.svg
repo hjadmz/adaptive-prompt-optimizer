@@ -1,23 +1,26 @@
-<svg width="960" height="280" viewBox="0 0 960 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="960" height="280" fill="none"/>
+<svg width="720" height="240" viewBox="0 0 720 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background -->
+  <rect width="720" height="240" fill="none"/>
 
-  <!-- Centered group -->
-  <g transform="translate(480,140)" text-rendering="geometricPrecision">
+  <!-- Unified group: perfectly centered and scaled -->
+  <g transform="translate(375,120) scale(0.9)" text-rendering="geometricPrecision">
+    <!-- Blue square -->
+    <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#2563EB"/>
 
-    <!-- Blue identity block -->
-    <rect x="-260" y="-72" width="150" height="150" rx="28" fill="#3B82F6" />
+    <!-- APO text -->
+    <text x="-140" y="5"
+      text-anchor="middle" dominant-baseline="middle"
+      font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-weight="700" font-size="42" fill="#FFFFFF">APO</text>
 
-    <!-- APO inside block -->
-    <text x="-185" y="12" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-weight="800" font-size="46" fill="#FFFFFF" dominant-baseline="middle">APO</text>
-
-    <!-- Wordmark group -->
-    <g transform="translate(-30,0)">
-      <text x="0" y="-10" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="700" font-size="50" fill="#0F172A">Adaptive</text>
-      <text x="0" y="44" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="500" font-size="32" fill="#334155">Prompt Optimizer</text>
+    <!-- Wordmark -->
+    <g transform="translate(-60,0)">
+      <text x="0" y="-4"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="40" fill="#111827">Adaptive</text>
+      <text x="0" y="32"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="500" font-size="26" fill="#4B5563">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
