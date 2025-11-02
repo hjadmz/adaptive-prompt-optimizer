@@ -1,20 +1,14 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
-  <!-- Light surface -->
-  <rect width="720" height="240" fill="#FFFFFF"/>
-
-  <!-- Centered group -->
+  <!-- Centered block: total width 404 = 120 (tile) + 24 (gap) + 260 (wordmark) -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <!-- Blue tile -->
-    <!-- Total block width = 120 (tile) + 24 (gap) + 260 (wordmark) = 404; centered => left edge at -202 -->
+    <!-- Brand tile -->
     <rect x="-202" y="-60" width="120" height="120" rx="16" fill="#2563EB"/>
-
-    <!-- APO monogram (centered in tile) -->
-    <text x="-142" y="0"
+    <!-- APO monogram: mathematical center at -142; optical nudge +0.75px -->
+    <text x="-141.25" y="0"
       text-anchor="middle" dominant-baseline="central"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
-
-    <!-- Wordmark (fixed 260px width) -->
+      font-weight="900" font-size="40" letter-spacing="-1.05" fill="#FFFFFF">APO</text>
+    <!-- Wordmark block (fixed width for deterministic centering) -->
     <g transform="translate(-58,2)">
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
