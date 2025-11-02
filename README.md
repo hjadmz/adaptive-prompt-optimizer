@@ -24,12 +24,10 @@
     src="https://img.shields.io/badge/Status-Complete-10B981?style=flat-square&labelColor=1E293B"
     alt="Complete"
     height="22">
-  <a href="http://unmaintained.tech/">
-    <img 
-      src="http://unmaintained.tech/badge.svg"
-      alt="No Maintenance Intended"
-      height="22">
-  </a>
+  <img 
+    src="https://img.shields.io/badge/Maintenance-None_Intended-64748B?style=flat-square&labelColor=1E293B"
+    alt="No Maintenance Intended"
+    height="22">
 </p>
 
 <div align="center">
@@ -111,7 +109,7 @@ This framework is provided as-is under the MIT License. It is designed to be com
 - Study the methodology and reasoning architecture
 - Build upon the protocol for derivative works
 
-The framework is intentionally static to ensure long-term stability and reliability. No pull requests or issues will be processed, as the protocol is fundamentally complete by design.
+The framework is intentionally static to ensure long-term stability and reliability.
 
 ## License
 
