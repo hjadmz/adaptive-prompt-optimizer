@@ -1,12 +1,14 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
   <g transform="translate(368,120)" text-rendering="geometricPrecision">
+    <!-- Icon -->
     <g transform="translate(-140,0)">
       <rect x="-60" y="-60" width="120" height="120" rx="20" fill="#2563EB"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="central"
             font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
             font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
     </g>
+    <!-- Wordmark -->
     <g transform="translate(48,2)">
       <text x="0" y="-8" text-anchor="start"
             font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
