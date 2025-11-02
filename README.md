@@ -73,7 +73,7 @@ APO follows a six‑phase adaptive reasoning cycle.
   <em>Detailed phase breakdown below</em>
 </p>
 
-<hr style="width:75%; border:0; border-top:1px solid rgba(148,163,184,0.15); margin:1.25rem auto;">
+<hr style="width:10%; border:0; border-top:1px solid rgba(148,163,184,0.15); margin:1.25rem auto;">
 
 | Phase | Function |
 |:--|:--|
