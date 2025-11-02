@@ -10,12 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="./LICENSE">
-    <img 
-      src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white"
-      alt="MIT License"
-      height="22">
-  </a>
+  <img 
+    src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white"
+    alt="MIT License"
+    height="22">
   <img 
     src="https://img.shields.io/badge/Type-Meta--Prompt-4338CA?style=flat-square&labelColor=1E293B"
     alt="Meta-Prompt"
