@@ -1,10 +1,27 @@
-<svg width="720" height="60" viewBox="0 0 720 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-  <title>APO Tagline</title>
-  <rect x="0" y="0" width="720" height="60" rx="14"
-        fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
-  <text x="360" y="34"
-        font-family="Inter, sans-serif" font-size="18" font-weight="500"
-        text-anchor="middle" fill="#E5E7EB" letter-spacing="0.3">
-    Research-inspired • Self-adaptive • Future-proof • Zero-maintenance
-  </text>
+<svg width="960" height="420" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: Inter, sans-serif; }
+    .phase { fill: #FFF; stroke: #E2E8F0; stroke-width: 1.4; rx: 12; }
+    .title { font-weight: 700; font-size: 16px; fill: #111827; }
+    .desc { font-size: 12px; fill: #334155; }
+  </style>
+  <rect width="960" height="420" fill="#F8FAFC"/>
+  <g transform="translate(40,70)">
+    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">0 — Self-Assess</text><text x="20" y="60" class="desc">Verify capabilities</text>
+  </g>
+  <g transform="translate(210,70)">
+    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">0.5 — Calibrate</text><text x="20" y="60" class="desc">Match user depth</text>
+  </g>
+  <g transform="translate(380,70)">
+    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">1 — Profile Task</text><text x="20" y="60" class="desc">Define context</text>
+  </g>
+  <g transform="translate(550,70)">
+    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">2 — Identify System</text><text x="20" y="60" class="desc">Map resources</text>
+  </g>
+  <g transform="translate(720,70)">
+    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">3 — Discover Method</text><text x="20" y="60" class="desc">Select strategy</text>
+  </g>
+  <g transform="translate(380,220)">
+    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">4 — Assemble</text><text x="20" y="60" class="desc">Deliver prompt</text>
+  </g>
 </svg>
