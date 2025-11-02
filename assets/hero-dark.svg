@@ -2,8 +2,8 @@
   <!-- Transparent background -->
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Entire logo block centered -->
-  <g transform="translate(360,120)" text-rendering="geometricPrecision">
+  <!-- Entire logo block centered (adjusted from 360 -> 465) -->
+  <g transform="translate(465,120)" text-rendering="geometricPrecision">
     <!-- Blue square -->
     <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
 
