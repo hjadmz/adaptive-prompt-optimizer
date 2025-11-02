@@ -1,13 +1,13 @@
 <svg width="720" height="240" viewBox="0 0 720 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Optically centered logo block (for GitHub light mode) -->
+  <!-- Optically centered block -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <g transform="translate(-70,0)"> <!-- same correction as dark -->
+    <g transform="translate(-80,0)"> <!-- optical correction -->
       <!-- Blue square -->
-      <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#2563EB"/>
+      <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
 
-      <!-- APO in square -->
+      <!-- APO text -->
       <text x="-140" y="5"
         text-anchor="middle" dominant-baseline="middle"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
@@ -17,10 +17,10 @@
       <g transform="translate(-60,0)">
         <text x="0" y="-4"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-weight="700" font-size="40" fill="#111827">Adaptive</text>
+          font-weight="700" font-size="40" fill="#F9FAFB">Adaptive</text>
         <text x="0" y="32"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-weight="500" font-size="26" fill="#4B5563">Prompt Optimizer</text>
+          font-weight="500" font-size="26" fill="#D1D5DB">Prompt Optimizer</text>
       </g>
     </g>
   </g>
