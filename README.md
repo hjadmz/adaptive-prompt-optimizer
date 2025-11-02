@@ -6,9 +6,6 @@
   </picture>
 </p>
 
-> [!IMPORTANT]
-> **APO is a protocol — not software.** Any model can execute it entirely through text.
-
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-1f2937?labelColor=0b1020&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/type-meta--prompt-312e81?labelColor=0b1020" alt="Meta-Prompt">
@@ -23,8 +20,8 @@
 - **Model‑agnostic** — Compatible with different models
 - **Zero‑maintenance** — No dependencies or updates required
 
-> [!TIP]
-> Use APO as a **system prompt** or **instruction layer**. This is the simplest, most reliable integration.
+> [!IMPORTANT]
+> **APO is a protocol — not software.** Any model can execute it entirely through text.
 
 ## Quick start
 
