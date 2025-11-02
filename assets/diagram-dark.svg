@@ -10,7 +10,6 @@
   <text x="325" y="75" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
   <text x="325" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Verify capabilities and constraints</text>
   
-  <!-- Arrow down -->
   <path d="M 325 155 L 325 185" stroke="#94A3B8" stroke-width="3" fill="none"/>
   <polygon points="325,185 321,178 329,178" fill="#94A3B8"/>
   
