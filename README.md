@@ -1,8 +1,12 @@
-<div align="center" style="margin: 0 auto; display: flex; justify-content: center;">
+<div align="center" style="width:100%; display:flex; justify-content:center; margin:0; padding:0;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img src="./assets/hero-light.svg" alt="Adaptive Prompt Optimizer" width="720" style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
+    <img 
+      src="./assets/hero-light.svg" 
+      alt="Adaptive Prompt Optimizer" 
+      width="720"
+      style="display:block; margin:0 auto; max-width:95%; height:auto; image-rendering:-webkit-optimize-contrast; border:0;">
   </picture>
 </div>
 
