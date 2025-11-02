@@ -1,7 +1,3 @@
-<!-- ================================= -->
-<!-- 🚀 APO HERO HEADER -->
-<!-- ================================= -->
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.svg">
@@ -25,9 +21,15 @@
     alt="Meta-Prompt"
     height="22">
   <img 
-    src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=1E293B"
-    alt="Stable"
+    src="https://img.shields.io/badge/Status-Complete-10B981?style=flat-square&labelColor=1E293B"
+    alt="Complete"
     height="22">
+  <a href="http://unmaintained.tech/">
+    <img 
+      src="http://unmaintained.tech/badge.svg"
+      alt="No Maintenance Intended"
+      height="22">
+  </a>
 </p>
 
 <div align="center">
@@ -42,10 +44,11 @@
 
 - **Text‑only** — Works in any AI chat or reasoning model  
 - **Model‑agnostic** — Compatible with different models  
-- **Zero‑maintenance** — No dependencies or updates required
+- **Zero‑maintenance** — No dependencies or updates required  
+- **Complete protocol** — Fundamentally designed, not iterative software
 
 > [!IMPORTANT]
-> **APO is a protocol — not software.** Any model can execute it entirely through text.
+> **APO is a protocol — not software.** Any model can execute it entirely through text. This is a complete, archived framework. Users are encouraged to fork and adapt it for their specific needs.
 
 ## Features
 
@@ -99,17 +102,16 @@ APO follows a six‑phase adaptive reasoning cycle.
 - **Verification** — Include rationale, evidence, and confidence indicators  
 - **Governance** — Built‑in loop‑prevention and reflexive checks
 
-## Contributing
+## Usage & Adaptation
 
-Contributions are welcome! To contribute:
+This framework is provided as-is under the MIT License. It is designed to be complete and requires no maintenance. Users are free to:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
+- Use APO directly in any AI system
+- Fork and modify for specific use cases
+- Study the methodology and reasoning architecture
+- Build upon the protocol for derivative works
 
-Please ensure your contributions align with the project's philosophy of transparency, adaptability, and verification.
+The framework is intentionally static to ensure long-term stability and reliability. No pull requests or issues will be processed, as the protocol is fundamentally complete by design.
 
 ## License
 
@@ -119,5 +121,5 @@ Distributed under the [MIT License](./LICENSE).
 ---
 
 <p align="center">
-  <sub>Built with research-backed design principles • Open source • Future-proof</sub>
+  <sub>Complete • Future-proof • No maintenance intended</sub>
 </p>
