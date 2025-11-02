@@ -1,84 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="960" height="360" viewBox="0 0 960 360" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#60A5FA"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
+    <linearGradient id="gradBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#8B5CF6;#3B82F6" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#3B82F6;#8B5CF6" dur="10s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <radialGradient id="gradAmbient" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#060620" flood-opacity="0.5"/>
+    </filter>
+
     <style>
-      .node { fill:#0B1020; stroke:#1F2937; stroke-width:1.2; }
-      .label { fill:#E5E7EB; font:600 14px Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
-      .sublabel { fill:#94A3B8; font:500 12px Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
-      .flow { stroke:url(#line); stroke-width:3; fill:none; stroke-linecap:round; }
-      @media (prefers-reduced-motion: reduce) { .anim { display:none } }
+      @media (prefers-reduced-motion: reduce) {
+        .anim { display: none; }
+        .static { display: inline; }
+      }
     </style>
   </defs>
 
-  <!-- Nodes -->
-  <g transform="translate(60,70)">
-    <!-- 0 -->
-    <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
-    <text class="label" x="16" y="26">0 · Self-Assessment</text>
-    <text class="sublabel" x="16" y="46">Verify capability & constraints</text>
+  <!-- Ambient background glow -->
+  <rect width="600" height="600" fill="url(#gradAmbient)"/>
 
-    <!-- 0.5 -->
-    <g transform="translate(280,0)">
-      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
-      <text class="label" x="16" y="26">0.5 · User Calibration</text>
-      <text class="sublabel" x="16" y="46">Match depth & tone</text>
-    </g>
-
-    <!-- 1 -->
-    <g transform="translate(560,0)">
-      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
-      <text class="label" x="16" y="26">1 · Task Profiling</text>
-      <text class="sublabel" x="16" y="46">Goals, success criteria, context</text>
-    </g>
-
-    <!-- 2 -->
-    <g transform="translate(0,140)">
-      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
-      <text class="label" x="16" y="26">2 · System Identification</text>
-      <text class="sublabel" x="16" y="46">Tools, research access</text>
-    </g>
-
-    <!-- 3 -->
-    <g transform="translate(280,140)">
-      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
-      <text class="label" x="16" y="26">3 · Method Discovery</text>
-      <text class="sublabel" x="16" y="46">Select reasoning strategy</text>
-    </g>
-
-    <!-- 4 -->
-    <g transform="translate(560,140)">
-      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
-      <text class="label" x="16" y="26">4 · Prompt Assembly</text>
-      <text class="sublabel" x="16" y="46">Validate & deliver</text>
-    </g>
+  <!-- Badge container -->
+  <g transform="translate(300,260)" filter="url(#shadow)">
+    <rect x="-110" y="-110" width="220" height="220" rx="32" fill="url(#gradBrand)"/>
+    <text x="0" y="12" text-anchor="middle"
+          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="68" font-weight="800" fill="#FFFFFF" letter-spacing="2">APO</text>
   </g>
 
-  <!-- Flows -->
-  <g class="anim">
-    <!-- top row -->
-    <path class="flow" d="M280,102 H330">
-      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" repeatCount="indefinite"/>
-    </path>
-    <path class="flow" d="M560,102 H610">
-      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" begin="0.3s" repeatCount="indefinite"/>
-    </path>
-    <!-- down turns -->
-    <path class="flow" d="M780,102 V140 H720">
-      <animate attributeName="stroke-dasharray" values="0,400;220,400;0,400" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
-    </path>
-    <path class="flow" d="M220,140 H60 V102">
-      <animate attributeName="stroke-dasharray" values="0,400;220,400;0,400" dur="3.2s" begin="0.9s" repeatCount="indefinite"/>
-    </path>
-    <!-- middle row -->
-    <path class="flow" d="M280,210 H330">
-      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" begin="1.2s" repeatCount="indefinite"/>
-    </path>
-    <path class="flow" d="M560,210 H610">
-      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-    </path>
+  <!-- Orbital rings -->
+  <g class="anim" transform="translate(300,260)">
+    <circle r="170" fill="none" stroke="url(#gradBrand)" stroke-width="12" opacity="0.88">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="0 0 0" to="360 0 0" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="138" fill="none" stroke="url(#gradBrand)" stroke-width="9" opacity="0.64">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="360 0 0" to="0 0 0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Pulse core -->
+  <g transform="translate(300,260)">
+    <circle class="anim" r="48" fill="url(#gradBrand)" opacity="0.3">
+      <animate attributeName="r" values="42;54;42" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.22;0.34;0.22" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Static fallback -->
+  <g class="static" style="display:none" transform="translate(300,260)">
+    <circle r="170" fill="none" stroke="url(#gradBrand)" stroke-width="12" opacity="0.8"/>
+    <circle r="138" fill="none" stroke="url(#gradBrand)" stroke-width="9" opacity="0.5"/>
+    <circle r="48" fill="url(#gradBrand)" opacity="0.28"/>
+  </g>
+
+  <!-- Wordmark text -->
+  <g transform="translate(300,420)">
+    <text x="0" y="0" text-anchor="middle"
+          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="32" font-weight="700" fill="#F8FAFB" letter-spacing="1">Adaptive Prompt Optimizer</text>
+    <text x="0" y="28" text-anchor="middle"
+          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="16" font-weight="500" fill="#A0A9B8" letter-spacing=".8">
+      Universal meta-prompt protocol • Text-only • Model-agnostic
+    </text>
   </g>
 </svg>
