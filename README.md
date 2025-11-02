@@ -75,9 +75,6 @@ APO follows a six‑phase adaptive reasoning cycle.
 </p>
 
 | Phase | Function |
-
-
-| Phase | Function |
 |:--|:--|
 | **0 – Self‑Assessment** | Verify capabilities and constraints |
 | **0.5 – User Calibration** | Match depth and tone to user preference |
