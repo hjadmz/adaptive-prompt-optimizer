@@ -1,13 +1,20 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Canvas background (transparent for GitHub compatibility) -->
   <rect width="720" height="240" fill="none"/>
-  <g transform="translate(360,118)" text-rendering="geometricPrecision">
+
+  <!-- Centered, optically corrected group -->
+  <g transform="translate(360,120)" text-rendering="geometricPrecision">
+
     <!-- Blue tile -->
     <rect x="-260" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
-    <text x="-200" y="0" text-anchor="middle" dominant-baseline="central"
+
+    <!-- APO monogram -->
+    <text x="-200" y="0"
+      text-anchor="middle" dominant-baseline="central"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
 
-    <!-- Wordmark (40 px gap from tile right edge) -->
+    <!-- Wordmark -->
     <g transform="translate(-100,2)">
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
