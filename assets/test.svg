@@ -1,24 +1,22 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
 
-  <!-- PERFECTLY centered - text visual center = tile center -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
 
-    <rect x="-189" y="-60" width="120" height="120" rx="24" fill="#2563EB"/>
+    <rect x="-189" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
 
     <text x="-129" y="0"
       text-anchor="middle" dominant-baseline="central"
       font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="900" font-size="40" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
 
-    <!-- Text shifted DOWN 6px for perfect visual centering -->
     <g transform="translate(-21,6)">
       <text x="0" y="-8"
         font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="42" letter-spacing="-0.8" fill="#0F172A">Adaptive</text>
+        font-weight="700" font-size="42" letter-spacing="-0.8" fill="#F8FAFC">Adaptive</text>
       <text x="0" y="26"
         font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="600" font-size="26" letter-spacing="-0.5" fill="#334155">Prompt Optimizer</text>
+        font-weight="600" font-size="26" letter-spacing="-0.5" fill="#CBD5E1">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
