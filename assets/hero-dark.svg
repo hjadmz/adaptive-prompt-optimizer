@@ -1,13 +1,12 @@
 <svg width="720" height="240" viewBox="0 15 720 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Transparent background -->
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Entire logo block centered (adjusted from 360 -> 465) -->
-  <g transform="translate(465,120)" text-rendering="geometricPrecision">
+  <!-- Optically centered for GitHub dark mode -->
+  <g transform="translate(410,120)" text-rendering="geometricPrecision">
     <!-- Blue square -->
     <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
-
-    <!-- APO centered in box -->
+    
+    <!-- APO inside the square -->
     <text x="-140" y="5"
       text-anchor="middle" dominant-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
@@ -15,14 +14,12 @@
 
     <!-- Wordmark -->
     <g transform="translate(-60,0)">
-      <!-- Title -->
       <text x="0" y="-4"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="700" font-size="40" fill="#F9FAFB">Adaptive</text>
-      <!-- Subtitle -->
       <text x="0" y="32"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" fill="#9CA3AF">Prompt Optimizer</text>
+        font-weight="500" font-size="26" fill="#D1D5DB">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
