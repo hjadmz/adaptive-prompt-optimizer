@@ -1,15 +1,26 @@
-<svg width="1440" height="360" viewBox="0 0 1440 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1440" height="360" fill="none"/>
-  <g transform="translate(720,180)" text-rendering="geometricPrecision">
-    <rect x="-220" y="-70" width="140" height="140" rx="28" fill="#3B82F6"/>
-    <text x="-150" y="7" text-anchor="middle" dominant-baseline="middle"
-          font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-weight="800" font-size="58" fill="#FFFFFF">APO</text>
-    <g transform="translate(-60,0)">
-      <text x="0" y="-6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="700" font-size="52" fill="#0f172a">Adaptive</text>
-      <text x="0" y="42" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-            font-weight="500" font-size="34" fill="#334155">Prompt Optimizer</text>
+<svg width="960" height="280" viewBox="0 0 960 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="960" height="280" fill="none"/>
+
+  <!-- Centered group -->
+  <g transform="translate(480,140)" text-rendering="geometricPrecision">
+
+    <!-- Blue block -->
+    <rect x="-240" y="-70" width="140" height="140" rx="28" fill="#3B82F6"/>
+
+    <!-- APO letters inside box -->
+    <text x="-170" y="10" text-anchor="middle" dominant-baseline="middle"
+      font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-weight="700" font-size="44" fill="#FFFFFF">APO</text>
+
+    <!-- Wordmark -->
+    <g transform="translate(-40,0)">
+      <text x="0" y="-8"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="46" fill="#0f172a">Adaptive</text>
+      <text x="0" y="40"
+        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="500" font-size="30" fill="#334155">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
