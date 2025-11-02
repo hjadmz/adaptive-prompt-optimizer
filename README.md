@@ -1,46 +1,39 @@
 <!-- ================================= -->
-<!-- 🚀 APO HERO HEADER (Polished Final) -->
+<!-- 🚀 APO HERO HEADER (Final Version) -->
 <!-- ================================= -->
 
 <!-- Centered logo -->
-<p align="center" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img 
-      src="./assets/hero-light.svg" 
+    <img
+      src="./assets/hero-light.svg"
       alt="Adaptive Prompt Optimizer"
       width="420"
-      style="display:block; margin:auto; height:auto; image-rendering:-webkit-optimize-contrast;">
+      style="display:block; margin:auto; height:auto;">
   </picture>
 </p>
 
-<!-- Unified badge row -->
-<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem;">
-
-  <!-- License -->
-  <a href="./LICENSE" style="text-decoration:none;">
-    <img 
+<!-- Badges (inline and centered) -->
+<p align="center">
+  <a href="./LICENSE">
+    <img
       src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white"
       alt="MIT License"
       height="22">
   </a>
-
-  <!-- Type -->
-  <img 
+  <img
     src="https://img.shields.io/badge/Type-Meta--Prompt-4338CA?style=flat-square&labelColor=1E293B"
     alt="Meta-Prompt"
     height="22">
-
-  <!-- Status -->
-  <img 
+  <img
     src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=1E293B"
     alt="Stable"
     height="22">
+</p>
 
-</div>
-
-<hr style="width:75%; border:0; border-top:1px solid rgba(148,163,184,0.2); margin:1.25rem auto;">
+<hr>
 
 ## Overview
 
