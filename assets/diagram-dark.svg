@@ -1,22 +1,57 @@
-<svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
-  <rect width="720" height="240" fill="none"/>
-
-  <g transform="translate(360,120)" text-rendering="geometricPrecision">
-
-    <rect x="-189" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
-
-    <text x="-129" y="0"
-      text-anchor="middle" dominant-baseline="central"
-      font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="900" font-size="40" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
-
-    <g transform="translate(-21,6)">
-      <text x="0" y="-8"
-        font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="42" letter-spacing="-0.8" fill="#F8FAFC">Adaptive</text>
-      <text x="0" y="26"
-        font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="600" font-size="26" letter-spacing="-0.5" fill="#94A3B8">Prompt Optimizer</text>
-    </g>
-  </g>
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow-light">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  
+  <!-- Phase 0: Self-Assessment -->
+  <rect x="10" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="90" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0</text>
+  <text x="90" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Self-Assessment</text>
+  
+  <!-- Arrow -->
+  <path d="M 175 90 L 205 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="205,90 198,86 198,94" fill="#94A3B8"/>
+  
+  <!-- Phase 0.5: User Calibration -->
+  <rect x="210" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="290" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0.5</text>
+  <text x="290" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">User Calibration</text>
+  
+  <!-- Arrow -->
+  <path d="M 375 90 L 405 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="405,90 398,86 398,94" fill="#94A3B8"/>
+  
+  <!-- Phase 1: Task Profiling -->
+  <rect x="410" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="490" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 1</text>
+  <text x="490" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Task Profiling</text>
+  
+  <!-- Arrow -->
+  <path d="M 575 90 L 605 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="605,90 598,86 598,94" fill="#94A3B8"/>
+  
+  <!-- Phase 2: System ID -->
+  <rect x="610" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="690" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 2</text>
+  <text x="690" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">System ID</text>
+  
+  <!-- Arrow -->
+  <path d="M 775 90 L 805 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="805,90 798,86 798,94" fill="#94A3B8"/>
+  
+  <!-- Phase 3: Method Discovery -->
+  <rect x="810" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="890" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 3</text>
+  <text x="890" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Method Discovery</text>
+  
+  <!-- Arrow -->
+  <path d="M 975 90 L 1005 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="1005,90 998,86 998,94" fill="#94A3B8"/>
+  
+  <!-- Phase 4: Prompt Assembly -->
+  <rect x="1010" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="1090" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 4</text>
+  <text x="1090" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Prompt Assembly</text>
 </svg>
