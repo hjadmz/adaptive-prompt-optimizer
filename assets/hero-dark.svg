@@ -1,18 +1,18 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Centered group at canvas midpoint -->
+  <!-- Lockup centered at canvas midpoint -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <!-- Tile: left edge -202, width 120, radius 20 -->
-    <rect x="-202" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
+    <!-- Icon tile: left edge -202, width 120, radius 16 -->
+    <rect x="-202" y="-60" width="120" height="120" rx="16" fill="#2563EB"/>
 
-    <!-- Monogram centered inside tile: tile center = -202 + 60 = -142 -->
-    <text x="-142" y="0"
-      text-anchor="middle" dominant-baseline="central"
+    <!-- Monogram centered in tile: tile center = -142 -->
+    <text x="-142" y="0" dy=".25em"
+      text-anchor="middle" alignment-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
+      font-weight="900" font-size="40" letter-spacing="-1.05" fill="#FFFFFF">APO</text>
 
-    <!-- Wordmark: start at tile right (-82) + 24 gap = -58; fixed width block = 260 -->
+    <!-- Wordmark block: starts at -58 (= -202 + 120 + 24), fixed width 260 -->
     <g transform="translate(-58,2)">
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
@@ -20,7 +20,7 @@
         lengthAdjust="spacing" textLength="260">Adaptive</text>
       <text x="0" y="26"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#4B5563"
+        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#374151"
         lengthAdjust="spacing" textLength="260">Prompt Optimizer</text>
     </g>
   </g>
