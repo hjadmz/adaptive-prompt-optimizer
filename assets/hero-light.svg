@@ -1,30 +1,20 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
-
-  <!-- Centered, optically balanced group -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
-
-    <!-- Blue tile -->
-    <!-- Total block width = 120 (tile) + 24 (gap) + 260 (wordmark) = 404 -->
-    <!-- Centered about x=0 => left edge at -202, right edge at +202 -->
-    <rect x="-202" y="-60" width="120" height="120" rx="20" fill="#2563EB"/>
-
-    <!-- APO monogram (centered in tile) -->
-    <text x="-142" y="0"
-      text-anchor="middle" dominant-baseline="central"
+    <rect x="-202" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
+    <text x="-142" y="0" dy="0.22em"
+      text-anchor="middle" alignment-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
-
-    <!-- Wordmark (fixed-width block = 260) -->
+      font-weight="900" font-size="40" letter-spacing="-0.8" fill="#FFFFFF">APO</text>
     <g transform="translate(-58,2)">
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="40" letter-spacing="-0.7" fill="#F9FAFB"
-        lengthAdjust="spacing" textLength="260">Adaptive</text>
+        font-weight="700" font-size="40" letter-spacing="-0.5"
+        fill="#111827" lengthAdjust="spacing" textLength="260">Adaptive</text>
       <text x="0" y="26"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#9CA3AF"
-        lengthAdjust="spacing" textLength="260">Prompt Optimizer</text>
+        font-weight="500" font-size="26" letter-spacing="-0.2"
+        fill="#4B5563" lengthAdjust="spacing" textLength="260">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
