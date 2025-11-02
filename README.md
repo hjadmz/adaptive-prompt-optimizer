@@ -1,18 +1,32 @@
-<div align="center" style="transform: scale(3); transform-origin: center; display:inline-block;">
+<!-- HERO SECTION -->
+<p align="center" style="margin-top: 1rem; margin-bottom: 1rem;">
   <picture>
+    <!-- Dark mode logo -->
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <!-- Light mode logo -->
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img src="./assets/hero-light.svg" alt="Adaptive Prompt Optimizer"
-         style="display:block; margin:0 auto; height:auto; image-rendering:-webkit-optimize-contrast;">
+    <!-- Default -->
+    <img 
+      src="./assets/hero-light.svg" 
+      alt="Adaptive Prompt Optimizer"
+      width="420"
+      style="display:block; margin:auto; height:auto; image-rendering:-webkit-optimize-contrast; border-radius:12px;">
   </picture>
-</div>
+</p>
 
-<p align="center">
+<!-- BADGES -->
+<p align="center" style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap;">
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-2563EB?style=for-the-badge&labelColor=0b1020&logo=open-source-initiative&logoColor=white" alt="MIT License">
+    <img 
+      src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white" 
+      alt="MIT License">
   </a>
-  <img src="https://img.shields.io/badge/Type-Meta--Prompt-312E81?style=for-the-badge&labelColor=0b1020" alt="Meta-Prompt">
-  <img src="https://img.shields.io/badge/Status-Stable-059669?style=for-the-badge&labelColor=0b1020" alt="Stable">
+  <img 
+    src="https://img.shields.io/badge/Type-Meta--Prompt-4338CA?style=flat-square&labelColor=1E293B" 
+    alt="Meta-Prompt">
+  <img 
+    src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=1E293B" 
+    alt="Stable">
 </p>
 
 ## Overview
