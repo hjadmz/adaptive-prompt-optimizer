@@ -5,10 +5,10 @@
 <!-- Centered Logo -->
 <p align="center" style="margin-top: 1rem; margin-bottom: 0.75rem;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/logo-light.svg">
     <img 
-      src="./assets/hero-light.svg" 
+      src="./assets/logo-light.svg" 
       alt="Adaptive Prompt Optimizer"
       width="420"
       style="display:block; margin:auto; height:auto; image-rendering:-webkit-optimize-contrast;">
