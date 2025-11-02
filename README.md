@@ -1,15 +1,12 @@
-<!-- ===================== -->
-<!-- 🎯 HERO HEADER SECTION -->
-<!-- ===================== -->
+<!-- ================================= -->
+<!-- 🚀 APO HERO HEADER (Polished Final) -->
+<!-- ================================= -->
 
-<!-- Centered adaptive logo -->
-<p align="center" style="margin-top: 1.5rem; margin-bottom: 0.75rem;">
+<!-- Centered logo -->
+<p align="center" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">
   <picture>
-    <!-- Dark mode -->
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <!-- Light mode -->
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <!-- Default fallback -->
     <img 
       src="./assets/hero-light.svg" 
       alt="Adaptive Prompt Optimizer"
@@ -18,32 +15,32 @@
   </picture>
 </p>
 
-<!-- Adaptive badges -->
-<p align="center" style="margin-top: 0.25rem; display:flex; justify-content:center; gap:8px; flex-wrap:wrap;">
+<!-- Unified badge row -->
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem;">
 
   <!-- License -->
-  <a href="./LICENSE">
+  <a href="./LICENSE" style="text-decoration:none;">
     <img 
-      src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white" 
+      src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white"
       alt="MIT License"
-      height="24">
+      height="22">
   </a>
 
   <!-- Type -->
   <img 
-    src="https://img.shields.io/badge/Type-Meta--Prompt-4338CA?style=flat-square&labelColor=1E293B" 
+    src="https://img.shields.io/badge/Type-Meta--Prompt-4338CA?style=flat-square&labelColor=1E293B"
     alt="Meta-Prompt"
-    height="24">
+    height="22">
 
   <!-- Status -->
   <img 
-    src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=1E293B" 
+    src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=1E293B"
     alt="Stable"
-    height="24">
+    height="22">
 
-</p>
+</div>
 
-<hr style="width:75%; border:0; border-top:1px solid rgba(148,163,184,0.2); margin:1.5rem auto;">
+<hr style="width:75%; border:0; border-top:1px solid rgba(148,163,184,0.2); margin:1.25rem auto;">
 
 ## Overview
 
