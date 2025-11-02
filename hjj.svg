@@ -1,84 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0f1a"/>
-      <stop offset="1" stop-color="#0f172a"/>
+    <!-- Ambient background -->
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+
+    <!-- Animated brand gradient -->
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#8B5CF6;#3B82F6" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#3B82F6;#8B5CF6" dur="10s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    
-    <linearGradient id="phaseBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1d4ed8"/>
-      <stop offset="1" stop-color="#2563eb"/>
-    </linearGradient>
-    
+
+    <!-- Teal phase gradient -->
     <linearGradient id="phaseTeal" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0e7490"/>
-      <stop offset="1" stop-color="#0891b2"/>
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#06b6d4"/>
     </linearGradient>
-    
+
+    <!-- Glass overlay -->
     <radialGradient id="glass" cx="30%" cy="25%" r="65%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-    
+
+    <!-- Arrowhead -->
     <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#60a5fa"/>
     </marker>
+
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .anim { display: none; }
+      }
+      text {
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+    </style>
   </defs>
 
+  <!-- Background -->
   <rect width="1200" height="800" fill="url(#bg)"/>
-  <circle cx="600" cy="400" r="270" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.4"/>
+
+  <!-- Outer guiding ring -->
+  <circle cx="600" cy="400" r="270" fill="none" stroke="#1e293b" stroke-width="1.5"
+          stroke-dasharray="8 6" opacity="0.35"/>
+
+  <!-- --- Phase Nodes --- -->
 
   <!-- Phase 0 -->
-  <circle cx="600" cy="130" r="70" fill="url(#phaseBlue)"/>
+  <g class="anim">
+    <circle cx="600" cy="130" r="70" fill="url(#brandGrad)"/>
+    <animateTransform attributeName="transform" type="scale" values="1;1.03;1" dur="6s"
+                      begin="0s" repeatCount="indefinite"/>
+  </g>
   <circle cx="600" cy="130" r="70" fill="url(#glass)"/>
-  <circle cx="600" cy="130" r="70" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.4"/>
-  <text x="600" y="118" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" fill="#ffffff">Phase 0</text>
-  <text x="600" y="138" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe">Self-Assessment</text>
+  <text x="600" y="118" text-anchor="middle" font-weight="700" font-size="18" fill="#fff">Phase 0</text>
+  <text x="600" y="138" text-anchor="middle" font-weight="500" font-size="13" fill="#c7d2fe">Self-Assessment</text>
 
-  <!-- Phase 0.5 (Teal) -->
-  <circle cx="833" cy="265" r="64" fill="url(#phaseTeal)"/>
+  <!-- Phase 0.5 -->
+  <g class="anim">
+    <circle cx="833" cy="265" r="64" fill="url(#phaseTeal)">
+      <animate attributeName="r" values="64;67;64" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <circle cx="833" cy="265" r="64" fill="url(#glass)"/>
-  <circle cx="833" cy="265" r="64" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.45"/>
-  <text x="833" y="255" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" fill="#ffffff">Phase 0.5</text>
-  <text x="833" y="272" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="500" font-size="12" fill="#a5f3fc">User Calibration</text>
+  <text x="833" y="255" text-anchor="middle" font-weight="700" font-size="16" fill="#fff">Phase 0.5</text>
+  <text x="833" y="273" text-anchor="middle" font-weight="500" font-size="12" fill="#a5f3fc">User Calibration</text>
 
   <!-- Phase 1 -->
-  <circle cx="833" cy="535" r="70" fill="url(#phaseBlue)"/>
+  <g class="anim">
+    <circle cx="833" cy="535" r="70" fill="url(#brandGrad)">
+      <animate attributeName="r" values="70;74;70" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <circle cx="833" cy="535" r="70" fill="url(#glass)"/>
-  <circle cx="833" cy="535" r="70" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.4"/>
-  <text x="833" y="523" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" fill="#ffffff">Phase 1</text>
-  <text x="833" y="543" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe">Task Profiling</text>
+  <text x="833" y="523" text-anchor="middle" font-weight="700" font-size="18" fill="#fff">Phase 1</text>
+  <text x="833" y="543" text-anchor="middle" font-weight="500" font-size="13" fill="#c7d2fe">Task Profiling</text>
 
   <!-- Phase 2 -->
-  <circle cx="600" cy="670" r="70" fill="url(#phaseBlue)"/>
+  <g class="anim">
+    <circle cx="600" cy="670" r="70" fill="url(#brandGrad)">
+      <animate attributeName="r" values="70;73;70" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <circle cx="600" cy="670" r="70" fill="url(#glass)"/>
-  <circle cx="600" cy="670" r="70" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.4"/>
-  <text x="600" y="658" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" fill="#ffffff">Phase 2</text>
-  <text x="600" y="678" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe">System ID</text>
+  <text x="600" y="658" text-anchor="middle" font-weight="700" font-size="18" fill="#fff">Phase 2</text>
+  <text x="600" y="678" text-anchor="middle" font-weight="500" font-size="13" fill="#c7d2fe">System ID</text>
 
   <!-- Phase 3 -->
-  <circle cx="367" cy="535" r="70" fill="url(#phaseBlue)"/>
+  <g class="anim">
+    <circle cx="367" cy="535" r="70" fill="url(#brandGrad)">
+      <animate attributeName="r" values="70;74;70" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <circle cx="367" cy="535" r="70" fill="url(#glass)"/>
-  <circle cx="367" cy="535" r="70" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.4"/>
-  <text x="367" y="523" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" fill="#ffffff">Phase 3</text>
-  <text x="367" y="543" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe">Method Discovery</text>
+  <text x="367" y="523" text-anchor="middle" font-weight="700" font-size="18" fill="#fff">Phase 3</text>
+  <text x="367" y="543" text-anchor="middle" font-weight="500" font-size="13" fill="#c7d2fe">Method Discovery</text>
 
   <!-- Phase 4 -->
-  <circle cx="367" cy="265" r="70" fill="url(#phaseBlue)"/>
+  <g class="anim">
+    <circle cx="367" cy="265" r="70" fill="url(#brandGrad)">
+      <animate attributeName="r" values="70;73;70" dur="5.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <circle cx="367" cy="265" r="70" fill="url(#glass)"/>
-  <circle cx="367" cy="265" r="70" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.4"/>
-  <text x="367" y="253" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" fill="#ffffff">Phase 4</text>
-  <text x="367" y="273" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe">Prompt Assembly</text>
+  <text x="367" y="253" text-anchor="middle" font-weight="700" font-size="18" fill="#fff">Phase 4</text>
+  <text x="367" y="273" text-anchor="middle" font-weight="500" font-size="13" fill="#c7d2fe">Prompt Assembly</text>
 
-  <!-- Arrows -->
-  <path d="M655,155 Q745,195 805,240" stroke="#60a5fa" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M865,315 Q885,400 855,490" stroke="#60a5fa" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M790,585 Q700,640 650,662" stroke="#60a5fa" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M550,662 Q500,640 410,585" stroke="#60a5fa" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M335,490 Q315,400 345,315" stroke="#60a5fa" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M395,215 Q485,160 545,145" stroke="#60a5fa" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
+  <!-- Flow Arrows -->
+  <path d="M655,155 Q745,195 805,240" stroke="#60a5fa" stroke-width="2.2" fill="none"
+        opacity="0.6" marker-end="url(#arrowhead)"/>
+  <path d="M865,315 Q885,400 855,490" stroke="#60a5fa" stroke-width="2.2" fill="none"
+        opacity="0.6" marker-end="url(#arrowhead)"/>
+  <path d="M790,585 Q700,640 650,662" stroke="#60a5fa" stroke-width="2.2" fill="none"
+        opacity="0.6" marker-end="url(#arrowhead)"/>
+  <path d="M550,662 Q500,640 410,585" stroke="#60a5fa" stroke-width="2.2" fill="none"
+        opacity="0.6" marker-end="url(#arrowhead)"/>
+  <path d="M335,490 Q315,400 345,315" stroke="#60a5fa" stroke-width="2.2" fill="none"
+        opacity="0.6" marker-end="url(#arrowhead)"/>
+  <path d="M395,215 Q485,160 545,145" stroke="#60a5fa" stroke-width="2.2" fill="none"
+        opacity="0.6" marker-end="url(#arrowhead)"/>
 
-  <!-- Center label -->
-  <text x="600" y="388" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="800" font-size="26" fill="#f1f5f9">Adaptive</text>
-  <text x="600" y="417" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="600" font-size="16" fill="#94a3b8">Reasoning Cycle</text>
+  <!-- Center title -->
+  <g transform="translate(600,390)">
+    <text text-anchor="middle" font-weight="800" font-size="28" fill="#f1f5f9">
+      Adaptive
+      <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text y="28" text-anchor="middle" font-weight="600" font-size="16" fill="#94a3b8">
+      Reasoning Cycle
+    </text>
+  </g>
 </svg>
