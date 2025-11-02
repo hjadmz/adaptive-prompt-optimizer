@@ -1,26 +1,27 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Centered, optically balanced group -->
+  <!-- Centered group at canvas midpoint -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
+    <!-- Tile: left edge -202, width 120, radius 20 -->
+    <rect x="-202" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
 
-    <!-- Blue tile (dark-mode adjusted) -->
-    <rect x="-260" y="-60" width="120" height="120" rx="20" fill="#2563EB"/>
-
-    <!-- APO monogram -->
-    <text x="-200" y="0"
+    <!-- Monogram centered inside tile: tile center = -202 + 60 = -142 -->
+    <text x="-142" y="0"
       text-anchor="middle" dominant-baseline="central"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
 
-    <!-- Wordmark -->
-    <g transform="translate(-100,2)">
+    <!-- Wordmark: start at tile right (-82) + 24 gap = -58; fixed width block = 260 -->
+    <g transform="translate(-58,2)">
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="40" letter-spacing="-0.7" fill="#F9FAFB">Adaptive</text>
+        font-weight="700" font-size="40" letter-spacing="-0.7" fill="#111827"
+        lengthAdjust="spacing" textLength="260">Adaptive</text>
       <text x="0" y="26"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#9CA3AF">Prompt Optimizer</text>
+        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#4B5563"
+        lengthAdjust="spacing" textLength="260">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
