@@ -5,16 +5,16 @@
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
 
     <!-- Blue tile (dark-mode adjusted) -->
-    <rect x="-260" y="-60" width="120" height="120" rx="20" fill="#2563EB"/>
+    <rect x="-180" y="-60" width="120" height="120" rx="20" fill="#2563EB"/>
 
     <!-- APO monogram -->
-    <text x="-200" y="0"
+    <text x="-120" y="0"
       text-anchor="middle" dominant-baseline="central"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
 
     <!-- Wordmark -->
-    <g transform="translate(-100,2)">
+    <g transform="translate(-20,2)">
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="700" font-size="40" letter-spacing="-0.7" fill="#F9FAFB">Adaptive</text>
