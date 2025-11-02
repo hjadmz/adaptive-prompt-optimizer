@@ -1,102 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="360" viewBox="0 0 960 360" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Brand gradient (blue↔violet) — adaptive / future-facing -->
-    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3B82F6">
-        <animate attributeName="stop-color" values="#3B82F6;#8B5CF6;#3B82F6" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#8B5CF6">
-        <animate attributeName="stop-color" values="#8B5CF6;#3B82F6;#8B5CF6" dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-
-    <!-- Ambient glow for depth without distraction -->
-    <radialGradient id="ambient" cx="50%" cy="45%" r="60%">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Subtle glass highlight -->
-    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
-      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
-    </linearGradient>
-
-    <!-- Stroke gradient for rings -->
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#60A5FA"/>
       <stop offset="100%" stop-color="#A78BFA"/>
     </linearGradient>
-
-    <!-- Drop shadow (SVG filter) -->
-    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0B1020" flood-opacity="0.45"/>
-    </filter>
-
-    <!-- Media-style reduced motion toggle (CSS) -->
     <style>
-      @media (prefers-reduced-motion: reduce) {
-        .anim { display: none; }
-        .static { display: inline; }
-      }
+      .node { fill:#0B1020; stroke:#1F2937; stroke-width:1.2; }
+      .label { fill:#E5E7EB; font:600 14px Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+      .sublabel { fill:#94A3B8; font:500 12px Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+      .flow { stroke:url(#line); stroke-width:3; fill:none; stroke-linecap:round; }
+      @media (prefers-reduced-motion: reduce) { .anim { display:none } }
     </style>
   </defs>
 
-  <!-- Background ambient -->
-  <rect width="480" height="480" fill="url(#ambient)"/>
+  <!-- Nodes -->
+  <g transform="translate(60,70)">
+    <!-- 0 -->
+    <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
+    <text class="label" x="16" y="26">0 · Self-Assessment</text>
+    <text class="sublabel" x="16" y="46">Verify capability & constraints</text>
 
-  <!-- Badge container -->
-  <g transform="translate(240,200)" filter="url(#softShadow)">
-    <!-- Rounded square badge (glass) -->
-    <rect x="-96" y="-96" width="192" height="192" rx="28" fill="url(#brand)"/>
-    <rect x="-96" y="-96" width="192" height="192" rx="28" fill="url(#glass)"/>
+    <!-- 0.5 -->
+    <g transform="translate(280,0)">
+      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
+      <text class="label" x="16" y="26">0.5 · User Calibration</text>
+      <text class="sublabel" x="16" y="46">Match depth & tone</text>
+    </g>
 
-    <!-- APO label -->
-    <text x="0" y="8" text-anchor="middle"
-          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
-          font-size="56" font-weight="800" fill="#FFFFFF" letter-spacing="1">APO</text>
+    <!-- 1 -->
+    <g transform="translate(560,0)">
+      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
+      <text class="label" x="16" y="26">1 · Task Profiling</text>
+      <text class="sublabel" x="16" y="46">Goals, success criteria, context</text>
+    </g>
+
+    <!-- 2 -->
+    <g transform="translate(0,140)">
+      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
+      <text class="label" x="16" y="26">2 · System Identification</text>
+      <text class="sublabel" x="16" y="46">Tools, research access</text>
+    </g>
+
+    <!-- 3 -->
+    <g transform="translate(280,140)">
+      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
+      <text class="label" x="16" y="26">3 · Method Discovery</text>
+      <text class="sublabel" x="16" y="46">Select reasoning strategy</text>
+    </g>
+
+    <!-- 4 -->
+    <g transform="translate(560,140)">
+      <rect class="node" x="0" y="0" rx="14" width="220" height="64"/>
+      <text class="label" x="16" y="26">4 · Prompt Assembly</text>
+      <text class="sublabel" x="16" y="46">Validate & deliver</text>
+    </g>
   </g>
 
-  <!-- Orbital rings (metacognition + calibration) -->
-  <g class="anim" transform="translate(240,200)">
-    <circle r="150" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round"
-            stroke-dasharray="80 24 12 24" opacity="0.85">
-      <animateTransform attributeName="transform" type="rotate"
-                        from="0" to="360" dur="28s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="118" fill="none" stroke="url(#ring)" stroke-width="8" stroke-linecap="round"
-            stroke-dasharray="40 18 6 18" opacity="0.65">
-      <animateTransform attributeName="transform" type="rotate"
-                        from="360" to="0" dur="18s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Core pulse (cognitive heartbeat) -->
-  <g class="anim" transform="translate(240,200)">
-    <circle r="40" fill="url(#brand)" opacity="0.25">
-      <animate attributeName="r" values="36;44;36" dur="3.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.18;0.32;0.18" dur="3.6s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Static fallback for reduced motion or strict renderers -->
-  <g class="static" style="display:none" transform="translate(240,200)">
-    <circle r="150" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.5"/>
-    <circle r="118" fill="none" stroke="url(#ring)" stroke-width="8" opacity="0.35"/>
-    <circle r="40" fill="url(#brand)" opacity="0.22"/>
-  </g>
-
-  <!-- Wordmark -->
-  <g transform="translate(240,356)">
-    <text x="0" y="0" text-anchor="middle"
-          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
-          font-size="26" font-weight="700" fill="#F3F4F6">Adaptive Prompt Optimizer</text>
-    <text x="0" y="26" text-anchor="middle"
-          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
-          font-size="14" font-weight="500" fill="#9CA3AF" letter-spacing=".4">
-      Meta-prompt protocol for structured, adaptive, verifiable reasoning
-    </text>
+  <!-- Flows -->
+  <g class="anim">
+    <!-- top row -->
+    <path class="flow" d="M280,102 H330">
+      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path class="flow" d="M560,102 H610">
+      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" begin="0.3s" repeatCount="indefinite"/>
+    </path>
+    <!-- down turns -->
+    <path class="flow" d="M780,102 V140 H720">
+      <animate attributeName="stroke-dasharray" values="0,400;220,400;0,400" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
+    </path>
+    <path class="flow" d="M220,140 H60 V102">
+      <animate attributeName="stroke-dasharray" values="0,400;220,400;0,400" dur="3.2s" begin="0.9s" repeatCount="indefinite"/>
+    </path>
+    <!-- middle row -->
+    <path class="flow" d="M280,210 H330">
+      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path class="flow" d="M560,210 H610">
+      <animate attributeName="stroke-dasharray" values="0,200;120,200;0,200" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </path>
   </g>
 </svg>
