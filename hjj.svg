@@ -15,17 +15,17 @@
       <stop offset="1" stop-color="#0891b2"/>
     </linearGradient>
     
-    <radialGradient id="glass" cx="35%" cy="25%" r="70%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.05"/>
+    <radialGradient id="glass" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     
-    <filter id="shadow">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
-      <feOffset dx="0" dy="4" result="offsetblur"/>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
+      <feOffset dx="0" dy="6" result="offsetblur"/>
       <feComponentTransfer>
-        <feFuncA type="linear" slope="0.15"/>
+        <feFuncA type="linear" slope="0.2"/>
       </feComponentTransfer>
       <feMerge>
         <feMergeNode/>
@@ -33,79 +33,79 @@
       </feMerge>
     </filter>
     
-    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-      <path d="M2,2 L10,6 L2,10 L4,6 Z" fill="#3b82f6" opacity="0.6"/>
+    <marker id="arrowhead" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 L4,7 Z" fill="#3b82f6" opacity="0.7"/>
     </marker>
   </defs>
 
   <rect width="1200" height="800" fill="url(#bg)"/>
   
-  <circle cx="600" cy="400" r="320" fill="url(#glass)" opacity="0.08"/>
-  <circle cx="600" cy="400" r="270" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.4"/>
+  <circle cx="600" cy="400" r="320" fill="url(#glass)" opacity="0.06"/>
+  <circle cx="600" cy="400" r="270" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.35"/>
 
-  <!-- Phase 0 - Top (12 o'clock) -->
+  <!-- Phase 0 -->
   <g filter="url(#shadow)">
-    <circle cx="600" cy="130" r="68" fill="url(#phaseBlue)"/>
-    <circle cx="600" cy="130" r="68" fill="url(#glass)"/>
-    <circle cx="600" cy="130" r="68" fill="none" stroke="#60a5fa" stroke-width="1.2" opacity="0.5"/>
-    <text x="600" y="118" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="17" fill="#ffffff">Phase 0</text>
-    <text x="600" y="138" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="500" font-size="12.5" fill="#bfdbfe">Self-Assessment</text>
+    <circle cx="600" cy="130" r="70" fill="url(#phaseBlue)"/>
+    <circle cx="600" cy="130" r="70" fill="url(#glass)"/>
+    <circle cx="600" cy="130" r="70" fill="none" stroke="#60a5fa" stroke-width="1.3" opacity="0.45"/>
+    <text x="600" y="117" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="-0.3">Phase 0</text>
+    <text x="600" y="138" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe" letter-spacing="0">Self-Assessment</text>
   </g>
 
-  <!-- Phase 0.5 - 2 o'clock (teal) -->
+  <!-- Phase 0.5 (Teal) -->
   <g filter="url(#shadow)">
-    <circle cx="833" cy="265" r="62" fill="url(#phaseTeal)"/>
-    <circle cx="833" cy="265" r="62" fill="url(#glass)"/>
-    <circle cx="833" cy="265" r="62" fill="none" stroke="#22d3ee" stroke-width="1.2" opacity="0.5"/>
-    <text x="833" y="255" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#ffffff">Phase 0.5</text>
-    <text x="833" y="272" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="500" font-size="12" fill="#a5f3fc">Calibration</text>
+    <circle cx="833" cy="265" r="64" fill="url(#phaseTeal)"/>
+    <circle cx="833" cy="265" r="64" fill="url(#glass)"/>
+    <circle cx="833" cy="265" r="64" fill="none" stroke="#22d3ee" stroke-width="1.3" opacity="0.5"/>
+    <text x="833" y="254" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="16.5" fill="#ffffff" letter-spacing="-0.3">Phase 0.5</text>
+    <text x="833" y="272" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="500" font-size="12.5" fill="#a5f3fc" letter-spacing="0">User Calibration</text>
   </g>
 
-  <!-- Phase 1 - 4 o'clock -->
+  <!-- Phase 1 -->
   <g filter="url(#shadow)">
-    <circle cx="833" cy="535" r="68" fill="url(#phaseBlue)"/>
-    <circle cx="833" cy="535" r="68" fill="url(#glass)"/>
-    <circle cx="833" cy="535" r="68" fill="none" stroke="#60a5fa" stroke-width="1.2" opacity="0.5"/>
-    <text x="833" y="523" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="17" fill="#ffffff">Phase 1</text>
-    <text x="833" y="543" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="500" font-size="12.5" fill="#bfdbfe">Task Profiling</text>
+    <circle cx="833" cy="535" r="70" fill="url(#phaseBlue)"/>
+    <circle cx="833" cy="535" r="70" fill="url(#glass)"/>
+    <circle cx="833" cy="535" r="70" fill="none" stroke="#60a5fa" stroke-width="1.3" opacity="0.45"/>
+    <text x="833" y="522" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="-0.3">Phase 1</text>
+    <text x="833" y="543" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe" letter-spacing="0">Task Profiling</text>
   </g>
 
-  <!-- Phase 2 - 6 o'clock (bottom) -->
+  <!-- Phase 2 -->
   <g filter="url(#shadow)">
-    <circle cx="600" cy="670" r="68" fill="url(#phaseBlue)"/>
-    <circle cx="600" cy="670" r="68" fill="url(#glass)"/>
-    <circle cx="600" cy="670" r="68" fill="none" stroke="#60a5fa" stroke-width="1.2" opacity="0.5"/>
-    <text x="600" y="658" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="17" fill="#ffffff">Phase 2</text>
-    <text x="600" y="678" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="500" font-size="12.5" fill="#bfdbfe">System ID</text>
+    <circle cx="600" cy="670" r="70" fill="url(#phaseBlue)"/>
+    <circle cx="600" cy="670" r="70" fill="url(#glass)"/>
+    <circle cx="600" cy="670" r="70" fill="none" stroke="#60a5fa" stroke-width="1.3" opacity="0.45"/>
+    <text x="600" y="657" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="-0.3">Phase 2</text>
+    <text x="600" y="678" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe" letter-spacing="0">System ID</text>
   </g>
 
-  <!-- Phase 3 - 8 o'clock -->
+  <!-- Phase 3 -->
   <g filter="url(#shadow)">
-    <circle cx="367" cy="535" r="68" fill="url(#phaseBlue)"/>
-    <circle cx="367" cy="535" r="68" fill="url(#glass)"/>
-    <circle cx="367" cy="535" r="68" fill="none" stroke="#60a5fa" stroke-width="1.2" opacity="0.5"/>
-    <text x="367" y="523" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="17" fill="#ffffff">Phase 3</text>
-    <text x="367" y="543" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="500" font-size="12.5" fill="#bfdbfe">Method Discovery</text>
+    <circle cx="367" cy="535" r="70" fill="url(#phaseBlue)"/>
+    <circle cx="367" cy="535" r="70" fill="url(#glass)"/>
+    <circle cx="367" cy="535" r="70" fill="none" stroke="#60a5fa" stroke-width="1.3" opacity="0.45"/>
+    <text x="367" y="522" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="-0.3">Phase 3</text>
+    <text x="367" y="543" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe" letter-spacing="0">Method Discovery</text>
   </g>
 
-  <!-- Phase 4 - 10 o'clock -->
+  <!-- Phase 4 -->
   <g filter="url(#shadow)">
-    <circle cx="367" cy="265" r="68" fill="url(#phaseBlue)"/>
-    <circle cx="367" cy="265" r="68" fill="url(#glass)"/>
-    <circle cx="367" cy="265" r="68" fill="none" stroke="#60a5fa" stroke-width="1.2" opacity="0.5"/>
-    <text x="367" y="253" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="17" fill="#ffffff">Phase 4</text>
-    <text x="367" y="273" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="500" font-size="12.5" fill="#bfdbfe">Assembly</text>
+    <circle cx="367" cy="265" r="70" fill="url(#phaseBlue)"/>
+    <circle cx="367" cy="265" r="70" fill="url(#glass)"/>
+    <circle cx="367" cy="265" r="70" fill="none" stroke="#60a5fa" stroke-width="1.3" opacity="0.45"/>
+    <text x="367" y="252" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="-0.3">Phase 4</text>
+    <text x="367" y="273" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="500" font-size="13" fill="#bfdbfe" letter-spacing="0">Prompt Assembly</text>
   </g>
 
-  <!-- Flow arrows (clockwise) -->
-  <path d="M650,165 Q740,200 800,240" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M860,320 Q880,400 850,490" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M790,585 Q700,640 650,660" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M550,660 Q500,640 410,585" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M340,490 Q320,400 350,320" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-  <path d="M400,215 Q480,165 550,155" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
+  <!-- Flow arrows -->
+  <path d="M655,155 Q745,195 805,240" stroke="#3b82f6" stroke-width="2.8" fill="none" opacity="0.55" marker-end="url(#arrowhead)"/>
+  <path d="M865,315 Q885,400 855,490" stroke="#3b82f6" stroke-width="2.8" fill="none" opacity="0.55" marker-end="url(#arrowhead)"/>
+  <path d="M790,585 Q700,640 650,662" stroke="#3b82f6" stroke-width="2.8" fill="none" opacity="0.55" marker-end="url(#arrowhead)"/>
+  <path d="M550,662 Q500,640 410,585" stroke="#3b82f6" stroke-width="2.8" fill="none" opacity="0.55" marker-end="url(#arrowhead)"/>
+  <path d="M335,490 Q315,400 345,315" stroke="#3b82f6" stroke-width="2.8" fill="none" opacity="0.55" marker-end="url(#arrowhead)"/>
+  <path d="M395,215 Q485,160 545,145" stroke="#3b82f6" stroke-width="2.8" fill="none" opacity="0.55" marker-end="url(#arrowhead)"/>
 
   <!-- Center label -->
-  <text x="600" y="388" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="800" font-size="24" fill="#f1f5f9">Adaptive</text>
-  <text x="600" y="416" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="15" fill="#94a3b8">Reasoning Cycle</text>
+  <text x="600" y="387" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="800" font-size="26" fill="#f1f5f9" letter-spacing="-0.5">Adaptive</text>
+  <text x="600" y="417" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="600" font-size="16" fill="#94a3b8" letter-spacing="0">Reasoning Cycle</text>
 </svg>
