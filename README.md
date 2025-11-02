@@ -1,4 +1,4 @@
-<div align="center" style="transform: scale(1.5); transform-origin: center; display:inline-block;">
+<div align="center" style="transform: scale(3); transform-origin: center; display:inline-block;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
