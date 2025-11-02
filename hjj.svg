@@ -1,23 +1,16 @@
 <svg width="720" height="240" viewBox="0 0 720 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Transparent background -->
   <rect width="720" height="240" fill="none"/>
-
-  <!-- Unified group: perfectly centered -->
   <g transform="translate(360,120) scale(0.9)" text-rendering="geometricPrecision">
-    <!-- Blue square -->
-    <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
-
-    <!-- APO text -->
+    <!-- Deeper Blue for Contrast -->
+    <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#2563EB"/>
     <text x="-140" y="5"
       text-anchor="middle" dominant-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="700" font-size="42" fill="#FFFFFF">APO</text>
-
-    <!-- Wordmark -->
     <g transform="translate(-60,0)">
       <text x="0" y="-4"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="40" fill="#0F172A">Adaptive</text>
+        font-weight="700" font-size="40" fill="#F9FAFB">Adaptive</text>
       <text x="0" y="32"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="500" font-size="26" fill="#9CA3AF">Prompt Optimizer</text>
