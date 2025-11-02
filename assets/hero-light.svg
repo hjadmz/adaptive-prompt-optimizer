@@ -2,23 +2,23 @@
   <!-- Transparent background -->
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Unified group: perfectly centered and scaled -->
-  <g transform="translate(375,120) scale(0.9)" text-rendering="geometricPrecision">
+  <!-- Centered group (optically corrected) -->
+  <g transform="translate(360,124)" text-rendering="geometricPrecision">
     <!-- Blue square -->
     <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#2563EB"/>
 
     <!-- APO text -->
-    <text x="-140" y="5"
+    <text x="-140" y="4"
       text-anchor="middle" dominant-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="700" font-size="42" fill="#FFFFFF">APO</text>
 
     <!-- Wordmark -->
-    <g transform="translate(-60,0)">
-      <text x="0" y="-4"
+    <g transform="translate(-8,4)">
+      <text x="0" y="-6"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="700" font-size="40" fill="#111827">Adaptive</text>
-      <text x="0" y="32"
+      <text x="0" y="30"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-weight="500" font-size="26" fill="#4B5563">Prompt Optimizer</text>
     </g>
