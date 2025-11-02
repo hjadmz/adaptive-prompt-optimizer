@@ -1,26 +1,29 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
-  <rect width="720" height="240" fill="none"/>
+  <!-- Light surface -->
+  <rect width="720" height="240" fill="#FFFFFF"/>
 
-  <!-- Centered lockup with the same 520px total width -->
+  <!-- Centered group -->
   <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <rect x="-260" y="-70" width="520" height="140" fill="none"/>
+    <!-- Blue tile -->
+    <!-- Total block width = 120 (tile) + 24 (gap) + 260 (wordmark) = 404; centered => left edge at -202 -->
+    <rect x="-202" y="-60" width="120" height="120" rx="16" fill="#2563EB"/>
 
-    <!-- Slightly brighter blue for dark mode—equal perceived luminance -->
-    <rect x="-260" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
-
-    <text x="-200" y="0" text-anchor="middle" dominant-baseline="central"
+    <!-- APO monogram (centered in tile) -->
+    <text x="-142" y="0"
+      text-anchor="middle" dominant-baseline="central"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="900" font-size="40" letter-spacing="-1.1" fill="#FFFFFF">APO</text>
 
-    <g transform="translate(-100,2)">
-      <text x="0" y="-8" text-anchor="start"
+    <!-- Wordmark (fixed 260px width) -->
+    <g transform="translate(-58,2)">
+      <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="40" letter-spacing="-0.7" fill="#F9FAFB"
-        lengthAdjust="spacingAndGlyphs" textLength="360">Adaptive</text>
-      <text x="0" y="26" text-anchor="start"
+        font-weight="700" font-size="40" letter-spacing="-0.7" fill="#111827"
+        lengthAdjust="spacing" textLength="260">Adaptive</text>
+      <text x="0" y="26"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#9CA3AF"
-        lengthAdjust="spacingAndGlyphs" textLength="360">Prompt Optimizer</text>
+        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#374151"
+        lengthAdjust="spacing" textLength="260">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
