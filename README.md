@@ -1,6 +1,6 @@
 <div align="center" style="transform: scale(1.5); transform-origin: center; display:inline-block;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./hjj.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
     <img src="./assets/hero-light.svg" alt="Adaptive Prompt Optimizer"
          style="display:block; margin:0 auto; height:auto; image-rendering:-webkit-optimize-contrast;">
