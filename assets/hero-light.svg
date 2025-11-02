@@ -1,9 +1,9 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
-  <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <g transform="translate(-140,0)">
+  <g transform="translate(360,118)" text-rendering="geometricPrecision">
+    <g transform="translate(-138,0)">
       <rect x="-60" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
-      <text x="1" y="0" text-anchor="middle" dominant-baseline="central"
+      <text x="2" y="0" text-anchor="middle" dominant-baseline="central"
             font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
             font-weight="900" font-size="40" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
     </g>
