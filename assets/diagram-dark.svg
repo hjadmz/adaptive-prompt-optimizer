@@ -1,52 +1,52 @@
-<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="1300" height="190" viewBox="0 0 1300 190" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="shadow-dark">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.25"/>
+    <filter id="shadow-light">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
     </filter>
   </defs>
   
   <!-- Phase 0 -->
-  <rect x="20" y="35" width="160" height="110" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="100" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F8FAFC">Phase 0</text>
-  <text x="100" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#F8FAFC">Self-Assessment</text>
+  <rect x="30" y="35" width="180" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="120" y="77" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 0</text>
+  <text x="120" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">Self-Assessment</text>
   
-  <path d="M 185 90 L 215 90" stroke="#64748B" stroke-width="2.5" fill="none"/>
-  <polygon points="215,90 208,86 208,94" fill="#64748B"/>
+  <path d="M 215 95 L 245 95" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="245,95 238,91 238,99" fill="#94A3B8"/>
   
   <!-- Phase 0.5 -->
-  <rect x="220" y="35" width="160" height="110" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="300" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F8FAFC">Phase 0.5</text>
-  <text x="300" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#F8FAFC">User Calibration</text>
+  <rect x="250" y="35" width="180" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="340" y="77" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 0.5</text>
+  <text x="340" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">User Calibration</text>
   
-  <path d="M 385 90 L 415 90" stroke="#64748B" stroke-width="2.5" fill="none"/>
-  <polygon points="415,90 408,86 408,94" fill="#64748B"/>
+  <path d="M 435 95 L 465 95" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="465,95 458,91 458,99" fill="#94A3B8"/>
   
   <!-- Phase 1 -->
-  <rect x="420" y="35" width="160" height="110" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="500" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F8FAFC">Phase 1</text>
-  <text x="500" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#F8FAFC">Task Profiling</text>
+  <rect x="470" y="35" width="180" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="560" y="77" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 1</text>
+  <text x="560" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">Task Profiling</text>
   
-  <path d="M 585 90 L 615 90" stroke="#64748B" stroke-width="2.5" fill="none"/>
-  <polygon points="615,90 608,86 608,94" fill="#64748B"/>
+  <path d="M 655 95 L 685 95" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="685,95 678,91 678,99" fill="#94A3B8"/>
   
   <!-- Phase 2 -->
-  <rect x="620" y="35" width="160" height="110" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="700" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F8FAFC">Phase 2</text>
-  <text x="700" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#F8FAFC">System ID</text>
+  <rect x="690" y="35" width="180" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="780" y="77" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 2</text>
+  <text x="780" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">System ID</text>
   
-  <path d="M 785 90 L 815 90" stroke="#64748B" stroke-width="2.5" fill="none"/>
-  <polygon points="815,90 808,86 808,94" fill="#64748B"/>
+  <path d="M 875 95 L 905 95" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="905,95 898,91 898,99" fill="#94A3B8"/>
   
   <!-- Phase 3 -->
-  <rect x="820" y="35" width="160" height="110" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="900" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F8FAFC">Phase 3</text>
-  <text x="900" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#F8FAFC">Method Discovery</text>
+  <rect x="910" y="35" width="180" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="1000" y="77" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 3</text>
+  <text x="1000" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">Method Discovery</text>
   
-  <path d="M 985 90 L 1015 90" stroke="#64748B" stroke-width="2.5" fill="none"/>
-  <polygon points="1015,90 1008,86 1008,94" fill="#64748B"/>
+  <path d="M 1095 95 L 1125 95" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="1125,95 1118,91 1118,99" fill="#94A3B8"/>
   
   <!-- Phase 4 -->
-  <rect x="1020" y="35" width="160" height="110" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="1100" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F8FAFC">Phase 4</text>
-  <text x="1100" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#F8FAFC">Prompt Assembly</text>
+  <rect x="1130" y="35" width="180" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="1220" y="77" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 4</text>
+  <text x="1220" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">Prompt Assembly</text>
 </svg>
