@@ -5,53 +5,48 @@
     </filter>
   </defs>
   
-  <!-- Phase 0: Self-Assessment -->
-  <rect x="10" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="90" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0</text>
-  <text x="90" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Self-Assessment</text>
+  <!-- Phase 0 -->
+  <rect x="20" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="100" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0</text>
+  <text x="100" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Self-Assessment</text>
   
-  <!-- Arrow -->
-  <path d="M 175 90 L 205 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
-  <polygon points="205,90 198,86 198,94" fill="#94A3B8"/>
+  <path d="M 185 90 L 215 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="215,90 208,86 208,94" fill="#94A3B8"/>
   
-  <!-- Phase 0.5: User Calibration -->
-  <rect x="210" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="290" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0.5</text>
-  <text x="290" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">User Calibration</text>
+  <!-- Phase 0.5 -->
+  <rect x="220" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="300" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0.5</text>
+  <text x="300" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">User Calibration</text>
   
-  <!-- Arrow -->
-  <path d="M 375 90 L 405 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
-  <polygon points="405,90 398,86 398,94" fill="#94A3B8"/>
+  <path d="M 385 90 L 415 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="415,90 408,86 408,94" fill="#94A3B8"/>
   
-  <!-- Phase 1: Task Profiling -->
-  <rect x="410" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="490" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 1</text>
-  <text x="490" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Task Profiling</text>
+  <!-- Phase 1 -->
+  <rect x="420" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="500" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 1</text>
+  <text x="500" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Task Profiling</text>
   
-  <!-- Arrow -->
-  <path d="M 575 90 L 605 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
-  <polygon points="605,90 598,86 598,94" fill="#94A3B8"/>
+  <path d="M 585 90 L 615 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="615,90 608,86 608,94" fill="#94A3B8"/>
   
-  <!-- Phase 2: System ID -->
-  <rect x="610" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="690" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 2</text>
-  <text x="690" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">System ID</text>
+  <!-- Phase 2 -->
+  <rect x="620" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="700" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 2</text>
+  <text x="700" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">System ID</text>
   
-  <!-- Arrow -->
-  <path d="M 775 90 L 805 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
-  <polygon points="805,90 798,86 798,94" fill="#94A3B8"/>
+  <path d="M 785 90 L 815 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="815,90 808,86 808,94" fill="#94A3B8"/>
   
-  <!-- Phase 3: Method Discovery -->
-  <rect x="810" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="890" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 3</text>
-  <text x="890" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Method Discovery</text>
+  <!-- Phase 3 -->
+  <rect x="820" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="900" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 3</text>
+  <text x="900" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Method Discovery</text>
   
-  <!-- Arrow -->
-  <path d="M 975 90 L 1005 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
-  <polygon points="1005,90 998,86 998,94" fill="#94A3B8"/>
+  <path d="M 985 90 L 1015 90" stroke="#94A3B8" stroke-width="2.5" fill="none"/>
+  <polygon points="1015,90 1008,86 1008,94" fill="#94A3B8"/>
   
-  <!-- Phase 4: Prompt Assembly -->
-  <rect x="1010" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="1090" y="70" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 4</text>
-  <text x="1090" y="95" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Prompt Assembly</text>
+  <!-- Phase 4 -->
+  <rect x="1020" y="35" width="160" height="110" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="1100" y="70" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 4</text>
+  <text x="1100" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Prompt Assembly</text>
 </svg>
