@@ -8,9 +8,11 @@
 </div>
 
 <p align="center">
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-1f2937?labelColor=0b1020&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
-  <img src="https://img.shields.io/badge/type-meta--prompt-312e81?labelColor=0b1020" alt="Meta-Prompt">
-  <img src="https://img.shields.io/badge/status-stable-065f46?labelColor=0b1020" alt="Stable">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-2563EB?style=for-the-badge&labelColor=0b1020&logo=open-source-initiative&logoColor=white" alt="MIT License">
+  </a>
+  <img src="https://img.shields.io/badge/Type-Meta--Prompt-312E81?style=for-the-badge&labelColor=0b1020" alt="Meta-Prompt">
+  <img src="https://img.shields.io/badge/Status-Stable-059669?style=for-the-badge&labelColor=0b1020" alt="Stable">
 </p>
 
 ## Overview
