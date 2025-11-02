@@ -21,8 +21,7 @@
 
 - **Text‑only** — Works in any AI chat or reasoning model  
 - **Model‑agnostic** — Compatible with ChatGPT, Claude, Gemini, and future LMs  
-- **Zero‑maintenance** — No dependencies or updates required  
-- **Future‑proof** — Designed to remain valid across model generations
+- **Zero‑maintenance** — No dependencies or updates required
 
 > [!TIP]
 > Use APO as a **system prompt** or **instruction layer**. This is the simplest, most reliable integration.
@@ -63,11 +62,6 @@ APO follows a six‑phase adaptive reasoning cycle.
 - **Calibration** — Adapt depth and style to the user and the model  
 - **Verification** — Include rationale, evidence, and confidence indicators  
 - **Governance** — Built‑in loop‑prevention and reflexive checks
-
-## Future‑proof by design
-
-> [!NOTE]
-> This repository is a **stable reference**. Forks for derivatives are welcome; direct edits may reduce reliability.
 
 ## License
 
