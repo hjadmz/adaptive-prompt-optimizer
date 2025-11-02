@@ -1,25 +1,27 @@
 <svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="240" fill="none"/>
-  <!-- Center at (360,120) then optical nudge +6px to counter right-mass -->
-  <g transform="translate(366,120)" text-rendering="geometricPrecision">
-    <!-- Lockup math: W = 120 (tile) + 24 (gap) + 260 (wordmark block) = 404; left edge = -202 -->
-    <rect x="-202" y="-60" width="120" height="120" rx="16" fill="#2563EB"/>
-    <!-- APO centered in tile (tile center = -142); dy for baseline stability -->
+
+  <!-- Full lockup centered at viewBox midpoint; total W = 120 + 24 + 260 = 404 -->
+  <g transform="translate(360,120)" text-rendering="geometricPrecision">
+    <!-- Tile: left edge -202, width 120 -->
+    <rect x="-202" y="-60" width="120" height="120" rx="20" fill="#3B82F6"/>
+
+    <!-- APO centered in tile (tile center = -142); dy stabilizes vertical centering across engines -->
     <text x="-142" y="0" dy=".25em"
       text-anchor="middle" alignment-baseline="middle"
       font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
       font-weight="900" font-size="40" letter-spacing="-0.8" fill="#FFFFFF">APO</text>
-    <!-- Wordmark block starts at -58 (= -202 + 120 + 24); invisible box fixes total W while keeping natural kerning -->
+
+    <!-- Wordmark block: starts at -58 (= -202 + 120 + 24); fixed width 260 for deterministic centering -->
     <g transform="translate(-58,2)">
-      <rect x="0" y="-44" width="260" height="92" fill="none"/>
       <text x="0" y="-8"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="40" letter-spacing="-0.5"
-        fill="#FFFFFF" fill-opacity="0.92">Adaptive</text>
+        font-weight="700" font-size="40" letter-spacing="-0.7" fill="#111827"
+        lengthAdjust="spacing" textLength="260">Adaptive</text>
       <text x="0" y="26"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" letter-spacing="-0.2"
-        fill="#FFFFFF" fill-opacity="0.62">Prompt Optimizer</text>
+        font-weight="500" font-size="26" letter-spacing="-0.4" fill="#4B5563"
+        lengthAdjust="spacing" textLength="260">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
