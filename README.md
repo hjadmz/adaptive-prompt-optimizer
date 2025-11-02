@@ -1,6 +1,6 @@
 <div align="center" style="width:100%; display:flex; justify-content:center; margin:0; padding:0;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./hjj.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
     <img 
       src="./assets/hero-light.svg" 
