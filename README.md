@@ -1,33 +1,49 @@
-<!-- HERO SECTION -->
-<p align="center" style="margin-top: 1rem; margin-bottom: 1rem;">
+<!-- ===================== -->
+<!-- 🎯 HERO HEADER SECTION -->
+<!-- ===================== -->
+
+<!-- Centered adaptive logo -->
+<p align="center" style="margin-top: 1.5rem; margin-bottom: 0.75rem;">
   <picture>
-    <!-- Dark mode logo -->
+    <!-- Dark mode -->
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <!-- Light mode logo -->
+    <!-- Light mode -->
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <!-- Default -->
+    <!-- Default fallback -->
     <img 
       src="./assets/hero-light.svg" 
       alt="Adaptive Prompt Optimizer"
       width="420"
-      style="display:block; margin:auto; height:auto; image-rendering:-webkit-optimize-contrast; border-radius:12px;">
+      style="display:block; margin:auto; height:auto; image-rendering:-webkit-optimize-contrast;">
   </picture>
 </p>
 
-<!-- BADGES -->
-<p align="center" style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap;">
+<!-- Adaptive badges -->
+<p align="center" style="margin-top: 0.25rem; display:flex; justify-content:center; gap:8px; flex-wrap:wrap;">
+
+  <!-- License -->
   <a href="./LICENSE">
     <img 
       src="https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square&labelColor=1E293B&logo=open-source-initiative&logoColor=white" 
-      alt="MIT License">
+      alt="MIT License"
+      height="24">
   </a>
+
+  <!-- Type -->
   <img 
     src="https://img.shields.io/badge/Type-Meta--Prompt-4338CA?style=flat-square&labelColor=1E293B" 
-    alt="Meta-Prompt">
+    alt="Meta-Prompt"
+    height="24">
+
+  <!-- Status -->
   <img 
     src="https://img.shields.io/badge/Status-Stable-10B981?style=flat-square&labelColor=1E293B" 
-    alt="Stable">
+    alt="Stable"
+    height="24">
+
 </p>
+
+<hr style="width:75%; border:0; border-top:1px solid rgba(148,163,184,0.2); margin:1.5rem auto;">
 
 ## Overview
 
