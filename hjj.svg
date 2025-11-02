@@ -2,8 +2,8 @@
   <!-- Transparent background -->
   <rect width="720" height="240" fill="none"/>
 
-  <!-- Unified group: perfectly centered and scaled -->
-  <g transform="translate(375,120) scale(0.9)" text-rendering="geometricPrecision">
+  <!-- Unified group: perfectly centered -->
+  <g transform="translate(360,120) scale(0.9)" text-rendering="geometricPrecision">
     <!-- Blue square -->
     <rect x="-200" y="-60" width="120" height="120" rx="24" fill="#3B82F6"/>
 
@@ -17,10 +17,10 @@
     <g transform="translate(-60,0)">
       <text x="0" y="-4"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="40" fill="#F9FAFB">Adaptive</text>
+        font-weight="700" font-size="40" fill="#0F172A">Adaptive</text>
       <text x="0" y="32"
         font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="26" fill="#D1D5DB">Prompt Optimizer</text>
+        font-weight="500" font-size="26" fill="#9CA3AF">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
