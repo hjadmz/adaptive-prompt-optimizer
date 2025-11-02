@@ -20,7 +20,7 @@
 **Adaptive Prompt Optimizer (APO)** is a universal meta‑prompt protocol: system‑agnostic, self‑calibrating, and future‑proof. APO enables any AI to reason with structure, assess its own limits, and deliver auditable output—using text only.
 
 - **Text‑only** — Works in any AI chat or reasoning model  
-- **Model‑agnostic** — Compatible with ChatGPT, Claude, Gemini, and future LMs  
+- **Model‑agnostic** — Compatible with different models
 - **Zero‑maintenance** — No dependencies or updates required
 
 > [!TIP]
