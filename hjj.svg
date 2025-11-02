@@ -1,87 +1,102 @@
-<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f1f5f9"/>
+    <!-- Brand gradient (blue↔violet) — adaptive / future-facing -->
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#8B5CF6;#3B82F6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#3B82F6;#8B5CF6" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <linearGradient id="phaseBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#3B82F6"/>
-    </linearGradient>
-    <linearGradient id="phaseTeal" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0891B2"/>
-      <stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+    <!-- Ambient glow for depth without distraction -->
+    <radialGradient id="ambient" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
+
+    <!-- Subtle glass highlight -->
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Stroke gradient for rings -->
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <!-- Drop shadow (SVG filter) -->
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0B1020" flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Media-style reduced motion toggle (CSS) -->
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .anim { display: none; }
+        .static { display: inline; }
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="800" fill="url(#bg)"/>
+  <!-- Background ambient -->
+  <rect width="480" height="480" fill="url(#ambient)"/>
 
-  <circle cx="600" cy="400" r="280" fill="none" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 6"/>
+  <!-- Badge container -->
+  <g transform="translate(240,200)" filter="url(#softShadow)">
+    <!-- Rounded square badge (glass) -->
+    <rect x="-96" y="-96" width="192" height="192" rx="28" fill="url(#brand)"/>
+    <rect x="-96" y="-96" width="192" height="192" rx="28" fill="url(#glass)"/>
 
-  <g transform="translate(600,80)">
-    <circle r="70" fill="url(#phaseBlue)"/>
-    <circle r="70" fill="url(#glow)"/>
-    <circle r="70" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text text-anchor="middle" y="-10" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 0</text>
-    <text text-anchor="middle" y="12" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="13" fill="#EFF6FF">Self-Assessment</text>
+    <!-- APO label -->
+    <text x="0" y="8" text-anchor="middle"
+          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="56" font-weight="800" fill="#FFFFFF" letter-spacing="1">APO</text>
   </g>
 
-  <g transform="translate(780,180)">
-    <circle r="60" fill="url(#phaseTeal)"/>
-    <circle r="60" fill="url(#glow)"/>
-    <circle r="60" fill="none" stroke="#67E8F9" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text text-anchor="middle" y="-8" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Phase 0.5</text>
-    <text text-anchor="middle" y="10" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="12" fill="#ECFEFF">User Calibration</text>
+  <!-- Orbital rings (metacognition + calibration) -->
+  <g class="anim" transform="translate(240,200)">
+    <circle r="150" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="80 24 12 24" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="0" to="360" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="118" fill="none" stroke="url(#ring)" stroke-width="8" stroke-linecap="round"
+            stroke-dasharray="40 18 6 18" opacity="0.65">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="360" to="0" dur="18s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <g transform="translate(880,400)">
-    <circle r="70" fill="url(#phaseBlue)"/>
-    <circle r="70" fill="url(#glow)"/>
-    <circle r="70" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text text-anchor="middle" y="-10" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 1</text>
-    <text text-anchor="middle" y="12" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="13" fill="#EFF6FF">Task Profiling</text>
+  <!-- Core pulse (cognitive heartbeat) -->
+  <g class="anim" transform="translate(240,200)">
+    <circle r="40" fill="url(#brand)" opacity="0.25">
+      <animate attributeName="r" values="36;44;36" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.18;0.32;0.18" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <g transform="translate(780,620)">
-    <circle r="70" fill="url(#phaseBlue)"/>
-    <circle r="70" fill="url(#glow)"/>
-    <circle r="70" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text text-anchor="middle" y="-10" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 2</text>
-    <text text-anchor="middle" y="12" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="13" fill="#EFF6FF">System ID</text>
+  <!-- Static fallback for reduced motion or strict renderers -->
+  <g class="static" style="display:none" transform="translate(240,200)">
+    <circle r="150" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.5"/>
+    <circle r="118" fill="none" stroke="url(#ring)" stroke-width="8" opacity="0.35"/>
+    <circle r="40" fill="url(#brand)" opacity="0.22"/>
   </g>
 
-  <g transform="translate(420,620)">
-    <circle r="70" fill="url(#phaseBlue)"/>
-    <circle r="70" fill="url(#glow)"/>
-    <circle r="70" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text text-anchor="middle" y="-10" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 3</text>
-    <text text-anchor="middle" y="12" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="13" fill="#EFF6FF">Method Discovery</text>
+  <!-- Wordmark -->
+  <g transform="translate(240,356)">
+    <text x="0" y="0" text-anchor="middle"
+          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="26" font-weight="700" fill="#F3F4F6">Adaptive Prompt Optimizer</text>
+    <text x="0" y="26" text-anchor="middle"
+          font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="14" font-weight="500" fill="#9CA3AF" letter-spacing=".4">
+      Meta-prompt protocol for structured, adaptive, verifiable reasoning
+    </text>
   </g>
-
-  <g transform="translate(320,400)">
-    <circle r="70" fill="url(#phaseBlue)"/>
-    <circle r="70" fill="url(#glow)"/>
-    <circle r="70" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text text-anchor="middle" y="-10" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Phase 4</text>
-    <text text-anchor="middle" y="12" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="13" fill="#EFF6FF">Prompt Assembly</text>
-  </g>
-
-  <text x="600" y="390" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="22" fill="#0F172A">Adaptive</text>
-  <text x="600" y="415" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#64748B">Reasoning Cycle</text>
-
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#3B82F6" opacity="0.4"/>
-    </marker>
-  </defs>
-  <path d="M600,150 Q720,120 760,200" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.25" marker-end="url(#arrow)"/>
-  <path d="M820,230 Q860,300 850,380" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.25" marker-end="url(#arrow)"/>
-  <path d="M810,470 Q780,550 750,590" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.25" marker-end="url(#arrow)"/>
-  <path d="M710,650 Q600,680 450,650" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.25" marker-end="url(#arrow)"/>
-  <path d="M390,590 Q350,500 350,420" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.25" marker-end="url(#arrow)"/>
-  <path d="M350,350 Q380,250 520,120" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.25" marker-end="url(#arrow)"/>
 </svg>
