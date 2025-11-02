@@ -1,10 +1,10 @@
-<p align="center">
+<div align="center" style="margin: 0 auto; display: flex; justify-content: center;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img src="./assets/hero-light.svg" width="100%" alt="Adaptive Prompt Optimizer">
+    <img src="./assets/hero-light.svg" alt="Adaptive Prompt Optimizer" width="720" style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
   </picture>
-</p>
+</div>
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-1f2937?labelColor=0b1020&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
