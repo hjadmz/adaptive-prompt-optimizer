@@ -1,27 +1,14 @@
-<svg width="960" height="420" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    text { font-family: Inter, sans-serif; }
-    .phase { fill: #FFF; stroke: #E2E8F0; stroke-width: 1.4; rx: 12; }
-    .title { font-weight: 700; font-size: 16px; fill: #111827; }
-    .desc { font-size: 12px; fill: #334155; }
-  </style>
-  <rect width="960" height="420" fill="#F8FAFC"/>
-  <g transform="translate(40,70)">
-    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">0 — Self-Assess</text><text x="20" y="60" class="desc">Verify capabilities</text>
-  </g>
-  <g transform="translate(210,70)">
-    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">0.5 — Calibrate</text><text x="20" y="60" class="desc">Match user depth</text>
-  </g>
-  <g transform="translate(380,70)">
-    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">1 — Profile Task</text><text x="20" y="60" class="desc">Define context</text>
-  </g>
-  <g transform="translate(550,70)">
-    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">2 — Identify System</text><text x="20" y="60" class="desc">Map resources</text>
-  </g>
-  <g transform="translate(720,70)">
-    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">3 — Discover Method</text><text x="20" y="60" class="desc">Select strategy</text>
-  </g>
-  <g transform="translate(380,220)">
-    <rect class="phase" width="140" height="90"/><text x="20" y="35" class="title">4 — Assemble</text><text x="20" y="60" class="desc">Deliver prompt</text>
-  </g>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="#F9FAFB"/>
+  <circle cx="300" cy="200" r="100" fill="none" stroke="url(#gradient)" stroke-width="20" opacity="0.6"/>
+  <circle cx="340" cy="200" r="100" fill="none" stroke="url(#gradient)" stroke-width="20" opacity="0.3"/>
+  <text x="305" y="210" text-anchor="middle" font-size="48" font-family="Inter, sans-serif" font-weight="700" fill="#111827">APO</text>
+  <text x="600" y="180" font-size="72" font-family="Inter, sans-serif" font-weight="700" fill="#111827">Adaptive</text>
+  <text x="600" y="250" font-size="42" font-family="Inter, sans-serif" font-weight="500" fill="#4B5563">Prompt Optimizer</text>
 </svg>
