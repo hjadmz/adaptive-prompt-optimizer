@@ -1,25 +1,28 @@
-<svg width="960" height="280" viewBox="0 0 960 280" xmlns="http://www.w3.org/2000/svg">
-  <rect width="960" height="280" fill="none"/>
-  <!-- Canvas center -->
-  <g transform="translate(480,140)" text-rendering="geometricPrecision">
-    <!-- Tile group centered at x = -185 so its local origin is the tile center -->
+<svg width="960" height="300" viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Canvas safe area (24px top & bottom baked-in) -->
+  <rect width="960" height="300" fill="none"/>
+  <!-- Absolute canvas center at (480,150) -->
+  <g transform="translate(480,150)" text-rendering="geometricPrecision">
+    <!-- Brand tile is centered on its own local origin at x=-185 -->
     <g transform="translate(-185,0)">
-      <!-- 150x150 rounded square centered on (0,0) -->
+      <!-- 150x150 rounded square centered at (0,0) -->
       <rect x="-75" y="-75" width="150" height="150" rx="24" fill="#3B82F6"/>
-      <!-- APO monogram: true center x=0, slight optical lift y=6, heavier weight, tight tracking -->
+      <!-- APO monogram: true geometric center, optical lift, tight tracking -->
       <text x="0" y="6" text-anchor="middle" dominant-baseline="middle"
-        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="900" font-size="46" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
+            font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+            font-weight="900" font-size="46" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
     </g>
 
-    <!-- Wordmark block: 48px gap preserved (tile right edge at -110, this at -62) -->
+    <!-- 48px visual gap from tile’s right edge (-110) to wordmark start (-62) -->
     <g transform="translate(-62,0)">
+      <!-- Title: strong ink tone for authority and clarity -->
       <text x="0" y="-12"
-        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="700" font-size="50" letter-spacing="-1" fill="#0F172A">Adaptive</text>
+            font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+            font-weight="700" font-size="50" letter-spacing="-1" fill="#0F172A">Adaptive</text>
+      <!-- Subtitle: lighter gray for depth separation and reduced cognitive load -->
       <text x="0" y="42"
-        font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500" font-size="32" letter-spacing="-0.5" fill="#334155">Prompt Optimizer</text>
+            font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+            font-weight="500" font-size="32" letter-spacing="-0.5" fill="#334155">Prompt Optimizer</text>
     </g>
   </g>
 </svg>
