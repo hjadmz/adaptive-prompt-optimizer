@@ -4,18 +4,18 @@
       <stop offset="0%" stop-color="#3B82F6" stop-opacity="1"/>
       <stop offset="100%" stop-color="#60A5FA" stop-opacity="1"/>
     </linearGradient>
-    <filter id="shadowLight" x="-2" y="-2" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.1" flood-color="#000"/>
+    <filter id="shadowLight">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12" flood-color="#000"/>
     </filter>
   </defs>
 
-  <text x="325" y="40" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="20" fill="#0F172A" letter-spacing="-0.02em" font-kerning="auto">Adaptive Prompt Optimization Phases</text>
+  <text x="325" y="40" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="20" fill="#0F172A" letter-spacing="-0.02em">Adaptive Prompt Optimization Phases</text>
 
   <!-- Phase 0 -->
   <g transform="translate(30, 60)">
     <rect width="590" height="105" rx="12" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em">Phase 0 - Self-Assessment</text>
-    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE">Verify capabilities and constraints</text>
+    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em" dominant-baseline="central">Phase 0 - Self-Assessment</text>
+    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE" dominant-baseline="central">Verify capabilities and constraints</text>
   </g>
 
   <circle cx="325" cy="180" r="2" fill="#9CA3AF"/>
@@ -26,8 +26,8 @@
   <!-- Phase 0.5 -->
   <g transform="translate(30, 225)">
     <rect width="590" height="105" rx="12" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em">Phase 0.5 – User Calibration</text>
-    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE">Match depth and tone to user preference</text>
+    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em" dominant-baseline="central">Phase 0.5 – User Calibration</text>
+    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE" dominant-baseline="central">Match depth and tone to user preference</text>
   </g>
 
   <circle cx="325" cy="345" r="2" fill="#9CA3AF"/>
@@ -38,8 +38,8 @@
   <!-- Phase 1 -->
   <g transform="translate(30, 390)">
     <rect width="590" height="105" rx="12" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em">Phase 1 - Task Profiling</text>
-    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE">Define goals, success criteria, and context</text>
+    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em" dominant-baseline="central">Phase 1 - Task Profiling</text>
+    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE" dominant-baseline="central">Define goals, success criteria, and context</text>
   </g>
 
   <circle cx="325" cy="510" r="2" fill="#9CA3AF"/>
@@ -50,8 +50,8 @@
   <!-- Phase 2 -->
   <g transform="translate(30, 555)">
     <rect width="590" height="105" rx="12" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em">Phase 2 – System Identification</text>
-    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE">Map tools and knowledge access</text>
+    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em" dominant-baseline="central">Phase 2 – System Identification</text>
+    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE" dominant-baseline="central">Map tools and knowledge access</text>
   </g>
 
   <circle cx="325" cy="675" r="2" fill="#9CA3AF"/>
@@ -62,8 +62,8 @@
   <!-- Phase 3 -->
   <g transform="translate(30, 720)">
     <rect width="590" height="105" rx="12" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em">Phase 3 – Method Discovery</text>
-    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE">Select optimal reasoning strategy</text>
+    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em" dominant-baseline="central">Phase 3 – Method Discovery</text>
+    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE" dominant-baseline="central">Select optimal reasoning strategy</text>
   </g>
 
   <circle cx="325" cy="840" r="2" fill="#9CA3AF"/>
@@ -74,8 +74,7 @@
   <!-- Phase 4 -->
   <g transform="translate(30, 885)">
     <rect width="590" height="105" rx="12" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em">Phase 4 – Prompt Construction</text>
-    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE">Validate and deliver the adaptive prompt</text>
+    <text x="295" y="82" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" letter-spacing="-0.01em" dominant-baseline="central">Phase 4 – Prompt Construction</text>
+    <text x="295" y="107" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#E0F2FE" dominant-baseline="central">Validate and deliver the adaptive prompt</text>
   </g>
 </svg>
-
