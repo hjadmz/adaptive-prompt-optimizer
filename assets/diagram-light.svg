@@ -1,102 +1,103 @@
 <svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="phaseBlueDark" x1="0" y1="1" x2="0" y2="0">
+    <!-- Fix: The gradient now starts dark at y="0"/top and goes light at y="1"/bottom. -->
+    <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
     </linearGradient>
-    <filter id="shadowDark">
-      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-opacity="0.25" flood-color="#000"/>
+    <filter id="shadowLight">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08" flood-color="#000"/>
     </filter>
   </defs>
   
   <!-- Phase 0 -->
   <g transform="translate(42,28)">
-    <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
-        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#F0F9FF">Phase 0 – Self-Assessment</text>
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
       <text x="283" y="57" dominant-baseline="middle"
-        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#BFDBFE">Verify capabilities and constraints</text>
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Verify capabilities and constraints</text>
     </g>
   </g>
   <g>
-    <circle cx="325" cy="128" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="140" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="152" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="128" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="152" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 0.5 -->
   <g transform="translate(42,167)">
-    <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
-        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#F0F9FF">Phase 0.5 – User Calibration</text>
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
       <text x="283" y="57" dominant-baseline="middle"
-        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#BFDBFE">Match depth and tone to user preference</text>
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Match depth and tone to user preference</text>
     </g>
   </g>
   <g>
-    <circle cx="325" cy="267" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="279" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="291" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="267" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="279" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="291" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 1 -->
   <g transform="translate(42,306)">
-    <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
-        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#F0F9FF">Phase 1 – Task Profiling</text>
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 1 – Task Profiling</text>
       <text x="283" y="57" dominant-baseline="middle"
-        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#BFDBFE">Define goals, success criteria, and context</text>
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Define goals, success criteria, and context</text>
     </g>
   </g>
   <g>
-    <circle cx="325" cy="406" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="418" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="430" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="406" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="418" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="430" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 2 -->
   <g transform="translate(42,445)">
-    <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
-        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#F0F9FF">Phase 2 – System Identification</text>
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 2 – System Identification</text>
       <text x="283" y="57" dominant-baseline="middle"
-        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#BFDBFE">Map tools and knowledge access</text>
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Map tools and knowledge access</text>
     </g>
   </g>
   <g>
-    <circle cx="325" cy="545" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="557" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="569" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="545" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="557" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="569" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 3 -->
   <g transform="translate(42,584)">
-    <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
-        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#F0F9FF">Phase 3 – Method Discovery</text>
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 3 – Method Discovery</text>
       <text x="283" y="57" dominant-baseline="middle"
-        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#BFDBFE">Select optimal reasoning strategy</text>
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Select optimal reasoning strategy</text>
     </g>
   </g>
   <g>
-    <circle cx="325" cy="684" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="696" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="708" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="684" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="696" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="708" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 4 -->
   <g transform="translate(42,723)">
-    <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
-        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#F0F9FF">Phase 4 – Prompt Construction</text>
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
       <text x="283" y="57" dominant-baseline="middle"
-        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#BFDBFE">Validate and deliver the adaptive prompt</text>
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Validate and deliver the adaptive prompt</text>
     </g>
   </g>
 </svg>
