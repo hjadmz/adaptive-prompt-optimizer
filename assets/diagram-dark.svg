@@ -45,8 +45,8 @@
   <path d="M 325 795 L 325 825" stroke="#64748B" stroke-width="3" fill="none"/>
   <polygon points="325,825 321,818 329,818" fill="#64748B"/>
   
-  <!-- Phase 4 -->
+  <!-- Phase 4 - FIXED TEXT -->
   <rect x="25" y="830" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 4 – Prompt Assembly</text>
+  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 4 – Prompt Construction</text>
   <text x="325" y="905" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Validate and deliver the adaptive prompt</text>
 </svg>
