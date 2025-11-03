@@ -1,14 +1,39 @@
-<svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg">
+Perfect — to make the **dot gradients flow downward** (so the fade visually moves *from darker on top → lighter below*), you just need to **reverse the fill order** of the circles in each dot group.
+
+Right now, your dots are defined like this (lightest at the bottom):
+
+```svg
+<circle cx="325" cy="128" r="2.5" fill="#94A6BE"/>
+<circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
+<circle cx="325" cy="152" r="2.5" fill="#E2E8F0"/>
+```
+
+To reverse the gradient flow (so it looks like the light fades downward), flip that order so the **lightest is at the top and darkest at the bottom**:
+
+```svg
+<circle cx="325" cy="128" r="2.5" fill="#E2E8F0"/>
+<circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
+<circle cx="325" cy="152" r="2.5" fill="#94A6BE"/>
+```
+
+---
+
+### ✅ Final optimized version (with downward gradient flow)
+
+Here’s your full SVG with the **reversed dot order** already applied for every phase:
+
+```svg
+<svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
   <defs>
-<linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#3B82F6"/>
-  <stop offset="100%" stop-color="#60A5FA"/>
-</linearGradient>
+    <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
     <filter id="shadowLight">
       <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08" flood-color="#000"/>
     </filter>
   </defs>
-  
+
   <!-- Phase 0 -->
   <g transform="translate(42,28)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
@@ -20,11 +45,11 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="128" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="128" r="2.5" fill="#E2E8F0"/>
     <circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
-    <circle cx="325" cy="152" r="2.5" fill="#E2E8F0"/>
+    <circle cx="325" cy="152" r="2.5" fill="#94A6BE"/>
   </g>
-  
+
   <!-- Phase 0.5 -->
   <g transform="translate(42,167)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
@@ -36,11 +61,11 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="267" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="267" r="2.5" fill="#E2E8F0"/>
     <circle cx="325" cy="279" r="2.5" fill="#CBD5E1"/>
-    <circle cx="325" cy="291" r="2.5" fill="#E2E8F0"/>
+    <circle cx="325" cy="291" r="2.5" fill="#94A6BE"/>
   </g>
-  
+
   <!-- Phase 1 -->
   <g transform="translate(42,306)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
@@ -52,11 +77,11 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="406" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="406" r="2.5" fill="#E2E8F0"/>
     <circle cx="325" cy="418" r="2.5" fill="#CBD5E1"/>
-    <circle cx="325" cy="430" r="2.5" fill="#E2E8F0"/>
+    <circle cx="325" cy="430" r="2.5" fill="#94A6BE"/>
   </g>
-  
+
   <!-- Phase 2 -->
   <g transform="translate(42,445)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
@@ -68,11 +93,11 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="545" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="545" r="2.5" fill="#E2E8F0"/>
     <circle cx="325" cy="557" r="2.5" fill="#CBD5E1"/>
-    <circle cx="325" cy="569" r="2.5" fill="#E2E8F0"/>
+    <circle cx="325" cy="569" r="2.5" fill="#94A6BE"/>
   </g>
-  
+
   <!-- Phase 3 -->
   <g transform="translate(42,584)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
@@ -84,11 +109,11 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="684" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="684" r="2.5" fill="#E2E8F0"/>
     <circle cx="325" cy="696" r="2.5" fill="#CBD5E1"/>
-    <circle cx="325" cy="708" r="2.5" fill="#E2E8F0"/>
+    <circle cx="325" cy="708" r="2.5" fill="#94A6BE"/>
   </g>
-  
+
   <!-- Phase 4 -->
   <g transform="translate(42,723)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
@@ -100,3 +125,8 @@
     </g>
   </g>
 </svg>
+```
+
+---
+
+This keeps your overall layout identical — only the **dot flow direction** is visually inverted (now fading *downward*), which gives a smoother “descending continuity” between phases.
