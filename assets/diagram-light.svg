@@ -10,40 +10,40 @@
   <text x="325" y="75" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
   <text x="325" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Verify capabilities and constraints</text>
   
-  <!-- Connector 1 - Thin gradient line -->
-  <line x1="325" y1="155" x2="325" y2="190" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <!-- Dashed Flow Line 1 -->
+  <line x1="325" y1="155" x2="325" y2="190" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4,4" stroke-linecap="round"/>
   
   <!-- Phase 0.5 -->
   <rect x="25" y="190" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
   <text x="325" y="235" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
   <text x="325" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Match depth and tone to user preference</text>
   
-  <!-- Connector 2 -->
-  <line x1="325" y1="315" x2="325" y2="350" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <!-- Dashed Flow Line 2 -->
+  <line x1="325" y1="315" x2="325" y2="350" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4,4" stroke-linecap="round"/>
   
   <!-- Phase 1 -->
   <rect x="25" y="350" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
   <text x="325" y="395" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 1 – Task Profiling</text>
   <text x="325" y="425" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Define goals, success criteria, and context</text>
   
-  <!-- Connector 3 -->
-  <line x1="325" y1="475" x2="325" y2="510" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <!-- Dashed Flow Line 3 -->
+  <line x1="325" y1="475" x2="325" y2="510" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4,4" stroke-linecap="round"/>
   
   <!-- Phase 2 -->
   <rect x="25" y="510" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
   <text x="325" y="555" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 2 – System Identification</text>
   <text x="325" y="585" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Map tools and knowledge access</text>
   
-  <!-- Connector 4 -->
-  <line x1="325" y1="635" x2="325" y2="670" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <!-- Dashed Flow Line 4 -->
+  <line x1="325" y1="635" x2="325" y2="670" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4,4" stroke-linecap="round"/>
   
   <!-- Phase 3 -->
   <rect x="25" y="670" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
   <text x="325" y="715" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 3 – Method Discovery</text>
   <text x="325" y="745" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Select optimal reasoning strategy</text>
   
-  <!-- Connector 5 -->
-  <line x1="325" y1="795" x2="325" y2="830" stroke="#E2E8F0" stroke-width="1" stroke-linecap="round"/>
+  <!-- Dashed Flow Line 5 -->
+  <line x1="325" y1="795" x2="325" y2="830" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4,4" stroke-linecap="round"/>
   
   <!-- Phase 4 -->
   <rect x="25" y="830" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
