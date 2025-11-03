@@ -20,9 +20,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="116" r="2.5" fill="#9494A6BE"/>
-    ircle cx="325" cy="128" r="2.5" fillll="#CBD5E1"/>
-    ircle cx="325" cy="140" r="2.5" fill="#"#E2E8F0"/>
+    <circle cx="325" cy="116" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="128" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="140" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 0.5 -->
@@ -36,9 +36,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="255" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="="267" r="2.5" fill="#CBD5E1"/>
-    ircle cx="325" cy="279" r="2.5" fill="#E2E8F8F0"/>
+    <circle cx="325" cy="255" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="267" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="279" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 1 -->
@@ -52,9 +52,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="394" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="="406" r="2.5" fill="#CBD5E1"/>
-    ircle cx="325" cy="418" r="2.5.5" fill="#E2E8F0"/>
+    <circle cx="325" cy="394" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="406" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="418" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 2 -->
@@ -68,9 +68,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="533" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="="545" r="2.5" fill="#CBD5E1"/>
-    ircle cx="325" cy="557" r="2.5" fill="#E2E8F8F0"/>
+    <circle cx="325" cy="533" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="545" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="557" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 3 -->
@@ -84,12 +84,19 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="672" r="2.5" fill="#94A4A6BE"/>
-    ircle cx="325" cy="684" r="2.5" fill="#CBDBD5E1"/>
-    ircle cx="325" cy="696" r="2.5" fill="#"#E2E8F0"/>
+    <circle cx="325" cy="672" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="684" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="696" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 4 -->
   <g transform="translate(42,711)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <g font-family="Inter
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Validate and deliver the adaptive prompt</text>
+    </g>
+  </g>
+</svg>
