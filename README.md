@@ -67,28 +67,24 @@
 
 APO follows a six‑phase adaptive reasoning cycle.
 
+## Adaptive Reasoning Framework
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/diagram-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/diagram-light.svg">
-    <img src="./assets/diagram-light.svg" width="100%" alt="APO Reasoning Architecture">
-  </picture>
+  <img src="assets/APO_phases_light.svg#gh-light-mode-only" width="85%" alt="Adaptive Prompt Optimizer Phases – Light Mode">
+  <img src="assets/APO_phases_dark.svg#gh-dark-mode-only" width="85%" alt="Adaptive Prompt Optimizer Phases – Dark Mode">
 </p>
 
-<br>
+> APO follows a six-phase adaptive reasoning cycle.  
+> Each phase builds logically on the previous one, ensuring self-awareness, calibration, and verifiable output.
 
-<p align="center"><em>Detailed phase breakdown below</em></p>
-
-<br>
-
-| Phase | Function |
-|:--|:--|
-| **0 – Self‑Assessment** | Verify capabilities and constraints |
-| **0.5 – User Calibration** | Match depth and tone to user preference |
-| **1 – Task Profiling** | Define goals, success criteria, and context |
-| **2 – System Identification** | Map tools and knowledge access |
-| **3 – Method Discovery** | Select optimal reasoning strategy |
-| **4 – Prompt Assembly** | Validate and deliver the adaptive prompt |
+| **Phase** | **Function** |
+|------------|--------------|
+| 0 – Self-Assessment | Verify capabilities and constraints |
+| 0.5 – User Calibration | Match depth and tone to user preference |
+| 1 – Task Profiling | Define goals, success criteria, and context |
+| 2 – System Identification | Map tools and knowledge access |
+| 3 – Method Discovery | Select optimal reasoning strategy |
+| 4 – Prompt Construction | Validate and deliver the adaptive prompt |
 
 ## Core Principles
 
