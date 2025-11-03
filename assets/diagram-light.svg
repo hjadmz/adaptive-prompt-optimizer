@@ -1,28 +1,3 @@
-Perfect — to make the **dot gradients flow downward** (so the fade visually moves *from darker on top → lighter below*), you just need to **reverse the fill order** of the circles in each dot group.
-
-Right now, your dots are defined like this (lightest at the bottom):
-
-```svg
-<circle cx="325" cy="128" r="2.5" fill="#94A6BE"/>
-<circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
-<circle cx="325" cy="152" r="2.5" fill="#E2E8F0"/>
-```
-
-To reverse the gradient flow (so it looks like the light fades downward), flip that order so the **lightest is at the top and darkest at the bottom**:
-
-```svg
-<circle cx="325" cy="128" r="2.5" fill="#E2E8F0"/>
-<circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
-<circle cx="325" cy="152" r="2.5" fill="#94A6BE"/>
-```
-
----
-
-### ✅ Final optimized version (with downward gradient flow)
-
-Here’s your full SVG with the **reversed dot order** already applied for every phase:
-
-```svg
 <svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
   <defs>
     <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
@@ -125,8 +100,3 @@ Here’s your full SVG with the **reversed dot order** already applied for every
     </g>
   </g>
 </svg>
-```
-
----
-
-This keeps your overall layout identical — only the **dot flow direction** is visually inverted (now fading *downward*), which gives a smoother “descending continuity” between phases.
