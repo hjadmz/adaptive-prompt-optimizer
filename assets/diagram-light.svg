@@ -1,56 +1,52 @@
 <svg width="650" height="950" viewBox="0 0 650 950" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="shadow-dark">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.25"/>
+    <filter id="shadow-light">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
     </filter>
-    <linearGradient id="gradient-dark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#334155;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#475569;stop-opacity:1"/>
-    </linearGradient>
   </defs>
   
   <!-- Phase 0 -->
-  <rect x="25" y="30" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="75" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 0 – Self-Assessment</text>
-  <text x="325" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Verify capabilities and constraints</text>
+  <rect x="25" y="30" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="325" y="75" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
+  <text x="325" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Verify capabilities and constraints</text>
   
-  <!-- Gradient Dashed Connector 1 -->
-  <line x1="325" y1="155" x2="325" y2="190" stroke="url(#gradient-dark)" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="round"/>
+  <!-- Bold Dashed Connector 1 -->
+  <line x1="325" y1="155" x2="325" y2="190" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
   
   <!-- Phase 0.5 -->
-  <rect x="25" y="190" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="235" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 0.5 – User Calibration</text>
-  <text x="325" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Match depth and tone to user preference</text>
+  <rect x="25" y="190" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="325" y="235" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
+  <text x="325" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Match depth and tone to user preference</text>
   
-  <!-- Gradient Dashed Connector 2 -->
-  <line x1="325" y1="315" x2="325" y2="350" stroke="url(#gradient-dark)" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="round"/>
+  <!-- Bold Dashed Connector 2 -->
+  <line x1="325" y1="315" x2="325" y2="350" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
   
   <!-- Phase 1 -->
-  <rect x="25" y="350" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="395" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 1 – Task Profiling</text>
-  <text x="325" y="425" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Define goals, success criteria, and context</text>
+  <rect x="25" y="350" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="325" y="395" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 1 – Task Profiling</text>
+  <text x="325" y="425" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Define goals, success criteria, and context</text>
   
-  <!-- Gradient Dashed Connector 3 -->
-  <line x1="325" y1="475" x2="325" y2="510" stroke="url(#gradient-dark)" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="round"/>
+  <!-- Bold Dashed Connector 3 -->
+  <line x1="325" y1="475" x2="325" y2="510" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
   
   <!-- Phase 2 -->
-  <rect x="25" y="510" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="555" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 2 – System Identification</text>
-  <text x="325" y="585" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Map tools and knowledge access</text>
+  <rect x="25" y="510" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="325" y="555" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 2 – System Identification</text>
+  <text x="325" y="585" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Map tools and knowledge access</text>
   
-  <!-- Gradient Dashed Connector 4 -->
-  <line x1="325" y1="635" x2="325" y2="670" stroke="url(#gradient-dark)" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="round"/>
+  <!-- Bold Dashed Connector 4 -->
+  <line x1="325" y1="635" x2="325" y2="670" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
   
   <!-- Phase 3 -->
-  <rect x="25" y="670" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="715" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 3 – Method Discovery</text>
-  <text x="325" y="745" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Select optimal reasoning strategy</text>
+  <rect x="25" y="670" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="325" y="715" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 3 – Method Discovery</text>
+  <text x="325" y="745" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Select optimal reasoning strategy</text>
   
-  <!-- Gradient Dashed Connector 5 -->
-  <line x1="325" y1="795" x2="325" y2="830" stroke="url(#gradient-dark)" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="round"/>
+  <!-- Bold Dashed Connector 5 -->
+  <line x1="325" y1="795" x2="325" y2="830" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
   
   <!-- Phase 4 -->
-  <rect x="25" y="830" width="600" height="120" rx="12" fill="#3B82F6" filter="url(#shadow-dark)"/>
-  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#F8FAFC">Phase 4 – Prompt Construction</text>
-  <text x="325" y="905" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#F8FAFC">Validate and deliver the adaptive prompt</text>
+  <rect x="25" y="830" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
+  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
+  <text x="325" y="905" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Validate and deliver the adaptive prompt</text>
 </svg>
