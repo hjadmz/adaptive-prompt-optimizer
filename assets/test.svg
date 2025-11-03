@@ -1,8 +1,8 @@
-<svg width="650" height="983" viewBox="0 0 650 983" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="phaseBlueDark" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#1E3A8A"/>
+    <linearGradient id="phaseBlueDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
     </linearGradient>
     <filter id="shadowDark">
       <feDropShadow dx="0" dy="2" stdDeviation="5" flood-opacity="0.25" flood-color="#000"/>
@@ -10,7 +10,7 @@
   </defs>
   
   <!-- Phase 0 -->
-  <g transform="translate(42,16)">
+  <g transform="translate(42,28)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
@@ -20,13 +20,13 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="116" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="128" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="140" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="128" r="2.5" fill="#334155"/>
+    <circle cx="325" cy="140" r="2.5" fill="#475569"/>
+    <circle cx="325" cy="152" r="2.5" fill="#64748B"/>
   </g>
   
   <!-- Phase 0.5 -->
-  <g transform="translate(42,155)">
+  <g transform="translate(42,167)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
@@ -36,13 +36,13 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="255" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="267" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="279" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="267" r="2.5" fill="#334155"/>
+    <circle cx="325" cy="279" r="2.5" fill="#475569"/>
+    <circle cx="325" cy="291" r="2.5" fill="#64748B"/>
   </g>
   
   <!-- Phase 1 -->
-  <g transform="translate(42,294)">
+  <g transform="translate(42,306)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
@@ -52,13 +52,13 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="394" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="406" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="418" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="406" r="2.5" fill="#334155"/>
+    <circle cx="325" cy="418" r="2.5" fill="#475569"/>
+    <circle cx="325" cy="430" r="2.5" fill="#64748B"/>
   </g>
   
   <!-- Phase 2 -->
-  <g transform="translate(42,433)">
+  <g transform="translate(42,445)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
@@ -68,13 +68,13 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="533" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="545" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="557" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="545" r="2.5" fill="#334155"/>
+    <circle cx="325" cy="557" r="2.5" fill="#475569"/>
+    <circle cx="325" cy="569" r="2.5" fill="#64748B"/>
   </g>
   
   <!-- Phase 3 -->
-  <g transform="translate(42,572)">
+  <g transform="translate(42,584)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
@@ -84,13 +84,13 @@
     </g>
   </g>
   <g>
-    <circle cx="325" cy="672" r="2.5" fill="#334155"/>
-    <circle cx="325" cy="684" r="2.5" fill="#475569"/>
-    <circle cx="325" cy="696" r="2.5" fill="#64748B"/>
+    <circle cx="325" cy="684" r="2.5" fill="#334155"/>
+    <circle cx="325" cy="696" r="2.5" fill="#475569"/>
+    <circle cx="325" cy="708" r="2.5" fill="#64748B"/>
   </g>
   
   <!-- Phase 4 -->
-  <g transform="translate(42,711)">
+  <g transform="translate(42,723)">
     <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
     <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
       <text x="283" y="36" dominant-baseline="middle"
