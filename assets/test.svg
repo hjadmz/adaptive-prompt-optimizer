@@ -1,6 +1,6 @@
-<svg width="650" height="1015" viewBox="0 0 650 1015" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="983" viewBox="0 0 650 983" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="phaseBlueLight" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#3B82F6"/>
       <stop offset="100%" stop-color="#60A5FA"/>
     </linearGradient>
@@ -8,83 +8,82 @@
       <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.10" flood-color="#000"/>
     </filter>
   </defs>
-  <!-- PHASES -->
-  <g transform="translate(30, 38)">
-    <rect width="590" height="90" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="45" text-anchor="middle" dominant-baseline="middle"
+  <g transform="translate(42,16)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <text x="283" y="40" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
-      font-weight="700" font-size="16" fill="#FFF">Phase 0 – Self-Assessment</text>
-    <text x="295" y="67" text-anchor="middle" dominant-baseline="middle"
+      font-weight="700" font-size="16" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
+    <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
       font-weight="400" font-size="11.5" fill="#E0F2FE">Verify capabilities and constraints</text>
   </g>
   <g>
-    <rcle cx="325" cy="143" r="3" fill="#CBDBD5E1"/>
-    ircle cx="325" cy="156" r="3" fillll="#CBD5E1"/>
-    ircle cx="325" cy="169" r="3" fill="#"#CBD5E1"/>
+    <circle cx="325" cy="116" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="128" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="140" r="3" fill="#CBD5E1"/>
   </g>
-  <g transform="translate(30, 192)">
-    <rect width="590" height="90" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="45" text-anchor="middle" dominant-baseline="middle"
+  <g transform="translate(42,155)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <text x="283" y="40" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
-      font-weight="700" font-size="16" fill="#FFF">Phase 0.5 – User Calibration</text>
-    <text x="295" y="67" text-anchor="middle" dominant-baseline="middle"
+      font-weight="700" font-size="16" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
+    <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
       font-weight="400" font-size="11.5" fill="#E0F2FE">Match depth and tone to user preference</text>
   </g>
   <g>
-    ircle cx="325" cy="297" r="3" fillll="#CBD5E1"/>
-    ircle cx="325" cy="310" r="3" fill="#"#CBD5E1"/>
-    ircle cx="325" cy="323" r="3" fill="#"#CBD5E1"/>
+    <circle cx="325" cy="255" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="267" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="279" r="3" fill="#CBD5E1"/>
   </g>
-  <g transform="translate(30, 346)">
-    <rect width="590" height="90" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="45" text-anchor="middle" dominant-baseline="middle"
+  <g transform="translate(42,294)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <text x="283" y="40" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
-      font-weight="700" font-size="16" fill="#FFF">Phase 1 – Task Profiling</text>
-    <text x="295" y="67" text-anchor="middle" dominant-baseline="middle"
+      font-weight="700" font-size="16" fill="#FFFFFF">Phase 1 – Task Profiling</text>
+    <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
       font-weight="400" font-size="11.5" fill="#E0F2FE">Define goals, success criteria, and context</text>
   </g>
   <g>
-    <rcle cx="325" cy="451" r="3" fill="#CBDBD5E1"/>
-    ircle cx="325" cy="464" r="3" fillll="#CBD5E1"/>
-    ircle cx="325" cy="477" r="3" fill="#"#CBD5E1"/>
+    <circle cx="325" cy="394" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="406" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="418" r="3" fill="#CBD5E1"/>
   </g>
-  <g transform="translate(30, 500)">
-    <rect width="590" height="90" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="45" text-anchor="middle" dominant-baseline="middle"
+  <g transform="translate(42,433)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <text x="283" y="40" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
-      font-weight="700" font-size="16" fill="#FFF">Phase 2 – System Identification</text>
-    <text x="295" y="67" text-anchor="middle" dominant-baseline="middle"
+      font-weight="700" font-size="16" fill="#FFFFFF">Phase 2 – System Identification</text>
+    <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
       font-weight="400" font-size="11.5" fill="#E0F2FE">Map tools and knowledge access</text>
   </g>
   <g>
-    ircle cx="325" cy="605" r="3" fillll="#CBD5E1"/>
-    ircle cx="325" cy="618" r="3" fill="#"#CBD5E1"/>
-    ircle cx="325" cy="631" r="3" fill="#"#CBD5E1"/>
+    <circle cx="325" cy="533" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="545" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="557" r="3" fill="#CBD5E1"/>
   </g>
-  <g transform="translate(30, 654)">
-    <rect width="590" height="90" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="45" text-anchor="middle" dominant-baseline="middle"
+  <g transform="translate(42,572)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <text x="283" y="40" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
-      font-weight="700" font-size="16" fill="#FFF">Phase 3 – Method Discovery</text>
-    <text x="295" y="67" text-anchor="middle" dominant-baseline="middle"
+      font-weight="700" font-size="16" fill="#FFFFFF">Phase 3 – Method Discovery</text>
+    <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
       font-weight="400" font-size="11.5" fill="#E0F2FE">Select optimal reasoning strategy</text>
   </g>
   <g>
-    <rcle cx="325" cy="759" r="3" fill="#CBDBD5E1"/>
-    ircle cx="325" cy="772" r="3" fillll="#CBD5E1"/>
-    ircle cx="325" cy="785" r="3" fill="#"#CBD5E1"/>
+    <circle cx="325" cy="672" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="684" r="3" fill="#CBD5E1"/>
+    <circle cx="325" cy="696" r="3" fill="#CBD5E1"/>
   </g>
-  <g transform="translate(30, 808)">
-    <rect width="590" height="90" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-    <text x="295" y="45" text-anchor="middle" dominant-baseline="middle"
+  <g transform="translate(42,711)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <text x="283" y="40" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
-      font-weight="700" font-size="16" fill="#FFF">Phase 4 – Prompt Construction</text>
-    <text x="295" y="67" text-anchor="middle" dominant-baseline="middle"
+      font-weight="700" font-size="16" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
+    <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
       font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
       font-weight="400" font-size="11.5" fill="#E0F2FE">Validate and deliver the adaptive prompt</text>
   </g>
