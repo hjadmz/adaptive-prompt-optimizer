@@ -1,91 +1,91 @@
 <svg width="650" height="983" viewBox="0 0 650 983" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="phaseBlueDark" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2563EB"/>
-      <stop offset="100%" stop-color="#1E3A8A"/>
+    <!-- Gradient reverses: lightest at bottom, deepest at top -->
+    <linearGradient id="phaseBlueLightRev" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
     </linearGradient>
-    <filter id="shadowDark">
-      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.14" flood-color="#000"/>
+    <filter id="shadowLight">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.10" flood-color="#000"/>
     </filter>
   </defs>
-  <!-- PHASE 0 -->
   <g transform="translate(42,16)">
-    <rect width="566" height="82" rx="20" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="20" fill="url(#phaseBlueLightRev)" filter="url(#shadowLight)"/>
     <text x="283" y="41" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#F0F9FF">Phase 0 – Self-Assessment</text>
+      font-family="Inter,sans-serif"
+      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
     <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="500" font-size="12.6" fill="#A5D8FF">Verify capabilities and constraints</text>
+      font-family="Inter,sans-serif"
+      font-weight="500" font-size="12.6" fill="#E0F2FE">Verify capabilities and constraints</text>
   </g>
   <g>
-    <circle cx="325" cy="116" r="3" fill="#334155"/>
-    <circle cx="325" cy="128" r="3" fill="#475569"/>
-    <circle cx="325" cy="140" r="3" fill="#94A3B8"/>
+    <rcle cx="325" cy="116" r="3" fill="#A8B8B7CF"/>
+    ircle cx="325" cy="128" r="3" fillll="#CBD5E1"/>
+    ircle cx="325" cy="140" r="3" fill="#"#E0E7EF"/>
   </g>
   <g transform="translate(42,155)">
-    <rect width="566" height="82" rx="20" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="20" fill="url(#phaseBlueLightRev)" filter="url(#shadowLight)"/>
     <text x="283" y="41" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#F0F9FF">Phase 0.5 – User Calibration</text>
+      font-family="Inter,sans-serif"
+      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
     <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="500" font-size="12.6" fill="#A5D8FF">Match depth and tone to user preference</text>
+      font-family="Inter,sans-serif"
+      font-weight="500" font-size="12.6" fill="#E0F2FE">Match depth and tone to user preference</text>
   </g>
   <g>
-    <circle cx="325" cy="255" r="3" fill="#334155"/>
-    <circle cx="325" cy="267" r="3" fill="#475569"/>
-    <circle cx="325" cy="279" r="3" fill="#94A3B8"/>
+    ircle cx="325" cy="255" r="3" fillll="#A8B7CF"/>
+    ircle cx="325" cy="267" r="3" fill="#"#CBD5E1"/>
+    ircle cx="325" cy="279" r="3" fill="#"#E0E7EF"/>
   </g>
   <g transform="translate(42,294)">
-    <rect width="566" height="82" rx="20" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="20" fill="url(#phaseBlueLightRev)" filter="url(#shadowLight)"/>
     <text x="283" y="41" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#F0F9FF">Phase 1 – Task Profiling</text>
+      font-family="Inter,sans-serif"
+      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#FFFFFF">Phase 1 – Task Profiling</text>
     <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="500" font-size="12.6" fill="#A5D8FF">Define goals, success criteria, and context</text>
+      font-family="Inter,sans-serif"
+      font-weight="500" font-size="12.6" fill="#E0F2FE">Define goals, success criteria, and context</text>
   </g>
   <g>
-    <circle cx="325" cy="394" r="3" fill="#334155"/>
-    <circle cx="325" cy="406" r="3" fill="#475569"/>
-    <circle cx="325" cy="418" r="3" fill="#94A3B8"/>
+    <rcle cx="325" cy="394" r="3" fill="#A8B8B7CF"/>
+    ircle cx="325" cy="406" r="3" fillll="#CBD5E1"/>
+    ircle cx="325" cy="418" r="3" fill="#"#E0E7EF"/>
   </g>
   <g transform="translate(42,433)">
-    <rect width="566" height="82" rx="20" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="20" fill="url(#phaseBlueLightRev)" filter="url(#shadowLight)"/>
     <text x="283" y="41" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#F0F9FF">Phase 2 – System Identification</text>
+      font-family="Inter,sans-serif"
+      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#FFFFFF">Phase 2 – System Identification</text>
     <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="500" font-size="12.6" fill="#A5D8FF">Map tools and knowledge access</text>
+      font-family="Inter,sans-serif"
+      font-weight="500" font-size="12.6" fill="#E0F2FE">Map tools and knowledge access</text>
   </g>
   <g>
-    <circle cx="325" cy="533" r="3" fill="#334155"/>
-    <circle cx="325" cy="545" r="3" fill="#475569"/>
-    <circle cx="325" cy="557" r="3" fill="#94A3B8"/>
+    ircle cx="325" cy="533" r="3" fillll="#A8B7CF"/>
+    ircle cx="325" cy="545" r="3" fill="#"#CBD5E1"/>
+    ircle cx="325" cy="557" r="3" fill="#"#E0E7EF"/>
   </g>
   <g transform="translate(42,572)">
-    <rect width="566" height="82" rx="20" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="20" fill="url(#phaseBlueLightRev)" filter="url(#shadowLight)"/>
     <text x="283" y="41" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#F0F9FF">Phase 3 – Method Discovery</text>
+      font-family="Inter,sans-serif"
+      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#FFFFFF">Phase 3 – Method Discovery</text>
     <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="500" font-size="12.6" fill="#A5D8FF">Select optimal reasoning strategy</text>
+      font-family="Inter,sans-serif"
+      font-weight="500" font-size="12.6" fill="#E0F2FE">Select optimal reasoning strategy</text>
   </g>
   <g>
-    <circle cx="325" cy="672" r="3" fill="#334155"/>
-    <circle cx="325" cy="684" r="3" fill="#475569"/>
-    <circle cx="325" cy="696" r="3" fill="#94A3B8"/>
+    <rcle cx="325" cy="672" r="3" fill="#A8B8B7CF"/>
+    ircle cx="325" cy="684" r="3" fillll="#CBD5E1"/>
+    ircle cx="325" cy="696" r="3" fill="#"#E0E7EF"/>
   </g>
   <g transform="translate(42,711)">
-    <rect width="566" height="82" rx="20" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+    <rect width="566" height="82" rx="20" fill="url(#phaseBlueLightRev)" filter="url(#shadowLight)"/>
     <text x="283" y="41" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#F0F9FF">Phase 4 – Prompt Construction</text>
+      font-family="Inter,sans-serif"
+      font-weight="700" font-size="17.5" letter-spacing="-0.2" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
     <text x="283" y="62" text-anchor="middle" dominant-baseline="middle"
-      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-weight="500" font-size="12.6" fill="#A5D8FF">Validate and deliver the adaptive prompt</text>
+      font-family="Inter,sans-serif"
+      font-weight="500" font-size="12.6" fill="#E0F2FE">Validate and deliver the adaptive prompt</text>
   </g>
 </svg>
