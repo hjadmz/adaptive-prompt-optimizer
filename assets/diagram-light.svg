@@ -1,8 +1,8 @@
 <svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="phaseBlueLight" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#60A5FA"/>
-      <stop offset="100%" stop-color="#3B82F6"/>
+    <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
     </linearGradient>
     <filter id="shadowLight">
       <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08" flood-color="#000"/>
@@ -20,9 +20,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="128" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="140" r="2.5" fillll="#CBD5E1"/>
-    ircle cx="325" cy="152" r="2.5" fillll="#E2E8F0"/>
+    <circle cx="325" cy="128" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="152" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 0.5 -->
@@ -36,9 +36,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="267" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="279" r="2.5" fillll="#CBD5E1"/>
-    ircle cx="325" cy="291" r="2.5" fillll="#E2E8F0"/>
+    <circle cx="325" cy="267" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="279" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="291" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 1 -->
@@ -52,9 +52,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="406" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="418" r="2.5" fillll="#CBD5E1"/>
-    ircle cx="325" cy="430" r="2.5" fillll="#E2E8F0"/>
+    <circle cx="325" cy="406" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="418" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="430" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 2 -->
@@ -68,9 +68,9 @@
     </g>
   </g>
   <g>
-    <rcle cx="325" cy="545" r="2.5" fill="#9494A6BE"/>
-    <rcle cx="325" cy="557" r="2.5" fill="#CBDBD5E1"/>
-    ircle cx="325" cy="569" r="2.5" fillll="#E2E8F0"/>
+    <circle cx="325" cy="545" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="557" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="569" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 3 -->
@@ -84,9 +84,9 @@
     </g>
   </g>
   <g>
-    ircle cx="325" cy="684" r="2.5" fillll="#94A6BE"/>
-    ircle cx="325" cy="696" r="2.5" fillll="#CBD5E1"/>
-    ircle cx="325" cy="708" r="2.5" fillll="#E2E8F0"/>
+    <circle cx="325" cy="684" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="696" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="708" r="2.5" fill="#E2E8F0"/>
   </g>
   
   <!-- Phase 4 -->
