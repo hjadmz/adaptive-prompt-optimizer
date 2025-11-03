@@ -70,7 +70,7 @@ APO follows a six‑phase adaptive reasoning cycle.
 ## Adaptive Reasoning Framework
 
 <p align="center">
-  <img src="assets/diagram-light.svg#gh-light-mode-only" width="85%" alt="Adaptive Prompt Optimizer Phases – Light Mode">
+  <img src="assets/test.svg#gh-light-mode-only" width="85%" alt="Adaptive Prompt Optimizer Phases – Light Mode">
   <img src="assets/diagram-dark.svg#gh-dark-mode-only" width="85%" alt="Adaptive Prompt Optimizer Phases – Dark Mode">
 </p>
 
