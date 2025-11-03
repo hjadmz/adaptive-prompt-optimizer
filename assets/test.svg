@@ -1,25 +1,58 @@
-<svg viewBox="0 0 720 240" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(360,120)" text-rendering="geometricPrecision">
-    <rect x="-189" y="-60" width="120" height="120" rx="24" fill="url(#gradDark)"/>
-    <defs>
-      <linearGradient id="gradDark" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#2A44B4"/>
-        <stop offset="100%" stop-color="#60A5FA"/>
-      </linearGradient>
-    </defs>
+<svg viewBox="0 0 650 880" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phaseBlueDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A44B4"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="shadowDark"><feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-opacity="0.15" flood-color="#000"/></filter>
+  </defs>
 
-    <text x="-129" y="0"
-      text-anchor="middle" dominant-baseline="central"
-      font-family="Inter, -apple-system, system-ui, sans-serif"
-      font-weight="900" font-size="40" letter-spacing="-1.2" fill="#FFFFFF">APO</text>
+  <g font-family="Inter, -apple-system, system-ui, sans-serif" text-anchor="middle">
+    <!-- Phase 0 -->
+    <g transform="translate(42,38)">
+      <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+      <text x="283" y="36" font-weight="700" font-size="17.5" fill="#F8FAFC">Phase 0 – Self-Assessment</text>
+      <text x="283" y="57" font-weight="400" font-size="12.5" fill="#A5B4FC">Verify capabilities and constraints</text>
+    </g>
+    <g><circle cx="325" cy="138" r="2.5" fill="#CBD5E1"/><circle cx="325" cy="150" r="2.5" fill="#64748B"/><circle cx="325" cy="162" r="2.5" fill="#334155"/></g>
 
-    <g transform="translate(-21,6)">
-      <text x="0" y="-8"
-        font-family="Inter, -apple-system, system-ui, sans-serif"
-        font-weight="700" font-size="42" letter-spacing="-0.8" fill="#F8FAFC">Adaptive</text>
-      <text x="0" y="26"
-        font-family="Inter, -apple-system, system-ui, sans-serif"
-        font-weight="500" font-size="26" letter-spacing="-0.5" fill="#7C8EA8">Prompt Optimizer</text>
+    <!-- Phase 0.5 -->
+    <g transform="translate(42,177)">
+      <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+      <text x="283" y="36" font-weight="700" font-size="17.5" fill="#F8FAFC">Phase 0.5 – User Calibration</text>
+      <text x="283" y="57" font-weight="400" font-size="12.5" fill="#A5B4FC">Match depth and tone to user preference</text>
+    </g>
+    <g><circle cx="325" cy="277" r="2.5" fill="#CBD5E1"/><circle cx="325" cy="289" r="2.5" fill="#64748B"/><circle cx="325" cy="301" r="2.5" fill="#334155"/></g>
+
+    <!-- Phase 1 -->
+    <g transform="translate(42,316)">
+      <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+      <text x="283" y="36" font-weight="700" font-size="17.5" fill="#F8FAFC">Phase 1 – Task Profiling</text>
+      <text x="283" y="57" font-weight="400" font-size="12.5" fill="#A5B4FC">Define goals, success criteria, and context</text>
+    </g>
+    <g><circle cx="325" cy="416" r="2.5" fill="#CBD5E1"/><circle cx="325" cy="428" r="2.5" fill="#64748B"/><circle cx="325" cy="440" r="2.5" fill="#334155"/></g>
+
+    <!-- Phase 2 -->
+    <g transform="translate(42,455)">
+      <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+      <text x="283" y="36" font-weight="700" font-size="17.5" fill="#F8FAFC">Phase 2 – System Identification</text>
+      <text x="283" y="57" font-weight="400" font-size="12.5" fill="#A5B4FC">Map tools and knowledge access</text>
+    </g>
+    <g><circle cx="325" cy="555" r="2.5" fill="#CBD5E1"/><circle cx="325" cy="567" r="2.5" fill="#64748B"/><circle cx="325" cy="579" r="2.5" fill="#334155"/></g>
+
+    <!-- Phase 3 -->
+    <g transform="translate(42,594)">
+      <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+      <text x="283" y="36" font-weight="700" font-size="17.5" fill="#F8FAFC">Phase 3 – Method Discovery</text>
+      <text x="283" y="57" font-weight="400" font-size="12.5" fill="#A5B4FC">Select optimal reasoning strategy</text>
+    </g>
+    <g><circle cx="325" cy="694" r="2.5" fill="#CBD5E1"/><circle cx="325" cy="706" r="2.5" fill="#64748B"/><circle cx="325" cy="718" r="2.5" fill="#334155"/></g>
+
+    <!-- Phase 4 -->
+    <g transform="translate(42,733)">
+      <rect width="566" height="82" rx="18" fill="url(#phaseBlueDark)" filter="url(#shadowDark)"/>
+      <text x="283" y="36" font-weight="700" font-size="17.5" fill="#F8FAFC">Phase 4 – Prompt Construction</text>
+      <text x="283" y="57" font-weight="400" font-size="12.5" fill="#A5B4FC">Validate and deliver the adaptive prompt</text>
     </g>
   </g>
 </svg>
