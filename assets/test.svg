@@ -7,42 +7,22 @@
     <filter id="shadowLight">
       <feDropShadow dx="0" dy="2" stdDeviation="5" flood-opacity="0.15" flood-color="#000000"/>
     </filter>
-    <!-- Simple icons as paths -->
-    <symbol id="icon-self" viewBox="0 0 24 24">
-      <circle cx="12" cy="8" r="4" fill="#93C5FD"/>
-      <path d="M12 14c-3 0-6 2-6 4v2h12v-2c0-2-3-4-6-4z" fill="#BFDBFE"/>
-    </symbol>
-    <symbol id="icon-calibrate" viewBox="0 0 24 24">
-      <path d="M3 17l6 6 6-6" stroke="#93C5FD" stroke-width="2" fill="none"/>
-    </symbol>
-    <symbol id="icon-profile" viewBox="0 0 24 24">
-      <rect x="4" y="4" width="16" height="16" rx="2" fill="#93C5FD"/>
-    </symbol>
-    <symbol id="icon-system" viewBox="0 0 24 24">
-      <rect x="3" y="3" width="18" height="18" stroke="#93C5FD" stroke-width="2" fill="none"/>
-    </symbol>
-    <symbol id="icon-discover" viewBox="0 0 24 24">
-      <circle cx="12" cy="12" r="10" stroke="#93C5FD" stroke-width="2" fill="none"/>
-      <circle cx="12" cy="12" r="6" fill="#60A5FA"/>
-    </symbol>
-    <symbol id="icon-construct" viewBox="0 0 24 24">
-      <path d="M3 21l3-3m0 0l7-7M6 18l7-7l7 7" stroke="#93C5FD" stroke-width="2" fill="none"/>
-    </symbol>
   </defs>
 
-  <text x="325" y="35" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="28" fill="#0F172A" letter-spacing="0.5">
+  <text x="325" y="35" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="28" fill="#0F172A">
     Adaptive Prompt Optimization Phases
   </text>
 
   <g font-family="Inter, system-ui, sans-serif" text-anchor="middle">
     <!-- Phase 0 -->
-    <g transform="translate(0, 60)">
-      <rect x="25" y="0" width="600" height="140" rx="16" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-      <use xlink:href="#icon-self" x="80" y="50" width="24" height="24"/>
-      <text x="325" y="60" font-weight="700" font-size="22" fill="#FFFFFF">
+    <g>
+      <rect x="25" y="80" width="600" height="130" rx="14" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+      <circle cx="80" cy="130" r="6" fill="#BFDBFE"/>
+      <circle cx="80" cy="142" r="8" fill="#93C5FD" opacity="0.7"/>
+      <text x="325" y="125" font-weight="700" font-size="22" fill="#FFFFFF">
         Phase 0 – Self-Assessment
       </text>
-      <text x="325" y="95" font-weight="500" font-size="16" fill="#BFDBFE" letter-spacing="0.2">
+      <text x="325" y="155" font-weight="500" font-size="15" fill="#BFDBFE">
         Verify capabilities and constraints
       </text>
     </g>
@@ -50,76 +30,62 @@
     <line x1="325" y1="220" x2="325" y2="260" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
 
     <!-- Phase 0.5 -->
-    <g transform="translate(0, 200)">
-      <rect x="25" y="0" width="600" height="140" rx="16" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-      <use xlink:href="#icon-calibrate" x="80" y="50" width="24" height="24"/>
-      <text x="325" y="60" font-weight="700" font-size="22" fill="#FFFFFF">
+    <g>
+      <rect x="25" y="260" width="600" height="130" rx="14" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+      <polyline points="75,300 80,310 90,305" stroke="#93C5FD" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="325" y="295" font-weight="700" font-size="22" fill="#FFFFFF">
         Phase 0.5 – User Calibration
       </text>
-      <text x="325" y="95" font-weight="500" font-size="16" fill="#BFDBFE" letter-spacing="0.2">
+      <text x="325" y="325" font-weight="500" font-size="15" fill="#BFDBFE">
         Match depth and tone to user preference
       </text>
     </g>
 
-    <line x1="325" y1="380" x2="325" y2="420" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
+    <line x1="325" y1="400" x2="325" y2="440" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
 
-    <!-- Subsequent phases follow similar pattern with icons -->
     <!-- Phase 1 -->
-    <g transform="translate(0, 340)">
-      <rect x="25" y="0" width="600" height="140" rx="16" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-      <use xlink:href="#icon-profile" x="80" y="50" width="24" height="24"/>
-      <text x="325" y="60" font-weight="700" font-size="22" fill="#FFFFFF">
+    <g>
+      <rect x="25" y="440" width="600" height="130" rx="14" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+      <rect x="72" y="475" width="16" height="16" rx="2" fill="#93C5FD"/>
+      <text x="325" y="475" font-weight="700" font-size="22" fill="#FFFFFF">
         Phase 1 – Task Profiling
       </text>
-      <text x="325" y="95" font-weight="500" font-size="16" fill="#BFDBFE" letter-spacing="0.2">
+      <text x="325" y="505" font-weight="500" font-size="15" fill="#BFDBFE">
         Define goals, success criteria, and context
       </text>
     </g>
 
-    <line x1="325" y1="540" x2="325" y2="580" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
+    <line x1="325" y1="580" x2="325" y2="620" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
 
     <!-- Phase 2 -->
-    <g transform="translate(0, 500)">
-      <rect x="25" y="0" width="600" height="140" rx="16" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-      <use xlink:href="#icon-system" x="80" y="50" width="24" height="24"/>
-      <text x="325" y="60" font-weight="700" font-size="22" fill="#FFFFFF">
+    <g>
+      <rect x="25" y="620" width="600" height="130" rx="14" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+      <circle cx="80" cy="665" r="12" stroke="#93C5FD" stroke-width="2" fill="none"/>
+      <text x="325" y="655" font-weight="700" font-size="22" fill="#FFFFFF">
         Phase 2 – System Identification
       </text>
-      <text x="325" y="95" font-weight="500" font-size="16" fill="#BFDBFE" letter-spacing="0.2">
+      <text x="325" y="685" font-weight="500" font-size="15" fill="#BFDBFE">
         Map tools and knowledge access
       </text>
     </g>
 
-    <line x1="325" y1="700" x2="325" y2="740" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
+    <line x1="325" y1="760" x2="325" y2="800" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
 
     <!-- Phase 3 -->
-    <g transform="translate(0, 660)">
-      <rect x="25" y="0" width="600" height="140" rx="16" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-      <use xlink:href="#icon-discover" x="80" y="50" width="24" height="24"/>
-      <text x="325" y="60" font-weight="700" font-size="22" fill="#FFFFFF">
+    <g>
+      <rect x="25" y="800" width="600" height="130" rx="14" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+      <circle cx="80" cy="845" r="8" stroke="#93C5FD" stroke-width="2" fill="none"/>
+      <circle cx="80" cy="845" r="4" fill="#60A5FA"/>
+      <text x="325" y="835" font-weight="700" font-size="22" fill="#FFFFFF">
         Phase 3 – Method Discovery
       </text>
-      <text x="325" y="95" font-weight="500" font-size="16" fill="#BFDBFE" letter-spacing="0.2">
+      <text x="325" y="865" font-weight="500" font-size="15" fill="#BFDBFE">
         Select optimal reasoning strategy
-      </text>
-    </g>
-
-    <line x1="325" y1="860" x2="325" y2="900" stroke="#A1A1AA" stroke-width="4" stroke-dasharray="8,4" stroke-linecap="round"/>
-
-    <!-- Phase 4 -->
-    <g transform="translate(0, 820)">
-      <rect x="25" y="0" width="600" height="140" rx="16" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
-      <use xlink:href="#icon-construct" x="80" y="50" width="24" height="24"/>
-      <text x="325" y="60" font-weight="700" font-size="22" fill="#FFFFFF">
-        Phase 4 – Prompt Construction
-      </text>
-      <text x="325" y="95" font-weight="500" font-size="16" fill="#BFDBFE" letter-spacing="0.2">
-        Validate and deliver the adaptive prompt
       </text>
     </g>
   </g>
 
-  <text x="325" y="975" text-anchor="middle" font-weight="500" font-size="14" fill="#64748B" letter-spacing="0.1">
+  <text x="325" y="965" text-anchor="middle" font-weight="500" font-size="13" fill="#64748B">
     © 2025 Adaptive Prompt Optimizer Framework
   </text>
 </svg>
