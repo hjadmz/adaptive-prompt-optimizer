@@ -1,52 +1,102 @@
-<svg width="650" height="950" viewBox="0 0 650 950" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="850" viewBox="0 0 650 850" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="shadow-light">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
+    <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="shadowLight">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08" flood-color="#000"/>
     </filter>
   </defs>
   
   <!-- Phase 0 -->
-  <rect x="25" y="30" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="75" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
-  <text x="325" y="105" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Verify capabilities and constraints</text>
-  
-  <!-- Bold Dashed Connector 1 -->
-  <line x1="325" y1="155" x2="325" y2="190" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(42,28)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 0 – Self-Assessment</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Verify capabilities and constraints</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="325" cy="128" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="140" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="152" r="2.5" fill="#E2E8F0"/>
+  </g>
   
   <!-- Phase 0.5 -->
-  <rect x="25" y="190" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="235" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
-  <text x="325" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Match depth and tone to user preference</text>
-  
-  <!-- Bold Dashed Connector 2 -->
-  <line x1="325" y1="315" x2="325" y2="350" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(42,167)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 0.5 – User Calibration</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Match depth and tone to user preference</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="325" cy="267" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="279" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="291" r="2.5" fill="#E2E8F0"/>
+  </g>
   
   <!-- Phase 1 -->
-  <rect x="25" y="350" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="395" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 1 – Task Profiling</text>
-  <text x="325" y="425" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Define goals, success criteria, and context</text>
-  
-  <!-- Bold Dashed Connector 3 -->
-  <line x1="325" y1="475" x2="325" y2="510" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(42,306)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 1 – Task Profiling</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Define goals, success criteria, and context</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="325" cy="406" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="418" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="430" r="2.5" fill="#E2E8F0"/>
+  </g>
   
   <!-- Phase 2 -->
-  <rect x="25" y="510" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="555" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 2 – System Identification</text>
-  <text x="325" y="585" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Map tools and knowledge access</text>
-  
-  <!-- Bold Dashed Connector 4 -->
-  <line x1="325" y1="635" x2="325" y2="670" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(42,445)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 2 – System Identification</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Map tools and knowledge access</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="325" cy="545" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="557" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="569" r="2.5" fill="#E2E8F0"/>
+  </g>
   
   <!-- Phase 3 -->
-  <rect x="25" y="670" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="715" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 3 – Method Discovery</text>
-  <text x="325" y="745" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Select optimal reasoning strategy</text>
-  
-  <!-- Bold Dashed Connector 5 -->
-  <line x1="325" y1="795" x2="325" y2="830" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(42,584)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 3 – Method Discovery</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Select optimal reasoning strategy</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="325" cy="684" r="2.5" fill="#94A6BE"/>
+    <circle cx="325" cy="696" r="2.5" fill="#CBD5E1"/>
+    <circle cx="325" cy="708" r="2.5" fill="#E2E8F0"/>
+  </g>
   
   <!-- Phase 4 -->
-  <rect x="25" y="830" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
-  <text x="325" y="905" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Validate and deliver the adaptive prompt</text>
+  <g transform="translate(42,723)">
+    <rect width="566" height="82" rx="18" fill="url(#phaseBlueLight)" filter="url(#shadowLight)"/>
+    <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+      <text x="283" y="36" dominant-baseline="middle"
+        font-weight="700" font-size="17.5" letter-spacing="-0.3" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
+      <text x="283" y="57" dominant-baseline="middle"
+        font-weight="500" font-size="12.5" letter-spacing="-0.1" fill="#E0F2FE">Validate and deliver the adaptive prompt</text>
+    </g>
+  </g>
 </svg>
