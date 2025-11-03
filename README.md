@@ -70,7 +70,7 @@ APO follows a six‑phase adaptive reasoning cycle.
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/diagram-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/test.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/diagram-light.svg">
     <img src="./assets/diagram-light.svg" width="100%" alt="APO Reasoning Architecture">
   </picture>
 </p>
