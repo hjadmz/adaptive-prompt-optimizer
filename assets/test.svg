@@ -2,10 +2,10 @@
   <defs>
     <linearGradient id="phaseBlueLight" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
     </linearGradient>
     <filter id="shadowLight">
-      <feDropShadow dx="0" dy="1" stdDeviation="4" flood-opacity="0.1"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="4" flood-opacity="0.1" flood-color="#000000"/>
     </filter>
   </defs>
 
@@ -22,7 +22,7 @@
       <text x="325" y="125" font-weight="700" font-size="20" fill="#FFFFFF">
         Phase 0 – Self-Assessment
       </text>
-      <text x="325" y="155" font-weight="500" font-size="16" fill="#E0F2FE">
+      <text x="325" y="155" font-weight="500" font-size="16" fill="#BFDBFE">
         Verify capabilities and constraints
       </text>
     </g>
@@ -34,7 +34,7 @@
       <text x="325" y="275" font-weight="700" font-size="20" fill="#FFFFFF">
         Phase 0.5 – User Calibration
       </text>
-      <text x="325" y="305" font-weight="500" font-size="16" fill="#E0F2FE">
+      <text x="325" y="305" font-weight="500" font-size="16" fill="#BFDBFE">
         Match depth and tone to user preference
       </text>
     </g>
@@ -46,7 +46,7 @@
       <text x="325" y="425" font-weight="700" font-size="20" fill="#FFFFFF">
         Phase 1 – Task Profiling
       </text>
-      <text x="325" y="455" font-weight="500" font-size="16" fill="#E0F2FE">
+      <text x="325" y="455" font-weight="500" font-size="16" fill="#BFDBFE">
         Define goals, success criteria, and context
       </text>
     </g>
@@ -58,7 +58,7 @@
       <text x="325" y="575" font-weight="700" font-size="20" fill="#FFFFFF">
         Phase 2 – System Identification
       </text>
-      <text x="325" y="605" font-weight="500" font-size="16" fill="#E0F2FE">
+      <text x="325" y="605" font-weight="500" font-size="16" fill="#BFDBFE">
         Map tools and knowledge access
       </text>
     </g>
@@ -70,7 +70,7 @@
       <text x="325" y="725" font-weight="700" font-size="20" fill="#FFFFFF">
         Phase 3 – Method Discovery
       </text>
-      <text x="325" y="755" font-weight="500" font-size="16" fill="#E0F2FE">
+      <text x="325" y="755" font-weight="500" font-size="16" fill="#BFDBFE">
         Select optimal reasoning strategy
       </text>
     </g>
@@ -82,7 +82,7 @@
       <text x="325" y="875" font-weight="700" font-size="20" fill="#FFFFFF">
         Phase 4 – Prompt Construction
       </text>
-      <text x="325" y="905" font-weight="500" font-size="16" fill="#E0F2FE">
+      <text x="325" y="905" font-weight="500" font-size="16" fill="#BFDBFE">
         Validate and deliver the adaptive prompt
       </text>
     </g>
