@@ -35,7 +35,7 @@
   <text x="325" y="585" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Map tools and knowledge access</text>
   
   <path d="M 325 635 L 325 665" stroke="#94A3B8" stroke-width="3" fill="none"/>
-  <polygon points="325,665 321,658 329,658" fill="#94A3B8"/>
+  <polygon points="325,665 321,658 329,658" fill="#64748B"/>
   
   <!-- Phase 3 -->
   <rect x="25" y="670" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
@@ -45,8 +45,8 @@
   <path d="M 325 795 L 325 825" stroke="#94A3B8" stroke-width="3" fill="none"/>
   <polygon points="325,825 321,818 329,818" fill="#94A3B8"/>
   
-  <!-- Phase 4 -->
+  <!-- Phase 4 - FIXED TEXT -->
   <rect x="25" y="830" width="600" height="120" rx="12" fill="#2563EB" filter="url(#shadow-light)"/>
-  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 4 – Prompt Assembly</text>
+  <text x="325" y="875" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Phase 4 – Prompt Construction</text>
   <text x="325" y="905" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF">Validate and deliver the adaptive prompt</text>
 </svg>
