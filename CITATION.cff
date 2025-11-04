@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite as below."
+title: "Adaptive Prompt Optimizer (APO): A Universal Meta-Prompt Framework for Structured AI Reasoning"
+authors:
+  - family-names: Adams
+    given-names: Henry Joseph
+license: MIT
+repository-code: "https://github.com/hjadmz/adaptive-prompt-optimizer"
+version: "1.0.0"
+date-released: "2025-11-03"
+keywords:
+  - meta-prompt
+  - ai reasoning
+  - prompt engineering
+  - self adaptive
+  - model agnostic
+  - meta prompting
+abstract: >
+  Adaptive Prompt Optimizer (APO) is a universal, text-only meta-prompt framework designed to standardize 
+  structured reasoning in AI systems. Model-agnostic, self-calibrating, and future-proof by design, it 
+  enables transparent, auditable reasoning cycles with zero maintenance requirements.
